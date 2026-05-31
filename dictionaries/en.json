@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Codentra — Next-generation software powered by AI",
+    "description": "Codentra designs and ships next-generation software powered by AI. Makers of Contivo, the modern platform for Polish accounting firms. Gdańsk, Poland.",
+    "ogTitle": "Codentra — Next-generation software powered by AI",
+    "ogDescription": "We design and ship next-generation AI-powered software. Makers of Contivo."
+  },
+  "nav": {
+    "about": "About",
+    "products": "Products",
+    "stack": "Stack",
+    "process": "Process",
+    "contact": "Contact",
+    "cta": "Let's talk",
+    "menu": "Menu"
+  },
+  "hero": {
+    "badge": "AI-native software house · Gdańsk",
+    "titlePre": "Software that",
+    "titleGradient": "thinks for you.",
+    "descriptionPre": "We design and ship next-generation digital products — driven by artificial intelligence, crafted with obsessive attention to detail. We build ",
+    "descriptionLink": "Contivo",
+    "descriptionPost": " and the systems coming after it, the ones that change the rules.",
+    "ctaPrimary": "Start a project",
+    "ctaSecondary": "See products",
+    "stats": [
+      { "k": "100%", "v": "Polish stack" },
+      { "k": "AI-first", "v": "architecture" },
+      { "k": "2024+", "v": "Contivo live" }
+    ],
+    "deployLabel": "deploy",
+    "deployStatus": "live"
+  },
+  "about": {
+    "eyebrow": "About Codentra",
+    "description": "We're a team of engineers, designers and strategists who treat code as a tool for change. We build software that is fast, elegant and deeply practical — all at once.",
+    "titlePre": "We build",
+    "titleGradient": "products",
+    "titlePost": ", not projects.",
+    "principles": [
+      {
+        "title": "AI at the core",
+        "body": "We don't bolt models on at the end — we design systems where LLMs are first-class citizens of the architecture."
+      },
+      {
+        "title": "Velocity without compromise",
+        "body": "Short iterations, deploy automation and observability from day zero. We ship to production many times a day."
+      },
+      {
+        "title": "Full stack ownership",
+        "body": "From interface, through API and cloud infrastructure, to the data model — we take responsibility for the entire chain."
+      },
+      {
+        "title": "Compliance & security",
+        "body": "KSeF, GDPR, social security, e-invoicing — we work with Polish regulations and know them inside out. It's the difference between a prototype and a production system."
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Products",
+    "description": "Every Codentra product is the answer to a concrete business problem. We build them with the same philosophy — AI at the core, exceptional ergonomics, full compliance with Polish law.",
+    "titlePre": "What we",
+    "titleGradient": "build",
+    "titlePost": ".",
+    "contivoStatus": "live · contivo.pl",
+    "contivoTitlePre": "A next-generation system for",
+    "contivoTitleGradient": "accounting firms",
+    "contivoDescription": "Contivo replaces six tools with one. E-invoicing, JPK, social security, HR & payroll, fixed assets — everything in a single Polish platform with an AI assistant that gives accountants hours back every day.",
+    "contivoFeatures": [
+      "KSeF · structured e-invoices",
+      "JPK_V7, JPK_KR, JPK_FA",
+      "ZUS DRA · automatic calculations",
+      "HR, payroll and pay runs",
+      "Fixed assets + depreciation",
+      "OCR + AI assistant"
+    ],
+    "openContivo": "Open contivo.pl",
+    "learnMore": "Learn more",
+    "comingSoonBadge": "in production",
+    "comingSoonTitle": "Next chapter",
+    "comingSoonBody": "We're building a new product that will once again change the rules — this time in a different industry. Launch coming soon.",
+    "classifiedLabel": "[ classified ]",
+    "classifiedNote": "Stay tuned · Q3 2026"
+  },
+  "tech": {
+    "eyebrow": "Stack & capabilities",
+    "description": "We pick technologies that won't let us down in two years. We invest in tooling that gives us an edge in speed and quality.",
+    "titlePre": "Modern",
+    "titleGradient": "stack",
+    "titlePost": "without compromise.",
+    "capabilities": [
+      {
+        "n": "01",
+        "title": "AI Engineering",
+        "body": "LLM agents, RAG, function calling, fine-tuning, evaluations. We embed AI where it genuinely creates an edge."
+      },
+      {
+        "n": "02",
+        "title": "Full-stack development",
+        "body": "Frontend, backend, databases, queues, integrations. One team from the first line of code to production."
+      },
+      {
+        "n": "03",
+        "title": "Cloud & DevOps",
+        "body": "CI/CD, infrastructure as code, monitoring, SLOs. Production-grade stability from the very first deploy."
+      },
+      {
+        "n": "04",
+        "title": "Product design",
+        "body": "UX, motion, design systems. The kind of interface you want to stay in longer than you need to."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "description": "Four clear stages, one point of contact, transparent progress.",
+    "titlePre": "From idea to",
+    "titleGradient": "production",
+    "titlePost": ".",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Discovery",
+        "body": "We understand the business, its users and constraints. We define a measurable product goal — before writing a single line of code."
+      },
+      {
+        "n": "02",
+        "title": "Prototype",
+        "body": "In 2–3 weeks we deliver a working version of the product's core. Real, clickable, tested with users."
+      },
+      {
+        "n": "03",
+        "title": "Build",
+        "body": "Iterative development of the full feature set. Daily deploys, continuous testing, transparent progress."
+      },
+      {
+        "n": "04",
+        "title": "Ship & scale",
+        "body": "Production launch, monitoring, optimization of AI and infrastructure costs. We stay with you long term."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "description": "Tell us about the problem you want to solve. We get back to you within one business day.",
+    "titlePre": "Let's talk about",
+    "titleGradient": "your product",
+    "titlePost": ".",
+    "operatorLabel": "// operator",
+    "operatorName": "DPC Rent Sp. z o.o.",
+    "operatorTax": "Tax ID",
+    "operatorTaxValue": "9571129766",
+    "operatorCity": "Gdańsk, Poland",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "Jane Smith",
+      "email": "Email",
+      "emailPlaceholder": "jane@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Your company",
+      "message": "Tell us about the project",
+      "messagePlaceholder": "What are you working on and how can we help?",
+      "optional": "(optional)",
+      "sending": "Sending...",
+      "sent": "Sent — we'll be in touch",
+      "submit": "Send message",
+      "privacy": "By submitting the form you agree to the processing of your data for response purposes."
+    }
+  },
+  "footer": {
+    "description": "A next-generation software house. We design and ship AI-driven digital products. From Gdańsk.",
+    "colProducts": "Products",
+    "colCompany": "Company",
+    "colOperator": "Operator",
+    "links": {
+      "contivo": "Contivo",
+      "nextProject": "Next project",
+      "about": "About",
+      "stack": "Stack",
+      "process": "Process",
+      "contact": "Contact",
+      "operatorName": "DPC Rent Sp. z o.o.",
+      "operatorTax": "Tax ID 9571129766",
+      "operatorCity": "Gdańsk, Poland"
+    },
+    "copyright": "All rights reserved.",
+    "tagline": "Built with care in Gdańsk"
+  },
+  "contivoPage": {
+    "metaTitle": "Contivo — flagship product by Codentra",
+    "metaDescription": "Contivo is a modern platform for running an accounting firm in Poland: e-invoicing, JPK, social security, HR, payroll and AI in one place. Built by Codentra.",
+    "back": "Back to Codentra",
+    "titlePre": "A next-generation system for",
+    "titleGradient": "accounting firms",
+    "titlePost": ".",
+    "description": "Contivo is Codentra's flagship product — it replaces six separate tools with one cohesive platform. Full compliance with Polish regulations and an AI assistant that gives accountants hours back every day.",
+    "ctaOpen": "Open contivo.pl",
+    "ctaContact": "Get in touch with Codentra",
+    "highlightsTitle": "Why Contivo",
+    "highlights": [
+      "100% Polish stack — code, hosting and data in PL",
+      "Compliant with KSeF, JPK, ZUS, GDPR, tax law",
+      "API for bank and e-commerce integrations",
+      "Built-in training and knowledge base"
+    ],
+    "modulesEyebrow": "Modules",
+    "modulesTitlePre": "Six tools.",
+    "modulesTitleGradient": "One platform.",
+    "modules": [
+      { "name": "Invoicing & KSeF",  "desc": "Issuing and receiving structured e-invoices through KSeF, OCR for inbound documents." },
+      { "name": "JPK",               "desc": "Generating JPK_V7, JPK_KR, JPK_FA directly from the system, no external tools." },
+      { "name": "ZUS DRA",           "desc": "Automatic social security calculations, ZUS reports, payroll integration." },
+      { "name": "HR & payroll",      "desc": "Full employee records, bonuses, deductions, leave, pay runs." },
+      { "name": "Fixed assets",      "desc": "Asset registry, automatic depreciation in line with Polish tax law." },
+      { "name": "AI assistant",      "desc": "An LLM-powered assistant — answers regulatory questions, flags issues, automates routine work." }
+    ],
+    "ctaBannerTitle": "Want to see Contivo\nin action?",
+    "ctaBannerBody": "You'll find the full feature list, pricing and FAQ on the product site.",
+    "ctaBannerButton": "Open contivo.pl"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Codentra — Software nowej generacji napędzany AI",
+    "description": "Codentra projektuje i wdraża oprogramowanie nowej generacji oparte o AI. Twórcy systemu Contivo dla biur rachunkowych. Gdańsk, Polska.",
+    "ogTitle": "Codentra — Software nowej generacji napędzany AI",
+    "ogDescription": "Projektujemy i wdrażamy oprogramowanie nowej generacji oparte o AI. Twórcy systemu Contivo."
+  },
+  "nav": {
+    "about": "O nas",
+    "products": "Produkty",
+    "stack": "Stack",
+    "process": "Proces",
+    "contact": "Kontakt",
+    "cta": "Porozmawiajmy",
+    "menu": "Menu"
+  },
+  "hero": {
+    "badge": "AI-native software house · Gdańsk",
+    "titlePre": "Software, który",
+    "titleGradient": "myśli za Ciebie.",
+    "descriptionPre": "Projektujemy i wdrażamy produkty cyfrowe nowej generacji — napędzane sztuczną inteligencją, zbudowane z pasją do detalu. Tworzymy ",
+    "descriptionLink": "Contivo",
+    "descriptionPost": " i kolejne systemy, które zmieniają reguły gry.",
+    "ctaPrimary": "Rozpocznij projekt",
+    "ctaSecondary": "Zobacz produkty",
+    "stats": [
+      { "k": "100%", "v": "Polski stack" },
+      { "k": "AI-first", "v": "architektura" },
+      { "k": "2024+", "v": "Contivo live" }
+    ],
+    "deployLabel": "deploy",
+    "deployStatus": "live"
+  },
+  "about": {
+    "eyebrow": "O Codentra",
+    "description": "Jesteśmy zespołem inżynierów, projektantów i strategów, dla których kod to narzędzie zmiany. Budujemy oprogramowanie, które jest jednocześnie szybkie, eleganckie i głęboko praktyczne.",
+    "titlePre": "Tworzymy",
+    "titleGradient": "produkty",
+    "titlePost": ", nie projekty.",
+    "principles": [
+      {
+        "title": "AI w jądrze produktu",
+        "body": "Nie doklejamy modeli na koniec — projektujemy systemy, w których LLM jest pełnoprawnym komponentem architektury."
+      },
+      {
+        "title": "Velocity bez kompromisów",
+        "body": "Krótkie iteracje, automatyzacja deployu i obserwowalność od dnia zero. Wysyłamy zmiany na produkcję wiele razy dziennie."
+      },
+      {
+        "title": "Pełen stack",
+        "body": "Od interfejsu, przez API, infrastrukturę chmurową, po model danych — bierzemy odpowiedzialność za cały łańcuch."
+      },
+      {
+        "title": "Zgodność i bezpieczeństwo",
+        "body": "KSeF, RODO, ZUS, JPK — pracujemy z polskimi regulacjami i znamy je od podszewki. To różnica między prototypem a systemem produkcyjnym."
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Produkty",
+    "description": "Każdy produkt Codentra jest odpowiedzią na konkretny problem biznesowy. Budujemy je z tą samą filozofią — AI w jądrze, doskonała ergonomia, pełna zgodność z polskim prawem.",
+    "titlePre": "Co",
+    "titleGradient": "budujemy",
+    "titlePost": ".",
+    "contivoStatus": "live · contivo.pl",
+    "contivoTitlePre": "System nowej generacji dla",
+    "contivoTitleGradient": "biur rachunkowych",
+    "contivoDescription": "Contivo zastępuje sześć narzędzi jednym. JPK, KSeF, ZUS DRA, kadry i płace, środki trwałe — wszystko w jednym, polskim systemie z asystentem AI, który przyspiesza księgowych o godziny dziennie.",
+    "contivoFeatures": [
+      "KSeF · faktury ustrukturyzowane",
+      "JPK_V7, JPK_KR, JPK_FA",
+      "ZUS DRA · automatyczne wyliczenia",
+      "Kadry, płace i lista płac",
+      "Środki trwałe + amortyzacja",
+      "OCR + asystent AI"
+    ],
+    "openContivo": "Otwórz contivo.pl",
+    "learnMore": "Dowiedz się więcej",
+    "comingSoonBadge": "w produkcji",
+    "comingSoonTitle": "Kolejny rozdział",
+    "comingSoonBody": "Pracujemy nad nowym produktem, który ponownie zmieni reguły gry — tym razem w innej branży. Premiera wkrótce.",
+    "classifiedLabel": "[ classified ]",
+    "classifiedNote": "Stay tuned · Q3 2026"
+  },
+  "tech": {
+    "eyebrow": "Stack i kompetencje",
+    "description": "Wybieramy technologie, które nie zawiodą za dwa lata. Inwestujemy w narzędzia, które dają nam przewagę w prędkości i jakości.",
+    "titlePre": "Nowoczesny",
+    "titleGradient": "stack",
+    "titlePost": "bez kompromisów.",
+    "capabilities": [
+      {
+        "n": "01",
+        "title": "AI Engineering",
+        "body": "Agenty LLM, RAG, function calling, fine-tuning, ewaluacje. Wbudowujemy AI tam, gdzie naprawdę daje przewagę."
+      },
+      {
+        "n": "02",
+        "title": "Full-stack development",
+        "body": "Frontend, backend, bazy, kolejki, integracje. Jedna ekipa od pierwszej linii kodu do produkcji."
+      },
+      {
+        "n": "03",
+        "title": "Cloud & DevOps",
+        "body": "CI/CD, infrastruktura jako kod, monitoring, SLO. Stabilność produkcyjna od pierwszego deployu."
+      },
+      {
+        "n": "04",
+        "title": "Product design",
+        "body": "UX, motion, design system. Interfejs, w którym chce się zostać dłużej niż trzeba."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Jak pracujemy",
+    "description": "Cztery jasne etapy, jeden punkt kontaktu, transparentny progress.",
+    "titlePre": "Od pomysłu do",
+    "titleGradient": "produkcji",
+    "titlePost": ".",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Discovery",
+        "body": "Rozumiemy biznes, użytkowników i ograniczenia. Definiujemy mierzalny cel produktu — zanim napiszemy linijkę kodu."
+      },
+      {
+        "n": "02",
+        "title": "Prototype",
+        "body": "W ciągu 2–3 tygodni dostarczamy działającą wersję rdzenia produktu. Realna, klikalna, testowana z użytkownikami."
+      },
+      {
+        "n": "03",
+        "title": "Build",
+        "body": "Iteracyjny rozwój pełnej funkcjonalności. Codzienne deploye, ciągłe testy, transparentny progress."
+      },
+      {
+        "n": "04",
+        "title": "Ship & scale",
+        "body": "Produkcyjny launch, monitoring, optymalizacja kosztów AI i infrastruktury. Wspieramy długoterminowo."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "description": "Opowiedz nam o problemie, który chcesz rozwiązać. Odpowiadamy w ciągu jednego dnia roboczego.",
+    "titlePre": "Porozmawiajmy o",
+    "titleGradient": "Twoim produkcie",
+    "titlePost": ".",
+    "operatorLabel": "// operator",
+    "operatorName": "DPC Rent Sp. z o.o.",
+    "operatorTax": "NIP",
+    "operatorTaxValue": "9571129766",
+    "operatorCity": "Gdańsk, Polska",
+    "form": {
+      "name": "Imię i nazwisko",
+      "namePlaceholder": "Jan Kowalski",
+      "email": "Email",
+      "emailPlaceholder": "jan@firma.pl",
+      "company": "Firma",
+      "companyPlaceholder": "Twoja firma",
+      "message": "Opisz projekt",
+      "messagePlaceholder": "Nad czym pracujesz i jak możemy pomóc?",
+      "optional": "(opcjonalnie)",
+      "sending": "Wysyłanie...",
+      "sent": "Wysłane — odezwiemy się",
+      "submit": "Wyślij wiadomość",
+      "privacy": "Wysyłając formularz akceptujesz przetwarzanie danych w celu odpowiedzi."
+    }
+  },
+  "footer": {
+    "description": "Software house nowej generacji. Projektujemy i wdrażamy produkty cyfrowe oparte o AI. Z Gdańska.",
+    "colProducts": "Produkty",
+    "colCompany": "Firma",
+    "colOperator": "Operator",
+    "links": {
+      "contivo": "Contivo",
+      "nextProject": "Kolejny projekt",
+      "about": "O nas",
+      "stack": "Stack",
+      "process": "Proces",
+      "contact": "Kontakt",
+      "operatorName": "DPC Rent Sp. z o.o.",
+      "operatorTax": "NIP 9571129766",
+      "operatorCity": "Gdańsk, Polska"
+    },
+    "copyright": "Wszystkie prawa zastrzeżone.",
+    "tagline": "Built with care in Gdańsk"
+  },
+  "contivoPage": {
+    "metaTitle": "Contivo — flagowy produkt Codentra",
+    "metaDescription": "Contivo to nowoczesny system do prowadzenia biura rachunkowego: KSeF, JPK, ZUS, kadry, płace i AI w jednym miejscu. Produkt firmy Codentra.",
+    "back": "Wróć do Codentra",
+    "titlePre": "System nowej generacji dla",
+    "titleGradient": "biur rachunkowych",
+    "titlePost": ".",
+    "description": "Contivo to flagowy produkt Codentry — zastępuje sześć osobnych narzędzi jedną, spójną platformą. Pełna zgodność z polskimi regulacjami i asystent AI, który skraca pracę księgowych o godziny dziennie.",
+    "ctaOpen": "Otwórz contivo.pl",
+    "ctaContact": "Skontaktuj się z Codentra",
+    "highlightsTitle": "Dlaczego Contivo",
+    "highlights": [
+      "100% polski stack — kod, hosting i dane w PL",
+      "Zgodność z KSeF, JPK, ZUS, RODO, KUP",
+      "API dla integracji z bankiem i e-commerce",
+      "Wbudowane szkolenia i baza wiedzy"
+    ],
+    "modulesEyebrow": "Moduły",
+    "modulesTitlePre": "Sześć narzędzi.",
+    "modulesTitleGradient": "Jedna platforma.",
+    "modules": [
+      { "name": "Faktury & KSeF",  "desc": "Wystawianie i odbieranie e-faktur ustrukturyzowanych w KSeF, OCR dokumentów wejściowych." },
+      { "name": "JPK",             "desc": "Generowanie JPK_V7, JPK_KR, JPK_FA bezpośrednio z systemu, bez zewnętrznych narzędzi." },
+      { "name": "ZUS DRA",         "desc": "Automatyczne wyliczenia składek, raporty ZUS, integracja z listą płac." },
+      { "name": "Kadry i płace",   "desc": "Pełna ewidencja pracowników, dodatki, potrącenia, urlopy, lista płac." },
+      { "name": "Środki trwałe",   "desc": "Ewidencja, automatyczna amortyzacja zgodnie z art. 22h PIT." },
+      { "name": "Asystent AI",     "desc": "Asystent oparty o LLM — odpowiada na pytania o przepisy, wskazuje błędy, automatyzuje rutynę." }
+    ],
+    "ctaBannerTitle": "Chcesz zobaczyć Contivo\nw akcji?",
+    "ctaBannerBody": "Pełny opis funkcji, cennik i FAQ znajdziesz na stronie produktu.",
+    "ctaBannerButton": "Otwórz contivo.pl"
+  }
+}
