@@ -51,7 +51,7 @@ export function Navigation({
             width={620}
             height={120}
             priority
-            className="h-14 w-auto md:h-20"
+            className="h-11 w-auto md:h-16"
           />
         </Link>
 

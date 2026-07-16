@@ -13,7 +13,7 @@ export function Footer({ dict }: { dict: Dictionary['footer'] }) {
               alt="Codentra"
               width={520}
               height={100}
-              className="h-12 w-auto"
+              className="h-10 w-auto"
             />
           </Link>
           <p className="max-w-xs text-sm text-fg-muted">{dict.description}</p>
