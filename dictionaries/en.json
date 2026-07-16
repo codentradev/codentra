@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Codentra — Next-generation software powered by AI",
-    "description": "Codentra designs and ships next-generation software powered by AI. Makers of Contivo, the modern platform for Polish accounting firms. Gdańsk, Poland.",
+    "description": "Codentra designs and ships next-generation software powered by AI. Makers of Contivo, the modern platform for Polish accounting firms. Świdnica, Poland.",
     "ogTitle": "Codentra — Next-generation software powered by AI",
     "ogDescription": "We design and ship next-generation AI-powered software. Makers of Contivo."
   },
@@ -15,7 +15,7 @@
     "menu": "Menu"
   },
   "hero": {
-    "badge": "AI-native software house · Gdańsk",
+    "badge": "AI-native software house · Świdnica",
     "titlePre": "Software that",
     "titleGradient": "thinks for you.",
     "descriptionPre": "We design and ship next-generation digital products — driven by artificial intelligence, crafted with obsessive attention to detail. We build ",
@@ -150,7 +150,7 @@
     "operatorName": "DPC Rent Sp. z o.o.",
     "operatorTax": "Tax ID",
     "operatorTaxValue": "9571129766",
-    "operatorCity": "Gdańsk, Poland",
+    "operatorCity": "Świdnica, Poland",
     "form": {
       "name": "Full name",
       "namePlaceholder": "Jane Smith",
@@ -168,7 +168,7 @@
     }
   },
   "footer": {
-    "description": "A next-generation software house. We design and ship AI-driven digital products. From Gdańsk.",
+    "description": "A next-generation software house. We design and ship AI-driven digital products. From Świdnica.",
     "colProducts": "Products",
     "colCompany": "Company",
     "colOperator": "Operator",
@@ -181,10 +181,10 @@
       "contact": "Contact",
       "operatorName": "DPC Rent Sp. z o.o.",
       "operatorTax": "Tax ID 9571129766",
-      "operatorCity": "Gdańsk, Poland"
+      "operatorCity": "Świdnica, Poland"
     },
     "copyright": "All rights reserved.",
-    "tagline": "Built with care in Gdańsk"
+    "tagline": "Built with care in Świdnica"
   },
   "contivoPage": {
     "metaTitle": "Contivo — flagship product by Codentra",

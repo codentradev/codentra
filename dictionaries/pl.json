@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Codentra — Software nowej generacji napędzany AI",
-    "description": "Codentra projektuje i wdraża oprogramowanie nowej generacji oparte o AI. Twórcy systemu Contivo dla biur rachunkowych. Gdańsk, Polska.",
+    "description": "Codentra projektuje i wdraża oprogramowanie nowej generacji oparte o AI. Twórcy systemu Contivo dla biur rachunkowych. Świdnica, Polska.",
     "ogTitle": "Codentra — Software nowej generacji napędzany AI",
     "ogDescription": "Projektujemy i wdrażamy oprogramowanie nowej generacji oparte o AI. Twórcy systemu Contivo."
   },
@@ -15,7 +15,7 @@
     "menu": "Menu"
   },
   "hero": {
-    "badge": "AI-native software house · Gdańsk",
+    "badge": "AI-native software house · Świdnica",
     "titlePre": "Software, który",
     "titleGradient": "myśli za Ciebie.",
     "descriptionPre": "Projektujemy i wdrażamy produkty cyfrowe nowej generacji — napędzane sztuczną inteligencją, zbudowane z pasją do detalu. Tworzymy ",
@@ -150,7 +150,7 @@
     "operatorName": "DPC Rent Sp. z o.o.",
     "operatorTax": "NIP",
     "operatorTaxValue": "9571129766",
-    "operatorCity": "Gdańsk, Polska",
+    "operatorCity": "Świdnica, Polska",
     "form": {
       "name": "Imię i nazwisko",
       "namePlaceholder": "Jan Kowalski",
@@ -168,7 +168,7 @@
     }
   },
   "footer": {
-    "description": "Software house nowej generacji. Projektujemy i wdrażamy produkty cyfrowe oparte o AI. Z Gdańska.",
+    "description": "Software house nowej generacji. Projektujemy i wdrażamy produkty cyfrowe oparte o AI. Ze Świdnicy.",
     "colProducts": "Produkty",
     "colCompany": "Firma",
     "colOperator": "Operator",
@@ -181,10 +181,10 @@
       "contact": "Kontakt",
       "operatorName": "DPC Rent Sp. z o.o.",
       "operatorTax": "NIP 9571129766",
-      "operatorCity": "Gdańsk, Polska"
+      "operatorCity": "Świdnica, Polska"
     },
     "copyright": "Wszystkie prawa zastrzeżone.",
-    "tagline": "Built with care in Gdańsk"
+    "tagline": "Built with care in Świdnica"
   },
   "contivoPage": {
     "metaTitle": "Contivo — flagowy produkt Codentra",
