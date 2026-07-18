@@ -12,8 +12,9 @@
     scroll-behavior: smooth;
   }
   body {
-    /* Niestatyczna pozycja jest wymagana przez useScroll z Framer Motion —
-       bez niej offsety sekcji przypiętych scrollem liczą się błędnie. */
+    /* Framer Motion traktuje <body> jako kontener scrolla i przy position:static
+       ostrzega, że offsety celu useScroll({target}) mierzy się niepewnie
+       (on-scroll-handler.mjs). Ustawienie relative wycisza to i stabilizuje pomiar. */
     @apply relative bg-ink-950 text-fg antialiased font-sans;
     background-image:
       radial-gradient(ellipse 80% 50% at 50% -10%, rgba(31, 139, 245, 0.15), transparent),

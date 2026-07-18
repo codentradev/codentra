@@ -3,7 +3,6 @@
 import { useRef, type ReactNode } from 'react';
 import {
   motion,
-  useMotionValue,
   useReducedMotion,
   useScroll,
   useSpring,
@@ -28,6 +27,8 @@ const WINDOWS: Array<[number, number]> = [
   [0.62, 0.78],
   [0.80, 1.00],
 ];
+/** Połowa przerwy między oknami — przenikanie mieści się dokładnie w luce. */
+const FADE = 0.01;
 
 /** Warstwa ekranu — sama liczy swoje opacity/y, żeby nie wołać hooków w pętli. */
 function ScreenLayer({
@@ -41,17 +42,18 @@ function ScreenLayer({
   to: number;
   children: ReactNode;
 }) {
-  const fade = 0.05;
+  // Wygaszanie musi zmieścić się w 0.02 przerwy między oknami — przy szerszym
+  // zakresie dwa mockupy nakładają się na siebie i dają zjawę.
+  const fade = FADE;
   const opacity = useTransform(
     progress,
     [from - fade, from, to, to + fade],
     [0, 1, 1, 0],
   );
-  const y = useTransform(progress, [from - fade, from, to, to + fade], [14, 0, 0, -14]);
-  const scale = useTransform(progress, [from - fade, from, to, to + fade], [0.98, 1, 1, 0.98]);
+  const y = useTransform(progress, [from - fade, from, to, to + fade], [8, 0, 0, -8]);
 
   return (
-    <motion.div style={{ opacity, y, scale }} className="absolute inset-0">
+    <motion.div style={{ opacity, y }} className="absolute inset-0 bg-ink-950">
       {children}
     </motion.div>
   );
@@ -69,7 +71,7 @@ function Caption({
   to: number;
   screen: Dictionary['showcase']['screens'][number];
 }) {
-  const fade = 0.05;
+  const fade = FADE;
   const opacity = useTransform(
     progress,
     [from - fade, from, to, to + fade],
@@ -107,10 +109,7 @@ export function ScrollShowcase({ dict }: { dict: Dictionary['showcase'] }) {
     mass: 0.35,
   });
 
-  // Przy prefers-reduced-motion pomijamy scrubbing: laptop od razu otwarty,
-  // widoczny pierwszy ekran.
-  const still = useMotionValue(WINDOWS[0][0]);
-  const p = reduce ? still : smooth;
+  const p = smooth;
 
   const lidAngle = useTransform(p, [0, LID_OPEN], [-88, 0], { clamp: true });
   const rigScale = useTransform(p, [0, LID_OPEN, 1], [0.86, 1, 1.02]);
@@ -124,6 +123,55 @@ export function ScrollShowcase({ dict }: { dict: Dictionary['showcase'] }) {
   const hintOpacity = useTransform(p, [0, 0.05], [1, 0], { clamp: true });
 
   const screens = [DashboardScreen, PipelineScreen, DeployScreen];
+
+  // Przy prefers-reduced-motion nie ma sensu przypinać sceny do scrolla: bez
+  // animacji użytkownik utknąłby na jednym ekranie i kilku ekranach pustego
+  // przewijania. Pokazujemy wszystkie trzy widoki statycznie, jeden pod drugim.
+  if (reduce) {
+    return (
+      <section id="w-akcji" className="relative py-24 md:py-32">
+        <div className="container-x">
+          <div className="mx-auto max-w-2xl text-center">
+            <div className="section-label">{dict.eyebrow}</div>
+            <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight text-balance sm:text-5xl">
+              {dict.titlePre}{' '}
+              <span className="text-gradient">{dict.titleGradient}</span>
+              {dict.titlePost}
+            </h2>
+          </div>
+
+          <div className="mt-16 grid gap-14">
+            {dict.screens.map((s, i) => {
+              const Screen = screens[i];
+              return (
+                <figure key={s.tag} className="mx-auto w-full max-w-3xl">
+                  <div
+                    aria-hidden
+                    className="ring-gradient rounded-2xl bg-ink-800 p-[6px] shadow-[0_30px_80px_-20px_rgba(0,0,0,0.9)] sm:p-[9px]"
+                  >
+                    <div className="relative aspect-[16/10] overflow-hidden rounded-lg bg-ink-950">
+                      {Screen ? <Screen ui={dict.ui} /> : null}
+                    </div>
+                  </div>
+                  <figcaption className="mt-5 text-center">
+                    <div className="section-label !text-[10px] text-brand-teal">
+                      {s.tag}
+                    </div>
+                    <h3 className="mt-2 font-display text-lg font-semibold text-fg sm:text-2xl">
+                      {s.title}
+                    </h3>
+                    <p className="mx-auto mt-2 max-w-xl text-pretty text-sm text-fg-muted">
+                      {s.body}
+                    </p>
+                  </figcaption>
+                </figure>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section id="w-akcji" ref={trackRef} className="relative h-[300vh] md:h-[420vh]">
@@ -166,11 +214,11 @@ export function ScrollShowcase({ dict }: { dict: Dictionary['showcase'] }) {
             y: rigY,
             // Laptop skalowany także wysokością okna, żeby razem z podpisami
             // mieścił się w kadrze na niskich ekranach.
-            width: 'min(88vw, 760px, calc((100vh - 330px) * 1.6))',
+            width: 'min(88vw, 760px, max(300px, calc((100vh - 300px) * 1.6)))',
           }}
           className="relative z-10 mt-[6vh]"
         >
-          <div style={{ perspective: 2200 }}>
+          <div style={{ perspective: 2200 }} aria-hidden>
             {/* Klapa z ekranem */}
             <motion.div
               style={{
@@ -244,7 +292,7 @@ export function ScrollShowcase({ dict }: { dict: Dictionary['showcase'] }) {
 
         {/* Podpisy ekranów */}
         <div className="absolute inset-x-0 bottom-[7vh] z-20 h-28">
-          {dict.screens.map((s, i) => (
+          {dict.screens.slice(0, WINDOWS.length).map((s, i) => (
             <Caption
               key={s.tag}
               progress={p}
