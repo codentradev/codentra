@@ -24,9 +24,18 @@
     "ctaPrimary": "Start a project",
     "ctaSecondary": "See products",
     "stats": [
-      { "k": "100%", "v": "Polish stack" },
-      { "k": "AI-first", "v": "architecture" },
-      { "k": "2024+", "v": "Contivo live" }
+      {
+        "k": "100%",
+        "v": "Polish stack"
+      },
+      {
+        "k": "AI-first",
+        "v": "architecture"
+      },
+      {
+        "k": "2024+",
+        "v": "Contivo live"
+      }
     ],
     "deployLabel": "deploy",
     "deployStatus": "live"
@@ -55,6 +64,51 @@
         "body": "KSeF, GDPR, social security, e-invoicing — we work with Polish regulations and know them inside out. It's the difference between a prototype and a production system."
       }
     ]
+  },
+  "showcase": {
+    "eyebrow": "// products in action",
+    "titlePre": "Software you can",
+    "titleGradient": "actually watch work",
+    "titlePost": ".",
+    "hint": "Scroll to open",
+    "screens": [
+      {
+        "tag": "01 · Dashboard",
+        "title": "The accounting firm dashboard",
+        "body": "A whole month of work on one screen — documents, deadlines, payments and the status of every client."
+      },
+      {
+        "tag": "02 · AI automation",
+        "title": "AI reads the documents",
+        "body": "An invoice lands in the inbox, the model extracts line items, codes them and matches the right client."
+      },
+      {
+        "tag": "03 · Shipping",
+        "title": "From commit to production",
+        "body": "A change reaches production in minutes — with tests, preview and full monitoring."
+      }
+    ],
+    "ui": {
+      "revenue": "Revenue",
+      "documents": "Documents",
+      "clients": "Clients",
+      "pending": "To be booked",
+      "thisMonth": "this month",
+      "invoice": "Invoice",
+      "status": "Status",
+      "booked": "Booked",
+      "processing": "Processing",
+      "queue": "Queue",
+      "extract": "Extract line items",
+      "classify": "Code entries",
+      "match": "Match client",
+      "post": "Post to ledger",
+      "build": "Build",
+      "tests": "Tests",
+      "deploy": "Deploy",
+      "live": "Live",
+      "passed": "passed"
+    }
   },
   "products": {
     "eyebrow": "Products",
@@ -207,12 +261,30 @@
     "modulesTitlePre": "Six tools.",
     "modulesTitleGradient": "One platform.",
     "modules": [
-      { "name": "Invoicing & KSeF",  "desc": "Issuing and receiving structured e-invoices through KSeF, OCR for inbound documents." },
-      { "name": "JPK",               "desc": "Generating JPK_V7, JPK_KR, JPK_FA directly from the system, no external tools." },
-      { "name": "ZUS DRA",           "desc": "Automatic social security calculations, ZUS reports, payroll integration." },
-      { "name": "HR & payroll",      "desc": "Full employee records, bonuses, deductions, leave, pay runs." },
-      { "name": "Fixed assets",      "desc": "Asset registry, automatic depreciation in line with Polish tax law." },
-      { "name": "AI assistant",      "desc": "An LLM-powered assistant — answers regulatory questions, flags issues, automates routine work." }
+      {
+        "name": "Invoicing & KSeF",
+        "desc": "Issuing and receiving structured e-invoices through KSeF, OCR for inbound documents."
+      },
+      {
+        "name": "JPK",
+        "desc": "Generating JPK_V7, JPK_KR, JPK_FA directly from the system, no external tools."
+      },
+      {
+        "name": "ZUS DRA",
+        "desc": "Automatic social security calculations, ZUS reports, payroll integration."
+      },
+      {
+        "name": "HR & payroll",
+        "desc": "Full employee records, bonuses, deductions, leave, pay runs."
+      },
+      {
+        "name": "Fixed assets",
+        "desc": "Asset registry, automatic depreciation in line with Polish tax law."
+      },
+      {
+        "name": "AI assistant",
+        "desc": "An LLM-powered assistant — answers regulatory questions, flags issues, automates routine work."
+      }
     ],
     "ctaBannerTitle": "Want to see Contivo\nin action?",
     "ctaBannerBody": "You'll find the full feature list, pricing and FAQ on the product site.",

@@ -1,6 +1,7 @@
 import { Navigation } from '@/components/Navigation';
 import { Hero } from '@/components/Hero';
 import { About } from '@/components/About';
+import { ScrollShowcase } from '@/components/ScrollShowcase';
 import { Products } from '@/components/Products';
 import { Tech } from '@/components/Tech';
 import { Process } from '@/components/Process';
@@ -27,6 +28,7 @@ export default async function Home({
       <main className="relative">
         <Hero dict={dict.hero} />
         <About dict={dict.about} />
+        <ScrollShowcase dict={dict.showcase} />
         <Products lang={lang} dict={dict.products} />
         <Tech dict={dict.tech} />
         <Process dict={dict.process} />

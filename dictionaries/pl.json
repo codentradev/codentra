@@ -24,9 +24,18 @@
     "ctaPrimary": "Rozpocznij projekt",
     "ctaSecondary": "Zobacz produkty",
     "stats": [
-      { "k": "100%", "v": "Polski stack" },
-      { "k": "AI-first", "v": "architektura" },
-      { "k": "2024+", "v": "Contivo live" }
+      {
+        "k": "100%",
+        "v": "Polski stack"
+      },
+      {
+        "k": "AI-first",
+        "v": "architektura"
+      },
+      {
+        "k": "2024+",
+        "v": "Contivo live"
+      }
     ],
     "deployLabel": "deploy",
     "deployStatus": "live"
@@ -55,6 +64,51 @@
         "body": "KSeF, RODO, ZUS, JPK — pracujemy z polskimi regulacjami i znamy je od podszewki. To różnica między prototypem a systemem produkcyjnym."
       }
     ]
+  },
+  "showcase": {
+    "eyebrow": "// produkty w akcji",
+    "titlePre": "Software, który",
+    "titleGradient": "widać w działaniu",
+    "titlePost": ".",
+    "hint": "Przewiń, aby otworzyć",
+    "screens": [
+      {
+        "tag": "01 · Pulpit",
+        "title": "Pulpit biura rachunkowego",
+        "body": "Cały miesiąc pracy na jednym ekranie — dokumenty, terminy, płatności i status każdego klienta."
+      },
+      {
+        "tag": "02 · Automatyzacja AI",
+        "title": "Dokumenty czyta AI",
+        "body": "Faktura wpada na skrzynkę, model odczytuje pozycje, dekretuje i podpina pod właściwego klienta."
+      },
+      {
+        "tag": "03 · Wdrożenie",
+        "title": "Od commita do produkcji",
+        "body": "Zmiana trafia na produkcję w kilka minut — z testami, podglądem i pełnym monitoringiem."
+      }
+    ],
+    "ui": {
+      "revenue": "Przychód",
+      "documents": "Dokumenty",
+      "clients": "Klienci",
+      "pending": "Do zaksięgowania",
+      "thisMonth": "ten miesiąc",
+      "invoice": "Faktura",
+      "status": "Status",
+      "booked": "Zaksięgowana",
+      "processing": "Przetwarzanie",
+      "queue": "Kolejka",
+      "extract": "Odczyt pozycji",
+      "classify": "Dekretacja",
+      "match": "Dopasowanie klienta",
+      "post": "Księgowanie",
+      "build": "Budowanie",
+      "tests": "Testy",
+      "deploy": "Wdrożenie",
+      "live": "Na żywo",
+      "passed": "przeszły"
+    }
   },
   "products": {
     "eyebrow": "Produkty",
@@ -207,12 +261,30 @@
     "modulesTitlePre": "Sześć narzędzi.",
     "modulesTitleGradient": "Jedna platforma.",
     "modules": [
-      { "name": "Faktury & KSeF",  "desc": "Wystawianie i odbieranie e-faktur ustrukturyzowanych w KSeF, OCR dokumentów wejściowych." },
-      { "name": "JPK",             "desc": "Generowanie JPK_V7, JPK_KR, JPK_FA bezpośrednio z systemu, bez zewnętrznych narzędzi." },
-      { "name": "ZUS DRA",         "desc": "Automatyczne wyliczenia składek, raporty ZUS, integracja z listą płac." },
-      { "name": "Kadry i płace",   "desc": "Pełna ewidencja pracowników, dodatki, potrącenia, urlopy, lista płac." },
-      { "name": "Środki trwałe",   "desc": "Ewidencja, automatyczna amortyzacja zgodnie z art. 22h PIT." },
-      { "name": "Asystent AI",     "desc": "Asystent oparty o LLM — odpowiada na pytania o przepisy, wskazuje błędy, automatyzuje rutynę." }
+      {
+        "name": "Faktury & KSeF",
+        "desc": "Wystawianie i odbieranie e-faktur ustrukturyzowanych w KSeF, OCR dokumentów wejściowych."
+      },
+      {
+        "name": "JPK",
+        "desc": "Generowanie JPK_V7, JPK_KR, JPK_FA bezpośrednio z systemu, bez zewnętrznych narzędzi."
+      },
+      {
+        "name": "ZUS DRA",
+        "desc": "Automatyczne wyliczenia składek, raporty ZUS, integracja z listą płac."
+      },
+      {
+        "name": "Kadry i płace",
+        "desc": "Pełna ewidencja pracowników, dodatki, potrącenia, urlopy, lista płac."
+      },
+      {
+        "name": "Środki trwałe",
+        "desc": "Ewidencja, automatyczna amortyzacja zgodnie z art. 22h PIT."
+      },
+      {
+        "name": "Asystent AI",
+        "desc": "Asystent oparty o LLM — odpowiada na pytania o przepisy, wskazuje błędy, automatyzuje rutynę."
+      }
     ],
     "ctaBannerTitle": "Chcesz zobaczyć Contivo\nw akcji?",
     "ctaBannerBody": "Pełny opis funkcji, cennik i FAQ znajdziesz na stronie produktu.",

@@ -12,7 +12,10 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-ink-950 text-fg antialiased font-sans;
+    /* Framer Motion traktuje <body> jako kontener scrolla i przy position:static
+       ostrzega, że offsety celu useScroll({target}) mierzy się niepewnie
+       (on-scroll-handler.mjs). Ustawienie relative wycisza to i stabilizuje pomiar. */
+    @apply relative bg-ink-950 text-fg antialiased font-sans;
     background-image:
       radial-gradient(ellipse 80% 50% at 50% -10%, rgba(31, 139, 245, 0.15), transparent),
       radial-gradient(ellipse 60% 40% at 100% 100%, rgba(238, 77, 63, 0.10), transparent);

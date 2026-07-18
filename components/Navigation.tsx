@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import clsx from 'clsx';
 import type { Dictionary } from '@/lib/get-dictionary';
@@ -16,6 +16,8 @@ export function Navigation({
   lang: Locale;
   dict: Dictionary['nav'];
 }) {
+  const barRef = useRef<HTMLDivElement>(null);
+
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -28,10 +30,28 @@ export function Navigation({
   ];
 
   useEffect(() => {
-    const on = () => setScrolled(window.scrollY > 8);
+    let raf = 0;
+    const paint = () => {
+      raf = 0;
+      const bar = barRef.current;
+      if (!bar) return;
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+      bar.style.transform = `scaleX(${progress})`;
+    };
+    const on = () => {
+      setScrolled(window.scrollY > 8);
+      if (!raf) raf = requestAnimationFrame(paint);
+    };
     on();
+    paint();
     window.addEventListener('scroll', on, { passive: true });
-    return () => window.removeEventListener('scroll', on);
+    window.addEventListener('resize', on, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', on);
+      window.removeEventListener('resize', on);
+      if (raf) cancelAnimationFrame(raf);
+    };
   }, []);
 
   return (
@@ -43,6 +63,16 @@ export function Navigation({
           : 'border-b border-transparent bg-transparent',
       )}
     >
+      {/* Pasek postępu czytania — rośnie wraz z przewijaniem strony.
+          Sterowany natywnym scrollem, żeby nie wciągać framer-motion
+          do stron, które go nie potrzebują (np. /contivo). */}
+      <div
+        ref={barRef}
+        aria-hidden
+        style={{ transform: "scaleX(0)" }}
+        className="absolute inset-x-0 bottom-0 h-px origin-left bg-gradient-brand will-change-transform"
+      />
+
       <nav className="container-x flex h-32 items-center justify-between md:h-40">
         <Link href={`/${lang}`} className="flex items-center gap-2.5">
           <Image
