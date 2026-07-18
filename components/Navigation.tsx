@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { motion, useScroll, useSpring } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import clsx from 'clsx';
 import type { Dictionary } from '@/lib/get-dictionary';
@@ -16,6 +17,13 @@ export function Navigation({
   lang: Locale;
   dict: Dictionary['nav'];
 }) {
+  const { scrollYProgress } = useScroll();
+  const readProgress = useSpring(scrollYProgress, {
+    stiffness: 160,
+    damping: 30,
+    mass: 0.3,
+  });
+
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -43,6 +51,13 @@ export function Navigation({
           : 'border-b border-transparent bg-transparent',
       )}
     >
+      {/* Pasek postępu czytania — rośnie wraz z przewijaniem strony */}
+      <motion.div
+        aria-hidden
+        style={{ scaleX: readProgress }}
+        className="absolute inset-x-0 bottom-0 h-px origin-left bg-gradient-brand"
+      />
+
       <nav className="container-x flex h-32 items-center justify-between md:h-40">
         <Link href={`/${lang}`} className="flex items-center gap-2.5">
           <Image

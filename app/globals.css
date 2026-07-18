@@ -12,7 +12,9 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-ink-950 text-fg antialiased font-sans;
+    /* Niestatyczna pozycja jest wymagana przez useScroll z Framer Motion —
+       bez niej offsety sekcji przypiętych scrollem liczą się błędnie. */
+    @apply relative bg-ink-950 text-fg antialiased font-sans;
     background-image:
       radial-gradient(ellipse 80% 50% at 50% -10%, rgba(31, 139, 245, 0.15), transparent),
       radial-gradient(ellipse 60% 40% at 100% 100%, rgba(238, 77, 63, 0.10), transparent);
