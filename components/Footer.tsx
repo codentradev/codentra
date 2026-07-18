@@ -48,7 +48,7 @@ export function Footer({ dict }: { dict: Dictionary['footer'] }) {
       <div className="border-t border-white/[0.04]">
         <div className="container-x flex flex-col items-start justify-between gap-3 py-6 text-xs text-fg-muted md:flex-row md:items-center">
           <div>
-            © {new Date().getFullYear()} Codentra · DPC Rent Sp. z o.o. {dict.copyright}
+            © {new Date().getFullYear()} {dict.links.operatorName} {dict.copyright}
           </div>
           <div className="font-mono text-fg-subtle">{dict.tagline}</div>
         </div>
