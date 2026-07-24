@@ -428,6 +428,48 @@ export default async function ContivoPage({
           </div>
         </section>
 
+        {/* --------------------------------------------------------- POWIĄZANE */}
+        <section className="relative py-16 md:py-20">
+          <div className="container-x">
+            <h2 className="font-display text-2xl font-semibold leading-tight tracking-tight md:text-3xl">
+              {p.relatedTitle}
+            </h2>
+            <div className="mt-8 grid gap-5 md:grid-cols-2">
+              {[
+                {
+                  href: `/${lang}/contivo/ksiegowosc-ai`,
+                  label: p.relatedAiLabel,
+                  desc: p.relatedAiDesc,
+                },
+                {
+                  href: `/${lang}/contivo/alternatywa-dla-optima-enova-symfonia`,
+                  label: p.relatedAltLabel,
+                  desc: p.relatedAltDesc,
+                },
+              ].map((r) => (
+                <Link
+                  key={r.href}
+                  href={r.href}
+                  className="group flex items-start justify-between gap-4 rounded-2xl border border-white/[0.06] bg-ink-800/40 p-6 backdrop-blur-xl transition-all hover:border-white/[0.15] hover:-translate-y-1"
+                >
+                  <div>
+                    <h3 className="font-display text-lg font-semibold text-fg">
+                      {r.label}
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-fg-muted">
+                      {r.desc}
+                    </p>
+                  </div>
+                  <ArrowUpRight
+                    size={18}
+                    className="mt-1 shrink-0 text-fg-subtle transition-colors group-hover:text-brand-teal"
+                  />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* ----------------------------------------------------------- CTA BANNER */}
         <section className="relative py-20">
           <div className="container-x">

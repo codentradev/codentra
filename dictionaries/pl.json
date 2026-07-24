@@ -417,6 +417,194 @@
     ],
     "ctaBannerTitle": "Zobacz Contivo\nw działaniu",
     "ctaBannerBody": "Pełny opis funkcji, cennik i dalsze FAQ znajdziesz na stronie produktu contivo.pl.",
+    "ctaBannerButton": "Otwórz contivo.pl",
+    "relatedTitle": "Dowiedz się więcej",
+    "relatedAiLabel": "Księgowość AI — jak to działa",
+    "relatedAiDesc": "Czym jest program księgowy ze sztuczną inteligencją i co realnie zmienia w biurze rachunkowym.",
+    "relatedAltLabel": "Alternatywa dla Optimy, Enovy i Symfonii",
+    "relatedAltDesc": "Szukasz nowoczesnego systemu w miejsce klasycznego? Zobacz, jak wygląda przejście na Contivo."
+  },
+  "contivoAi": {
+    "metaTitle": "Księgowość AI — program księgowy ze sztuczną inteligencją | Contivo",
+    "metaDescription": "Księgowość AI w praktyce: jak sztuczna inteligencja odczytuje i księguje dokumenty, pilnuje przepisów i skraca pracę biura rachunkowego. Poznaj Contivo — polski program księgowy z AI.",
+    "keywords": "księgowość AI, program księgowy z AI, sztuczna inteligencja w księgowości, automatyzacja księgowości, AI dla biura rachunkowego, księgowanie dokumentów AI, Contivo",
+    "ogTitle": "Księgowość AI — jak sztuczna inteligencja zmienia biuro rachunkowe",
+    "ogDescription": "Sztuczna inteligencja odczytuje i księguje dokumenty, pilnuje przepisów i terminów. Zobacz, jak działa księgowość AI w programie Contivo.",
+    "back": "Wróć do Contivo",
+    "badge": "Księgowość · Sztuczna inteligencja",
+    "h1Pre": "Księgowość",
+    "h1Gradient": "AI",
+    "h1Post": " — jak sztuczna inteligencja zmienia pracę biura rachunkowego",
+    "lead": "Księgowość AI to podejście, w którym sztuczna inteligencja przejmuje najbardziej powtarzalną część pracy księgowej: odczytuje dokumenty, dekretuje je i księguje, a człowiek zatwierdza i podejmuje decyzje. Poniżej wyjaśniamy, czym jest program księgowy z AI, jak działa i co realnie zmienia w biurze rachunkowym.",
+    "ctaPrimary": "Zobacz Contivo",
+    "ctaSecondary": "Otwórz contivo.pl",
+    "sections": [
+      {
+        "eyebrow": "Definicja",
+        "title": "Czym jest księgowość oparta na AI",
+        "body": "Klasyczny program księgowy jest narzędziem, w którym księgowy wykonuje wszystkie czynności ręcznie. Program księgowy z AI idzie dalej: model sztucznej inteligencji rozumie treść dokumentów i samodzielnie proponuje księgowania, wychwytuje błędy i odpowiada na pytania o przepisy. Sztuczna inteligencja w księgowości nie zastępuje księgowego — przejmuje rutynę i oddaje mu czas na pracę wymagającą wiedzy."
+      },
+      {
+        "eyebrow": "Jak to działa",
+        "title": "Jak AI księguje dokument — krok po kroku",
+        "points": [
+          {
+            "t": "1 · Odczyt",
+            "d": "AI odczytuje fakturę lub dokument z e-maila czy skanu — pozycje, kwoty, kontrahenta, NIP."
+          },
+          {
+            "t": "2 · Dekretacja",
+            "d": "Model proponuje księgowanie na właściwe konta zgodnie z planem kont i praktyką biura."
+          },
+          {
+            "t": "3 · Dopasowanie",
+            "d": "Dokument zostaje podpięty pod właściwego klienta i okres rozliczeniowy."
+          },
+          {
+            "t": "4 · Zatwierdzenie",
+            "d": "Księgowy jednym kliknięciem akceptuje lub koryguje — reszta dzieje się automatycznie."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Korzyści",
+        "title": "Co zyskuje biuro rachunkowe dzięki AI",
+        "points": [
+          {
+            "t": "Mniej pracy ręcznej",
+            "d": "Powtarzalne dekretacje i przepisywanie danych z faktur znikają."
+          },
+          {
+            "t": "Więcej klientów bez zatrudniania",
+            "d": "Ten sam zespół obsługuje więcej firm, bo AI przejmuje rutynę."
+          },
+          {
+            "t": "Mniej błędów",
+            "d": "AI wychwytuje nietypowe kwoty, brakujące dokumenty i zbliżające się terminy."
+          },
+          {
+            "t": "Zawsze aktualne przepisy",
+            "d": "Asystent AI zna aktualny stan prawny — VAT, PIT, CIT, KSeF, JPK."
+          }
+        ]
+      },
+      {
+        "eyebrow": "W praktyce",
+        "title": "Program księgowy z AI — to robi Contivo",
+        "body": "Contivo to pierwszy polski system księgowy zaprojektowany od podstaw wokół sztucznej inteligencji (AI-Native). AI odczytuje i księguje dokumenty, asystent odpowiada na pytania o przepisy, a system pilnuje terminów KSeF, JPK, ZUS i deklaracji. Wszystko w jednej, chmurowej platformie — z kodem, hostingiem i danymi w Polsce."
+      }
+    ],
+    "faqTitle": "Najczęstsze pytania o księgowość AI",
+    "faq": [
+      {
+        "q": "Czy sztuczna inteligencja zastąpi księgowego?",
+        "a": "Nie. AI przejmuje powtarzalną rutynę — odczyt i księgowanie dokumentów — a księgowy zatwierdza, podejmuje decyzje i zajmuje się sprawami wymagającymi wiedzy. To narzędzie, które zwiększa wydajność, a nie zastępuje człowieka."
+      },
+      {
+        "q": "Czy księgowość AI jest bezpieczna?",
+        "a": "W Contivo tak — kod, hosting i dane pozostają w Polsce, a system jest zgodny z RODO. Dokumenty nie są wysyłane poza kraj."
+      },
+      {
+        "q": "Czy program księgowy z AI jest zgodny z polskimi przepisami?",
+        "a": "Tak. Contivo natywnie obsługuje KSeF, generuje JPK_V7, JPK_KR i JPK_FA oraz rozlicza ZUS, a asystent AI zna aktualny stan prawny."
+      },
+      {
+        "q": "Od czego zacząć wdrożenie księgowości AI?",
+        "a": "Najprościej od przetestowania gotowego systemu. Contivo umożliwia przejęcie firmy z dotychczasowego programu, w tym import danych kadrowych i historycznych rozliczeń."
+      }
+    ],
+    "note": "",
+    "ctaBannerTitle": "Zobacz księgowość AI\nw działaniu",
+    "ctaBannerBody": "Contivo to polski program księgowy ze sztuczną inteligencją. Pełny opis funkcji i cennik znajdziesz na stronie produktu.",
+    "ctaBannerButton": "Otwórz contivo.pl"
+  },
+  "contivoAlt": {
+    "metaTitle": "Alternatywa dla Optimy, Enovy i Symfonii — nowoczesny system księgowy z AI | Contivo",
+    "metaDescription": "Szukasz alternatywy dla Optimy, Enovy lub Symfonii? Contivo to pierwszy polski system księgowy AI-Native — w pełni w chmurze, z AI księgującym dokumenty. Sprawdź, jak wygląda przejście.",
+    "keywords": "alternatywa dla Optima, alternatywa dla Enova, alternatywa dla Symfonia, zamiennik Optima, nowoczesny system księgowy, system księgowy w chmurze, przejście z Optimy, Contivo",
+    "ogTitle": "Alternatywa dla Optimy, Enovy i Symfonii — system księgowy z AI",
+    "ogDescription": "Contivo to nowoczesna, chmurowa alternatywa dla klasycznych systemów księgowych. AI księguje dokumenty, a przejście jest proste dzięki importowi danych.",
+    "back": "Wróć do Contivo",
+    "badge": "Zmieniasz system? · AI-Native",
+    "h1Pre": "Nowoczesna alternatywa dla",
+    "h1Gradient": "Optimy, Enovy i Symfonii",
+    "h1Post": ".",
+    "lead": "Optima, Enova i Symfonia to sprawdzone systemy, ale powstały w epoce przed sztuczną inteligencją i wiele czynności wykonuje się w nich ręcznie. Jeśli szukasz nowoczesnej alternatywy, Contivo to pierwszy polski system księgowy AI-Native — w pełni w chmurze, w którym dokumenty księguje sztuczna inteligencja.",
+    "ctaPrimary": "Poznaj Contivo",
+    "ctaSecondary": "Otwórz contivo.pl",
+    "sections": [
+      {
+        "eyebrow": "Dlaczego zmiana",
+        "title": "Dlaczego biura szukają alternatywy",
+        "points": [
+          {
+            "t": "Ręczna praca",
+            "d": "W klasycznych systemach księgowanie dokumentów wciąż w dużej części robi się ręcznie."
+          },
+          {
+            "t": "Instalacja i aktualizacje",
+            "d": "Wersje desktopowe wymagają instalacji, a aktualizacje prawne bywają płatne."
+          },
+          {
+            "t": "Brak asystenta AI",
+            "d": "Odpowiedzi na pytania o przepisy trzeba szukać samodzielnie."
+          },
+          {
+            "t": "Praca tylko przy jednym komputerze",
+            "d": "Dostęp z dowolnego miejsca bywa ograniczony lub wymaga dopłat."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Na co zwrócić uwagę",
+        "title": "Czego szukać w nowoczesnym systemie księgowym",
+        "points": [
+          {
+            "t": "Architektura AI-Native",
+            "d": "AI w jądrze systemu, a nie doklejone jako dodatek."
+          },
+          {
+            "t": "Pełna chmura",
+            "d": "Dostęp z przeglądarki, bez instalacji, aktualizacje automatyczne."
+          },
+          {
+            "t": "Natywna zgodność",
+            "d": "KSeF, JPK, ZUS bez zewnętrznych wtyczek."
+          },
+          {
+            "t": "Łatwa migracja",
+            "d": "Import danych i historycznych rozliczeń z dotychczasowego programu."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Przejście",
+        "title": "Jak wygląda przejście na Contivo",
+        "body": "Migracja nie musi oznaczać utraty danych ani przerwy w pracy. Contivo umożliwia przejęcie firmy z dotychczasowego systemu, w tym import danych kadrowych oraz historycznych list płac i rozliczeń. Zespół Codentry pomaga w przeniesieniu, a asystent AI prowadzi przez system od pierwszego dnia — bez długich szkoleń."
+      }
+    ],
+    "faqTitle": "Najczęstsze pytania o zmianę systemu",
+    "faq": [
+      {
+        "q": "Czy Contivo obsługuje import danych z Optimy, Enovy lub Symfonii?",
+        "a": "Tak. Contivo umożliwia przejęcie firmy z dotychczasowego systemu, w tym import danych kadrowych oraz historycznych list płac i rozliczeń. Szczegóły zakresu importu ustalamy indywidualnie."
+      },
+      {
+        "q": "Czy stracę dane przy migracji?",
+        "a": "Nie. Migracja polega na przeniesieniu danych do Contivo, a dotychczasowy system pozostaje u Ciebie jako archiwum do czasu potwierdzenia poprawności."
+      },
+      {
+        "q": "Czym Contivo różni się od Optimy, Enovy i Symfonii?",
+        "a": "Contivo jest zaprojektowane od podstaw wokół AI (AI-Native) i działa w pełni w chmurze. Dokumenty księguje sztuczna inteligencja, a aktualizacje prawne są automatyczne i w cenie."
+      },
+      {
+        "q": "Ile trwa przejście na Contivo?",
+        "a": "Zależy od wielkości biura i zakresu danych. Dzięki importowi i asystentowi AI wdrożenie jest znacznie szybsze niż przy klasycznych systemach — bez długich szkoleń."
+      }
+    ],
+    "note": "Porównanie ma charakter poglądowy i dotyczy podejścia produktowego. Optima, Enova i Symfonia są znakami towarowymi odpowiednich właścicieli i nie są powiązane z Codentra ani Contivo.",
+    "ctaBannerTitle": "Gotowy na zmianę\nsystemu?",
+    "ctaBannerBody": "Zobacz, jak Contivo zastępuje klasyczne systemy księgowe. Pełny opis, cennik i kontakt znajdziesz na stronie produktu.",
     "ctaBannerButton": "Otwórz contivo.pl"
   }
 }
