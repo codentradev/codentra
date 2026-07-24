@@ -146,10 +146,10 @@ export default async function ContivoPage({
                 <Image
                   src="/contivo-logo.png"
                   alt="Contivo — system księgowy AI-Native"
-                  width={200}
+                  width={248}
                   height={52}
                   priority
-                  className="h-10 w-auto"
+                  className="h-9 w-auto md:h-10"
                 />
                 <span className="badge w-fit !text-brand-yellow">
                   <Sparkles size={12} />
