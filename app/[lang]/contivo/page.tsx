@@ -149,7 +149,7 @@ export default async function ContivoPage({
                   width={248}
                   height={52}
                   priority
-                  className="h-9 w-auto md:h-10"
+                  className="h-9 w-auto max-w-full self-start object-contain md:h-10"
                 />
                 <span className="badge w-fit !text-brand-yellow">
                   <Sparkles size={12} />
