@@ -241,33 +241,105 @@
     "tagline": "Built with care in Świdnica"
   },
   "contivoPage": {
-    "metaTitle": "Contivo — flagowy produkt Codentra",
-    "metaDescription": "Contivo to nowoczesny system do prowadzenia biura rachunkowego: KSeF, JPK, ZUS, kadry, płace i AI w jednym miejscu. Produkt firmy Codentra.",
+    "metaTitle": "Contivo — pierwszy polski system księgowy AI-Native | Nowoczesna alternatywa dla Optima, Enova, Symfonia",
+    "metaDescription": "Contivo to pierwszy w Polsce system księgowy AI-Native — sztuczna inteligencja odczytuje i księguje dokumenty, pilnuje terminów i przepisów. Pełna zgodność z KSeF, JPK, ZUS. Nowoczesna alternatywa dla Optimy, Enovy i Symfonii.",
+    "keywords": "system księgowy AI, księgowość AI, sztuczna inteligencja w księgowości, AI-native, program dla biura rachunkowego, oprogramowanie księgowe, automatyzacja księgowości, alternatywa Optima, alternatywa Enova, alternatywa Symfonia, KSeF, JPK, ZUS, Contivo",
+    "ogTitle": "Contivo — pierwszy polski system księgowy AI-Native",
+    "ogDescription": "Sztuczna inteligencja, która księguje dokumenty, pilnuje przepisów i terminów. Pierwszy w Polsce system AI-Native dla biur rachunkowych — realna alternatywa dla Optimy, Enovy i Symfonii.",
     "back": "Wróć do Codentra",
-    "titlePre": "System nowej generacji dla",
-    "titleGradient": "biur rachunkowych",
+    "badge": "Pierwszy w Polsce · System księgowy AI-Native",
+    "titlePre": "Pierwszy polski system księgowy w architekturze",
+    "titleGradient": "AI-Native",
     "titlePost": ".",
-    "description": "Contivo to flagowy produkt Codentry — zastępuje sześć osobnych narzędzi jedną, spójną platformą. Pełna zgodność z polskimi regulacjami i asystent AI, który skraca pracę księgowych o godziny dziennie.",
+    "lead": "Contivo to nowa generacja oprogramowania dla biur rachunkowych — zbudowana wokół sztucznej inteligencji od pierwszej linijki kodu. To nie kolejny program księgowy z doklejoną funkcją „AI”. To pierwszy w Polsce system, w którym sztuczna inteligencja realnie odczytuje i księguje dokumenty, pilnuje terminów i przepisów, a księgowy jedynie zatwierdza. Nowoczesna, w pełni chmurowa alternatywa dla Optimy, Enovy i Symfonii.",
+    "description": "Contivo to flagowy produkt Codentry — pierwszy polski system księgowy zaprojektowany od podstaw wokół AI. Zastępuje sześć osobnych narzędzi jedną platformą, w pełni zgodną z polskimi przepisami.",
     "ctaOpen": "Otwórz contivo.pl",
     "ctaContact": "Skontaktuj się z Codentra",
     "highlightsTitle": "Dlaczego Contivo",
     "highlights": [
+      "Pierwszy w Polsce system księgowy AI-Native",
+      "AI odczytuje i księguje dokumenty automatycznie",
       "100% polski stack — kod, hosting i dane w PL",
       "Zgodność z KSeF, JPK, ZUS, RODO, KUP",
-      "API dla integracji z bankiem i e-commerce",
-      "Wbudowane szkolenia i baza wiedzy"
+      "W pełni w chmurze — bez instalacji i płatnych aktualizacji"
     ],
+    "firstEyebrow": "Pierwszy w Polsce",
+    "firstTitlePre": "Nie „program z funkcją AI”.",
+    "firstTitleGradient": "System AI-Native.",
+    "firstBody": "Większość programów księgowych na polskim rynku powstała w epoce przed sztuczną inteligencją, a AI dołączono do nich później jako dodatek. Contivo idzie inaczej: sztuczna inteligencja jest jądrem systemu, wokół którego zbudowaliśmy całą księgowość. To zasadnicza różnica — i powód, dla którego Contivo jest pierwszym polskim systemem księgowym w pełni AI-Native.",
+    "firstPoints": [
+      {
+        "t": "AI w jądrze, nie w dodatku",
+        "d": "Sztuczna inteligencja odczytuje, dekretuje i księguje dokumenty automatycznie — nie tylko podpowiada."
+      },
+      {
+        "t": "Uczy się Twojego biura",
+        "d": "Model dopasowuje dekretacje do historii, planu kont i praktyki konkretnej firmy."
+      },
+      {
+        "t": "Zawsze zgodny z przepisami",
+        "d": "Asystent AI zna aktualny stan prawny: KSeF, JPK, ustawę o rachunkowości, PIT, CIT i VAT."
+      },
+      {
+        "t": "Zbudowany w Polsce, dla polskich przepisów",
+        "d": "100% polski kod, hosting i dane — bez wysyłania dokumentów poza kraj."
+      }
+    ],
+    "compareEyebrow": "Contivo na tle rynku",
+    "compareTitlePre": "Contivo obok",
+    "compareTitleGradient": "Optimy, Enovy i Symfonii",
+    "compareIntro": "Optima, Enova i Symfonia to sprawdzone, dojrzałe systemy — ale powstały w czasach, gdy sztuczna inteligencja nie istniała w księgowości. Contivo projektujemy od zera wokół AI, dzięki czemu automatyzuje to, co w klasycznych systemach wciąż wykonuje się ręcznie.",
+    "compareColLegacy": "Systemy klasyczne\n(Optima / Enova / Symfonia)",
+    "compareColContivo": "Contivo",
+    "compareRows": [
+      {
+        "f": "Podejście do AI",
+        "a": "Dodatek doklejony do istniejącego systemu",
+        "b": "AI-Native — sztuczna inteligencja w jądrze"
+      },
+      {
+        "f": "Księgowanie dokumentów",
+        "a": "Ręczne lub półautomatyczne (OCR)",
+        "b": "Automatyczne — AI odczytuje i dekretuje"
+      },
+      {
+        "f": "Asystent przepisów",
+        "a": "Brak lub statyczna baza wiedzy",
+        "b": "Asystent AI odpowiadający na pytania o przepisy"
+      },
+      {
+        "f": "Architektura",
+        "a": "Desktop lub instalacja lokalna",
+        "b": "W pełni chmurowa, dostępna z przeglądarki"
+      },
+      {
+        "f": "Aktualizacje prawne",
+        "a": "Instalowane, często płatne",
+        "b": "Automatyczne, w chmurze, w cenie"
+      },
+      {
+        "f": "KSeF, JPK, ZUS",
+        "a": "Tak",
+        "b": "Tak — natywnie, bez wtyczek"
+      },
+      {
+        "f": "Model rozliczeń",
+        "a": "Licencje + aktualizacje",
+        "b": "Abonament SaaS — wszystko w cenie"
+      }
+    ],
+    "compareNote": "Porównanie ma charakter poglądowy i dotyczy podejścia produktowego. Optima, Enova i Symfonia są znakami towarowymi odpowiednich właścicieli.",
     "modulesEyebrow": "Moduły",
     "modulesTitlePre": "Sześć narzędzi.",
-    "modulesTitleGradient": "Jedna platforma.",
+    "modulesTitleGradient": "Jedna platforma AI.",
     "modules": [
       {
         "name": "Faktury & KSeF",
-        "desc": "Wystawianie i odbieranie e-faktur ustrukturyzowanych w KSeF, OCR dokumentów wejściowych."
+        "desc": "Wystawianie i odbieranie e-faktur ustrukturyzowanych w KSeF, automatyczny odczyt dokumentów wejściowych przez AI."
       },
       {
         "name": "JPK",
-        "desc": "Generowanie JPK_V7, JPK_KR, JPK_FA bezpośrednio z systemu, bez zewnętrznych narzędzi."
+        "desc": "Generowanie JPK_V7, JPK_KR i JPK_FA bezpośrednio z systemu, bez zewnętrznych narzędzi."
       },
       {
         "name": "ZUS DRA",
@@ -279,15 +351,72 @@
       },
       {
         "name": "Środki trwałe",
-        "desc": "Ewidencja, automatyczna amortyzacja zgodnie z art. 22h PIT."
+        "desc": "Ewidencja i automatyczna amortyzacja zgodnie z art. 22h ustawy o PIT."
       },
       {
         "name": "Asystent AI",
-        "desc": "Asystent oparty o LLM — odpowiada na pytania o przepisy, wskazuje błędy, automatyzuje rutynę."
+        "desc": "Asystent oparty o duży model językowy — księguje dokumenty, odpowiada na pytania o przepisy, wskazuje błędy i automatyzuje rutynę."
       }
     ],
-    "ctaBannerTitle": "Chcesz zobaczyć Contivo\nw akcji?",
-    "ctaBannerBody": "Pełny opis funkcji, cennik i FAQ znajdziesz na stronie produktu.",
+    "aiEyebrow": "Sztuczna inteligencja w praktyce",
+    "aiTitlePre": "Co realnie robi za Ciebie",
+    "aiTitleGradient": "AI w Contivo",
+    "aiItems": [
+      {
+        "t": "Czyta i księguje dokumenty",
+        "d": "Faktura wpada na skrzynkę, AI odczytuje pozycje, dekretuje na właściwe konta i podpina pod klienta. Ty tylko zatwierdzasz."
+      },
+      {
+        "t": "Odpowiada na pytania o przepisy",
+        "d": "Zapytaj o stawkę VAT, moment powstania obowiązku podatkowego czy koszt uzyskania przychodu — asystent AI odpowie z odniesieniem do przepisu."
+      },
+      {
+        "t": "Pilnuje terminów i błędów",
+        "d": "AI wychwytuje brakujące dokumenty, nietypowe kwoty i zbliżające się terminy JPK, ZUS oraz deklaracji podatkowych."
+      },
+      {
+        "t": "Automatyzuje rutynę",
+        "d": "Powtarzalne dekretacje, rozliczenia i raporty AI wykonuje w tle — księgowy zajmuje się tym, co wymaga wiedzy i decyzji."
+      },
+      {
+        "t": "Uczy się Twojego biura",
+        "d": "Im dłużej pracujesz, tym trafniejsze podpowiedzi — model dopasowuje się do planu kont i praktyki firmy."
+      },
+      {
+        "t": "Rozumie polskie przepisy",
+        "d": "Model wspiera polską rachunkowość: ustawę o rachunkowości, PIT, CIT, VAT, KSeF i JPK."
+      }
+    ],
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Najczęstsze pytania o Contivo",
+    "faq": [
+      {
+        "q": "Czy Contivo to naprawdę pierwszy polski system księgowy AI-Native?",
+        "a": "Tak. Contivo to pierwszy w Polsce system dla biur rachunkowych zaprojektowany od podstaw wokół sztucznej inteligencji. AI nie jest tu dodatkiem, lecz jądrem systemu, które realnie odczytuje i księguje dokumenty."
+      },
+      {
+        "q": "Czym Contivo różni się od Optimy, Enovy i Symfonii?",
+        "a": "Klasyczne systemy powstały przed erą AI i większość pracy księgowej wykonuje się w nich ręcznie. Contivo automatyzuje księgowanie dokumentów dzięki architekturze AI-Native i działa w pełni w chmurze — bez instalacji i płatnych aktualizacji."
+      },
+      {
+        "q": "Czy Contivo jest zgodne z KSeF, JPK i ZUS?",
+        "a": "Tak. Contivo natywnie obsługuje KSeF, generuje JPK_V7, JPK_KR i JPK_FA oraz rozlicza ZUS — bez zewnętrznych wtyczek."
+      },
+      {
+        "q": "Czy moje dane są bezpieczne?",
+        "a": "Tak. Kod, hosting i dane pozostają w Polsce, a system jest zgodny z RODO."
+      },
+      {
+        "q": "Dla kogo jest Contivo?",
+        "a": "Dla biur rachunkowych i działów księgowych, które chcą automatyzować pracę dzięki AI zamiast zwiększać zatrudnienie."
+      },
+      {
+        "q": "Czy mogę przejść na Contivo z innego programu księgowego?",
+        "a": "Tak. Contivo umożliwia przejęcie firmy z dotychczasowego systemu, w tym import danych kadrowych i historycznych rozliczeń."
+      }
+    ],
+    "ctaBannerTitle": "Zobacz Contivo\nw działaniu",
+    "ctaBannerBody": "Pełny opis funkcji, cennik i dalsze FAQ znajdziesz na stronie produktu contivo.pl.",
     "ctaBannerButton": "Otwórz contivo.pl"
   }
 }
