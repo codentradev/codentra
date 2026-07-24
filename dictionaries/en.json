@@ -417,6 +417,194 @@
     ],
     "ctaBannerTitle": "See Contivo\nin action",
     "ctaBannerBody": "The full feature list, pricing and more FAQ are on the product site contivo.pl.",
+    "ctaBannerButton": "Open contivo.pl",
+    "relatedTitle": "Learn more",
+    "relatedAiLabel": "AI accounting — how it works",
+    "relatedAiDesc": "What an accounting program with artificial intelligence is and what it really changes in a firm.",
+    "relatedAltLabel": "An alternative to Optima, Enova and Symfonia",
+    "relatedAltDesc": "Looking for a modern system to replace a traditional one? See what migrating to Contivo looks like."
+  },
+  "contivoAi": {
+    "metaTitle": "AI accounting — an accounting program with artificial intelligence | Contivo",
+    "metaDescription": "AI accounting in practice: how artificial intelligence reads and posts documents, tracks regulations and cuts the workload of an accounting firm. Meet Contivo — a Polish AI accounting program.",
+    "keywords": "AI accounting, accounting program with AI, artificial intelligence in accounting, accounting automation, AI for accounting firms, AI document posting, Contivo",
+    "ogTitle": "AI accounting — how artificial intelligence changes an accounting firm",
+    "ogDescription": "Artificial intelligence reads and posts documents, tracks regulations and deadlines. See how AI accounting works in Contivo.",
+    "back": "Back to Contivo",
+    "badge": "Accounting · Artificial intelligence",
+    "h1Pre": "",
+    "h1Gradient": "AI accounting",
+    "h1Post": " — how artificial intelligence changes the work of an accounting firm",
+    "lead": "AI accounting is an approach where artificial intelligence takes over the most repetitive part of accounting work: it reads documents, codes them and posts them, while a human approves and makes the decisions. Below we explain what an AI accounting program is, how it works and what it really changes in an accounting firm.",
+    "ctaPrimary": "See Contivo",
+    "ctaSecondary": "Open contivo.pl",
+    "sections": [
+      {
+        "eyebrow": "Definition",
+        "title": "What AI-based accounting is",
+        "body": "A traditional accounting program is a tool in which the accountant does everything manually. An accounting program with AI goes further: an artificial intelligence model understands the content of documents and proposes postings on its own, flags errors and answers regulatory questions. AI in accounting does not replace the accountant — it takes over routine and gives back time for knowledge work."
+      },
+      {
+        "eyebrow": "How it works",
+        "title": "How AI posts a document — step by step",
+        "points": [
+          {
+            "t": "1 · Read",
+            "d": "AI reads an invoice or document from an email or scan — line items, amounts, the counterparty, tax ID."
+          },
+          {
+            "t": "2 · Code",
+            "d": "The model proposes a posting to the right accounts, following the chart of accounts and the firm’s practice."
+          },
+          {
+            "t": "3 · Match",
+            "d": "The document is matched to the right client and accounting period."
+          },
+          {
+            "t": "4 · Approve",
+            "d": "The accountant approves or corrects with one click — the rest happens automatically."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Benefits",
+        "title": "What an accounting firm gains with AI",
+        "points": [
+          {
+            "t": "Less manual work",
+            "d": "Repetitive postings and retyping data from invoices disappear."
+          },
+          {
+            "t": "More clients without hiring",
+            "d": "The same team serves more companies because AI handles the routine."
+          },
+          {
+            "t": "Fewer errors",
+            "d": "AI catches unusual amounts, missing documents and upcoming deadlines."
+          },
+          {
+            "t": "Always up-to-date rules",
+            "d": "The AI assistant knows the current legal state — VAT, PIT, CIT, KSeF, JPK."
+          }
+        ]
+      },
+      {
+        "eyebrow": "In practice",
+        "title": "An accounting program with AI — this is what Contivo does",
+        "body": "Contivo is the first Polish accounting system designed from the ground up around artificial intelligence (AI-Native). AI reads and posts documents, the assistant answers regulatory questions, and the system tracks KSeF, JPK, ZUS and tax-return deadlines. All in one cloud platform — with code, hosting and data in Poland."
+      }
+    ],
+    "faqTitle": "Frequently asked questions about AI accounting",
+    "faq": [
+      {
+        "q": "Will artificial intelligence replace the accountant?",
+        "a": "No. AI takes over repetitive routine — reading and posting documents — while the accountant approves, decides and handles matters that require expertise. It is a tool that boosts productivity, not a replacement for a person."
+      },
+      {
+        "q": "Is AI accounting safe?",
+        "a": "In Contivo, yes — code, hosting and data stay in Poland, and the system is GDPR-compliant. Documents are not sent abroad."
+      },
+      {
+        "q": "Is an AI accounting program compliant with Polish regulations?",
+        "a": "Yes. Contivo natively supports KSeF, generates JPK_V7, JPK_KR and JPK_FA and handles ZUS, and the AI assistant knows the current legal state."
+      },
+      {
+        "q": "How do I start with AI accounting?",
+        "a": "The easiest way is to try a ready system. Contivo supports taking over a company from your current program, including importing HR data and historical settlements."
+      }
+    ],
+    "note": "",
+    "ctaBannerTitle": "See AI accounting\nin action",
+    "ctaBannerBody": "Contivo is a Polish accounting program with artificial intelligence. The full feature list and pricing are on the product site.",
+    "ctaBannerButton": "Open contivo.pl"
+  },
+  "contivoAlt": {
+    "metaTitle": "An alternative to Optima, Enova and Symfonia — a modern AI accounting system | Contivo",
+    "metaDescription": "Looking for an alternative to Optima, Enova or Symfonia? Contivo is the first Polish AI-Native accounting system — fully cloud-based, with AI posting documents. See what migration looks like.",
+    "keywords": "alternative to Optima, alternative to Enova, alternative to Symfonia, modern accounting system, cloud accounting system, switch from Optima, Contivo",
+    "ogTitle": "An alternative to Optima, Enova and Symfonia — an AI accounting system",
+    "ogDescription": "Contivo is a modern, cloud-based alternative to traditional accounting systems. AI posts documents and migration is simple thanks to data import.",
+    "back": "Back to Contivo",
+    "badge": "Switching systems? · AI-Native",
+    "h1Pre": "A modern alternative to",
+    "h1Gradient": "Optima, Enova and Symfonia",
+    "h1Post": ".",
+    "lead": "Optima, Enova and Symfonia are proven systems, but they were created before the era of artificial intelligence and many tasks are done manually in them. If you are looking for a modern alternative, Contivo is the first Polish AI-Native accounting system — fully cloud-based, where documents are posted by artificial intelligence.",
+    "ctaPrimary": "Discover Contivo",
+    "ctaSecondary": "Open contivo.pl",
+    "sections": [
+      {
+        "eyebrow": "Why switch",
+        "title": "Why firms look for an alternative",
+        "points": [
+          {
+            "t": "Manual work",
+            "d": "In traditional systems, document posting is still largely done by hand."
+          },
+          {
+            "t": "Installs and updates",
+            "d": "Desktop versions require installation, and legal updates are often paid."
+          },
+          {
+            "t": "No AI assistant",
+            "d": "You have to look up answers to regulatory questions yourself."
+          },
+          {
+            "t": "Tied to one computer",
+            "d": "Access from anywhere is often limited or costs extra."
+          }
+        ]
+      },
+      {
+        "eyebrow": "What to look for",
+        "title": "What to look for in a modern accounting system",
+        "points": [
+          {
+            "t": "AI-Native architecture",
+            "d": "AI at the core of the system, not bolted on as an add-on."
+          },
+          {
+            "t": "Full cloud",
+            "d": "Browser access, no installs, automatic updates."
+          },
+          {
+            "t": "Native compliance",
+            "d": "KSeF, JPK, ZUS without external plugins."
+          },
+          {
+            "t": "Easy migration",
+            "d": "Import of data and historical settlements from your current program."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Migration",
+        "title": "What migrating to Contivo looks like",
+        "body": "Migration does not have to mean losing data or a break in work. Contivo supports taking over a company from your current system, including importing HR data and historical payrolls and settlements. The Codentra team helps with the move, and the AI assistant guides you through the system from day one — without long training."
+      }
+    ],
+    "faqTitle": "Frequently asked questions about switching systems",
+    "faq": [
+      {
+        "q": "Does Contivo support importing data from Optima, Enova or Symfonia?",
+        "a": "Yes. Contivo supports taking over a company from your current system, including importing HR data and historical payrolls and settlements. The exact import scope is agreed individually."
+      },
+      {
+        "q": "Will I lose data during migration?",
+        "a": "No. Migration moves data into Contivo, while your current system stays with you as an archive until correctness is confirmed."
+      },
+      {
+        "q": "How is Contivo different from Optima, Enova and Symfonia?",
+        "a": "Contivo is designed from the ground up around AI (AI-Native) and runs fully in the cloud. Documents are posted by artificial intelligence, and legal updates are automatic and included."
+      },
+      {
+        "q": "How long does switching to Contivo take?",
+        "a": "It depends on the size of the firm and the scope of data. Thanks to import and the AI assistant, onboarding is much faster than with traditional systems — without long training."
+      }
+    ],
+    "note": "The comparison is illustrative and concerns the product approach. Optima, Enova and Symfonia are trademarks of their respective owners and are not affiliated with Codentra or Contivo.",
+    "ctaBannerTitle": "Ready to switch\nsystems?",
+    "ctaBannerBody": "See how Contivo replaces traditional accounting systems. The full description, pricing and contact are on the product site.",
     "ctaBannerButton": "Open contivo.pl"
   }
 }
