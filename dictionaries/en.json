@@ -241,33 +241,105 @@
     "tagline": "Built with care in Świdnica"
   },
   "contivoPage": {
-    "metaTitle": "Contivo — flagship product by Codentra",
-    "metaDescription": "Contivo is a modern platform for running an accounting firm in Poland: e-invoicing, JPK, social security, HR, payroll and AI in one place. Built by Codentra.",
+    "metaTitle": "Contivo — the first Polish AI-Native accounting system | A modern alternative to Optima, Enova, Symfonia",
+    "metaDescription": "Contivo is the first AI-Native accounting system in Poland — artificial intelligence reads and posts documents, tracks deadlines and regulations. Full KSeF, JPK and ZUS compliance. A modern alternative to Optima, Enova and Symfonia.",
+    "keywords": "AI accounting system, AI bookkeeping, artificial intelligence in accounting, AI-native, software for accounting firms, accounting automation, Optima alternative, Enova alternative, Symfonia alternative, KSeF, JPK, ZUS, Contivo",
+    "ogTitle": "Contivo — the first Polish AI-Native accounting system",
+    "ogDescription": "Artificial intelligence that posts documents, tracks regulations and deadlines. The first AI-Native system for accounting firms in Poland — a real alternative to Optima, Enova and Symfonia.",
     "back": "Back to Codentra",
-    "titlePre": "A next-generation system for",
-    "titleGradient": "accounting firms",
-    "titlePost": ".",
-    "description": "Contivo is Codentra's flagship product — it replaces six separate tools with one cohesive platform. Full compliance with Polish regulations and an AI assistant that gives accountants hours back every day.",
+    "badge": "First in Poland · AI-Native accounting system",
+    "titlePre": "The first Polish accounting system built on an",
+    "titleGradient": "AI-Native",
+    "titlePost": " architecture.",
+    "lead": "Contivo is a new generation of software for accounting firms — built around artificial intelligence from the very first line of code. It is not yet another accounting program with a bolted-on “AI” feature. It is the first system in Poland where artificial intelligence genuinely reads and posts documents, tracks deadlines and regulations, while the accountant simply approves. A modern, fully cloud-based alternative to Optima, Enova and Symfonia.",
+    "description": "Contivo is Codentra's flagship product — the first Polish accounting system designed from the ground up around AI. It replaces six separate tools with one platform, fully compliant with Polish regulations.",
     "ctaOpen": "Open contivo.pl",
     "ctaContact": "Get in touch with Codentra",
     "highlightsTitle": "Why Contivo",
     "highlights": [
+      "Poland's first AI-Native accounting system",
+      "AI reads and posts documents automatically",
       "100% Polish stack — code, hosting and data in PL",
       "Compliant with KSeF, JPK, ZUS, GDPR, tax law",
-      "API for bank and e-commerce integrations",
-      "Built-in training and knowledge base"
+      "Fully cloud-based — no installs, no paid updates"
     ],
+    "firstEyebrow": "First in Poland",
+    "firstTitlePre": "Not a “program with an AI feature”.",
+    "firstTitleGradient": "An AI-Native system.",
+    "firstBody": "Most accounting software on the Polish market was created before the era of artificial intelligence, with AI added later as an add-on. Contivo takes a different path: artificial intelligence is the core of the system, and we built the entire accounting workflow around it. That is a fundamental difference — and the reason Contivo is the first fully AI-Native Polish accounting system.",
+    "firstPoints": [
+      {
+        "t": "AI at the core, not bolted on",
+        "d": "Artificial intelligence reads, codes and posts documents automatically — it does not just suggest."
+      },
+      {
+        "t": "It learns your firm",
+        "d": "The model adapts postings to the history, chart of accounts and practice of each specific company."
+      },
+      {
+        "t": "Always compliant",
+        "d": "The AI assistant knows the current legal state: KSeF, JPK, the Accounting Act, PIT, CIT and VAT."
+      },
+      {
+        "t": "Built in Poland, for Polish law",
+        "d": "100% Polish code, hosting and data — no documents sent abroad."
+      }
+    ],
+    "compareEyebrow": "Contivo vs the market",
+    "compareTitlePre": "Contivo alongside",
+    "compareTitleGradient": "Optima, Enova and Symfonia",
+    "compareIntro": "Optima, Enova and Symfonia are proven, mature systems — but they were created when artificial intelligence did not exist in accounting. We design Contivo from scratch around AI, so it automates what traditional systems still do by hand.",
+    "compareColLegacy": "Traditional systems\n(Optima / Enova / Symfonia)",
+    "compareColContivo": "Contivo",
+    "compareRows": [
+      {
+        "f": "Approach to AI",
+        "a": "An add-on bolted onto an existing system",
+        "b": "AI-Native — artificial intelligence at the core"
+      },
+      {
+        "f": "Document posting",
+        "a": "Manual or semi-automatic (OCR)",
+        "b": "Automatic — AI reads and codes"
+      },
+      {
+        "f": "Regulatory assistant",
+        "a": "None or a static knowledge base",
+        "b": "AI assistant answering regulatory questions"
+      },
+      {
+        "f": "Architecture",
+        "a": "Desktop or local installation",
+        "b": "Fully cloud-based, available in the browser"
+      },
+      {
+        "f": "Legal updates",
+        "a": "Installed, often paid",
+        "b": "Automatic, in the cloud, included"
+      },
+      {
+        "f": "KSeF, JPK, ZUS",
+        "a": "Yes",
+        "b": "Yes — natively, no plugins"
+      },
+      {
+        "f": "Pricing model",
+        "a": "Licences + updates",
+        "b": "SaaS subscription — everything included"
+      }
+    ],
+    "compareNote": "The comparison is illustrative and concerns the product approach. Optima, Enova and Symfonia are trademarks of their respective owners.",
     "modulesEyebrow": "Modules",
     "modulesTitlePre": "Six tools.",
-    "modulesTitleGradient": "One platform.",
+    "modulesTitleGradient": "One AI platform.",
     "modules": [
       {
         "name": "Invoicing & KSeF",
-        "desc": "Issuing and receiving structured e-invoices through KSeF, OCR for inbound documents."
+        "desc": "Issuing and receiving structured e-invoices through KSeF, automatic AI reading of inbound documents."
       },
       {
         "name": "JPK",
-        "desc": "Generating JPK_V7, JPK_KR, JPK_FA directly from the system, no external tools."
+        "desc": "Generating JPK_V7, JPK_KR and JPK_FA directly from the system, no external tools."
       },
       {
         "name": "ZUS DRA",
@@ -279,15 +351,72 @@
       },
       {
         "name": "Fixed assets",
-        "desc": "Asset registry, automatic depreciation in line with Polish tax law."
+        "desc": "Asset registry and automatic depreciation in line with Polish tax law."
       },
       {
         "name": "AI assistant",
-        "desc": "An LLM-powered assistant — answers regulatory questions, flags issues, automates routine work."
+        "desc": "An LLM-powered assistant — posts documents, answers regulatory questions, flags issues and automates routine work."
       }
     ],
-    "ctaBannerTitle": "Want to see Contivo\nin action?",
-    "ctaBannerBody": "You'll find the full feature list, pricing and FAQ on the product site.",
+    "aiEyebrow": "Artificial intelligence in practice",
+    "aiTitlePre": "What",
+    "aiTitleGradient": "AI in Contivo",
+    "aiItems": [
+      {
+        "t": "Reads and posts documents",
+        "d": "An invoice arrives, AI reads the line items, codes them to the right accounts and matches the client. You just approve."
+      },
+      {
+        "t": "Answers regulatory questions",
+        "d": "Ask about a VAT rate, the moment a tax obligation arises or a deductible cost — the AI assistant answers with a reference to the regulation."
+      },
+      {
+        "t": "Tracks deadlines and errors",
+        "d": "AI catches missing documents, unusual amounts and upcoming JPK, ZUS and tax-return deadlines."
+      },
+      {
+        "t": "Automates routine",
+        "d": "Repetitive postings, settlements and reports run in the background — the accountant handles what requires judgement."
+      },
+      {
+        "t": "Learns your firm",
+        "d": "The longer you work, the sharper the suggestions — the model adapts to your chart of accounts and practice."
+      },
+      {
+        "t": "Understands Polish law",
+        "d": "The model supports Polish accounting: the Accounting Act, PIT, CIT, VAT, KSeF and JPK."
+      }
+    ],
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Frequently asked questions about Contivo",
+    "faq": [
+      {
+        "q": "Is Contivo really the first Polish AI-Native accounting system?",
+        "a": "Yes. Contivo is the first system for accounting firms in Poland designed from the ground up around artificial intelligence. AI is not an add-on here but the core of the system, genuinely reading and posting documents."
+      },
+      {
+        "q": "How is Contivo different from Optima, Enova and Symfonia?",
+        "a": "Traditional systems were created before the AI era and most accounting work is done manually in them. Contivo automates document posting thanks to its AI-Native architecture and runs fully in the cloud — no installs, no paid updates."
+      },
+      {
+        "q": "Is Contivo compliant with KSeF, JPK and ZUS?",
+        "a": "Yes. Contivo natively supports KSeF, generates JPK_V7, JPK_KR and JPK_FA, and handles ZUS — with no external plugins."
+      },
+      {
+        "q": "Is my data safe?",
+        "a": "Yes. Code, hosting and data stay in Poland, and the system is GDPR-compliant."
+      },
+      {
+        "q": "Who is Contivo for?",
+        "a": "For accounting firms and finance teams that want to automate work with AI instead of hiring more people."
+      },
+      {
+        "q": "Can I migrate to Contivo from another accounting program?",
+        "a": "Yes. Contivo supports taking over a company from your current system, including importing HR data and historical settlements."
+      }
+    ],
+    "ctaBannerTitle": "See Contivo\nin action",
+    "ctaBannerBody": "The full feature list, pricing and more FAQ are on the product site contivo.pl.",
     "ctaBannerButton": "Open contivo.pl"
   }
 }
