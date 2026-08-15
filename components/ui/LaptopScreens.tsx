@@ -9,20 +9,23 @@ type UI = Dictionary['showcase']['ui'];
 /** Wysokości słupków — stała tablica, żeby SSR i klient renderowały to samo. */
 const BARS = [38, 52, 44, 68, 57, 79, 63, 88, 72, 94, 81, 100];
 
-const KPI = [
-  { key: 'revenue' as const, value: '284 120 zł', delta: '+12,4%', hue: 'text-brand-green' },
+/** Liczby makiety są zapisane w słowniku — polski i angielski mają inne separatory. */
+const kpi = (ui: UI) => [
+  { key: 'revenue' as const, value: ui.demo.revenue, delta: ui.demo.revenueDelta, hue: 'text-brand-green' },
   { key: 'documents' as const, value: '1 847', delta: '+318', hue: 'text-brand-teal' },
   { key: 'clients' as const, value: '96', delta: '+4', hue: 'text-brand-blue' },
 ];
 
-const ROWS = [
-  { id: 'FV/2026/07/318', client: 'Nordkalk Sp. z o.o.', amount: '12 480,00', done: true },
-  { id: 'FV/2026/07/319', client: 'Alt-Bud S.A.', amount: '3 090,50', done: true },
-  { id: 'FV/2026/07/320', client: 'Wektor Consulting', amount: '8 745,20', done: false },
+const rows = (ui: UI) => [
+  { id: 'FV/2026/07/318', client: 'Nordkalk Sp. z o.o.', amount: ui.demo.rowAmounts[0], done: true },
+  { id: 'FV/2026/07/319', client: 'Alt-Bud S.A.', amount: ui.demo.rowAmounts[1], done: true },
+  { id: 'FV/2026/07/320', client: 'Wektor Consulting', amount: ui.demo.rowAmounts[2], done: false },
 ];
 
 /** 01 — pulpit biura rachunkowego */
 export function DashboardScreen({ ui }: { ui: UI }) {
+  const KPI = kpi(ui);
+  const ROWS = rows(ui);
   return (
     <div className="flex h-full">
       <aside className="hidden w-11 flex-col items-center gap-4 border-r border-white/[0.06] py-4 sm:flex">
@@ -145,21 +148,21 @@ export function PipelineScreen({ ui }: { ui: UI }) {
       </div>
 
       <div className="min-h-0 flex-1 rounded-lg border border-white/[0.06] bg-ink-950/60 p-2.5 font-mono text-[8px] leading-relaxed sm:p-3.5 sm:text-[10px]">
-        <div className="text-fg-subtle">→ inbox: faktura_nordkalk_07.pdf</div>
+        <div className="text-fg-subtle">→ inbox: {ui.demo.inboxFile}</div>
         <div className="text-fg-muted">
-          → extract: <span className="text-brand-teal">14 pozycji</span> · netto{' '}
-          <span className="text-fg">10 146,34</span> · VAT{' '}
-          <span className="text-fg">2 333,66</span>
+          → extract: <span className="text-brand-teal">{ui.demo.items}</span> · {ui.demo.net}{' '}
+          <span className="text-fg">{ui.demo.netAmount}</span> · VAT{' '}
+          <span className="text-fg">{ui.demo.vatAmount}</span>
         </div>
         <div className="text-fg-muted">
-          → classify: <span className="text-brand-yellow">4-01 Amortyzacja</span> ·{' '}
-          <span className="text-brand-yellow">4-02 Zużycie materiałów</span>
+          → classify: <span className="text-brand-yellow">{ui.demo.accountA}</span> ·{' '}
+          <span className="text-brand-yellow">{ui.demo.accountB}</span>
         </div>
         <div className="text-fg-muted">
           → match: <span className="text-brand-orange">Nordkalk Sp. z o.o.</span>{' '}
           <span className="text-fg-subtle">(NIP 8971834412)</span>
         </div>
-        <div className="mt-1 text-brand-green">✓ posted · 1,8s</div>
+        <div className="mt-1 text-brand-green">✓ posted · {ui.demo.postedIn}</div>
       </div>
     </div>
   );
@@ -219,8 +222,8 @@ export function DeployScreen({ ui }: { ui: UI }) {
       <div className="grid grid-cols-3 gap-2">
         {[
           { k: 'p95', v: '112 ms', hue: 'text-brand-teal' },
-          { k: 'uptime', v: '99,98%', hue: 'text-brand-green' },
-          { k: 'error rate', v: '0,02%', hue: 'text-brand-blue' },
+          { k: 'uptime', v: ui.demo.uptime, hue: 'text-brand-green' },
+          { k: 'error rate', v: ui.demo.errorRate, hue: 'text-brand-blue' },
         ].map((m) => (
           <div key={m.k} className="rounded-lg border border-white/[0.06] bg-white/[0.02] px-2 py-1.5">
             <div className="text-[7px] uppercase tracking-wider text-fg-subtle sm:text-[9px]">

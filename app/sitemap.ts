@@ -20,9 +20,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency,
       priority,
       alternates: {
-        languages: Object.fromEntries(
-          i18n.locales.map((l) => [l, `${BASE}/${l}${path}`]),
-        ),
+        languages: {
+          ...Object.fromEntries(i18n.locales.map((l) => [l, `${BASE}/${l}${path}`])),
+          // Adres bez prefiksu języka — middleware kieruje na wersję właściwą
+          // dla kraju gościa.
+          'x-default': `${BASE}${path || '/'}`,
+        },
       },
     })),
   );

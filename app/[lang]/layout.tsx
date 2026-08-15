@@ -49,7 +49,9 @@ export async function generateMetadata({
       languages: {
         pl: '/pl',
         en: '/en',
-        'x-default': '/pl',
+        // x-default wskazuje adres bez prefiksu — ten sam, który middleware
+        // rozdziela po kraju gościa.
+        'x-default': '/',
       },
     },
     openGraph: {

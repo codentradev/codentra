@@ -107,7 +107,26 @@
       "tests": "Testy",
       "deploy": "Wdrożenie",
       "live": "Na żywo",
-      "passed": "przeszły"
+      "passed": "przeszły",
+      "demo": {
+        "revenue": "284 120 zł",
+        "revenueDelta": "+12,4%",
+        "rowAmounts": [
+          "12 480,00",
+          "3 090,50",
+          "8 745,20"
+        ],
+        "inboxFile": "faktura_nordkalk_07.pdf",
+        "items": "14 pozycji",
+        "net": "netto",
+        "netAmount": "10 146,34",
+        "vatAmount": "2 333,66",
+        "accountA": "4-01 Amortyzacja",
+        "accountB": "4-02 Zużycie materiałów",
+        "postedIn": "1,8s",
+        "uptime": "99,98%",
+        "errorRate": "0,02%"
+      }
     }
   },
   "products": {
@@ -422,7 +441,8 @@
     "relatedAiLabel": "Księgowość AI — jak to działa",
     "relatedAiDesc": "Czym jest program księgowy ze sztuczną inteligencją i co realnie zmienia w biurze rachunkowym.",
     "relatedAltLabel": "Alternatywa dla Optimy, Enovy i Symfonii",
-    "relatedAltDesc": "Szukasz nowoczesnego systemu w miejsce klasycznego? Zobacz, jak wygląda przejście na Contivo."
+    "relatedAltDesc": "Szukasz nowoczesnego systemu w miejsce klasycznego? Zobacz, jak wygląda przejście na Contivo.",
+    "logoAlt": "Contivo — system księgowy AI-Native"
   },
   "contivoAi": {
     "metaTitle": "Księgowość AI — program księgowy ze sztuczną inteligencją | Contivo",
