@@ -1,9 +1,10 @@
 {
   "meta": {
-    "title": "Codentra — Next-generation software powered by AI",
-    "description": "Codentra designs and ships next-generation software powered by AI. Makers of Contivo, the modern platform for Polish accounting firms. Świdnica, Poland.",
-    "ogTitle": "Codentra — Next-generation software powered by AI",
-    "ogDescription": "We design and ship next-generation AI-powered software. Makers of Contivo."
+    "title": "Codentra — AI software house | Custom software & AI implementation",
+    "description": "Codentra is an AI software house from Poland. We build custom software and web applications and implement artificial intelligence in businesses. Makers of Contivo.",
+    "ogTitle": "Codentra — AI software house: custom software & AI implementation",
+    "ogDescription": "We design and ship next-generation, AI-powered software — from custom applications to AI implementations in businesses. Makers of Contivo.",
+    "keywords": "software house, AI software house, software house Poland, custom software development, web application development, AI implementation, AI integration for business, LLM integration, AI process automation, Codentra, Contivo"
   },
   "nav": {
     "about": "About",
@@ -235,10 +236,14 @@
       "contact": "Contact",
       "operatorName": "Codentra Sp. z o.o.",
       "operatorTax": "Tax ID 9571129766",
-      "operatorCity": "Świdnica, Poland"
+      "operatorCity": "Świdnica, Poland",
+      "contivoAi": "AI accounting",
+      "customSoftware": "Custom software",
+      "aiIntegration": "AI implementation"
     },
     "copyright": "All rights reserved.",
-    "tagline": "Built with care in Świdnica"
+    "tagline": "Built with care in Świdnica",
+    "colServices": "Services"
   },
   "contivoPage": {
     "metaTitle": "Contivo — the first Polish AI-Native accounting system | A modern alternative to Optima, Enova, Symfonia",
@@ -606,5 +611,257 @@
     "ctaBannerTitle": "Ready to switch\nsystems?",
     "ctaBannerBody": "See how Contivo replaces traditional accounting systems. The full description, pricing and contact are on the product site.",
     "ctaBannerButton": "Open contivo.pl"
+  },
+  "homeSeo": {
+    "servicesEyebrow": "Services",
+    "servicesTitle": "AI software house — what we can build for you",
+    "servicesDescription": "We build custom software and implement artificial intelligence for companies. One team — from analysis through design and code to running it in production.",
+    "services": [
+      {
+        "title": "Custom software",
+        "body": "Web applications, SaaS platforms, dashboards and internal tools built around your processes — with AI where it creates a real edge.",
+        "cta": "Custom software development",
+        "href": "/oprogramowanie-dedykowane"
+      },
+      {
+        "title": "AI implementation",
+        "body": "AI assistants, automated document processing, RAG over company knowledge and LLM integrations with your systems — secure and GDPR-compliant.",
+        "cta": "AI implementation services",
+        "href": "/wdrozenia-ai"
+      },
+      {
+        "title": "Contivo — AI accounting system",
+        "body": "Our own product: an AI-native Polish accounting system for accounting firms. KSeF, JPK, ZUS, HR and payroll in one platform.",
+        "cta": "Discover Contivo",
+        "href": "/contivo"
+      }
+    ],
+    "faqTitle": "Frequently asked questions about working with Codentra",
+    "faq": [
+      {
+        "q": "What does Codentra do?",
+        "a": "Codentra is an AI software house based in Świdnica, Poland. We design and build custom software — web applications, SaaS platforms and internal tools — and implement AI-based solutions in businesses. We are the makers of Contivo, an AI accounting system for accounting firms."
+      },
+      {
+        "q": "Do you only work with companies in Poland?",
+        "a": "Our headquarters is in Świdnica, Poland, and we work with companies across the country. Most of our collaboration happens remotely, so location is rarely a constraint."
+      },
+      {
+        "q": "How long does it take to build custom software?",
+        "a": "It depends on scope. We work iteratively: after discovery we deliver a working prototype of the product core within 2–3 weeks, then build out full functionality in short cycles with frequent releases."
+      },
+      {
+        "q": "What does an AI implementation look like?",
+        "a": "We start by identifying processes where AI will have a measurable impact — such as document handling, answering customer questions or searching company knowledge. Then we build a prototype, measure answer quality and integrate the solution with your systems."
+      },
+      {
+        "q": "Is company data safe during an AI implementation?",
+        "a": "Yes. We design GDPR-compliant solutions with control over where data is processed. We know Polish regulations — KSeF, JPK, ZUS — because we work with them every day in Contivo."
+      },
+      {
+        "q": "Which technologies do you use?",
+        "a": "A modern web stack (including TypeScript, React and Next.js), cloud infrastructure with CI/CD, and large language models (LLMs) with techniques such as RAG, function calling and AI agents."
+      }
+    ],
+    "knowsAbout": [
+      "Custom software development",
+      "Web applications",
+      "Artificial intelligence",
+      "AI implementation",
+      "Large language models (LLM)",
+      "RAG",
+      "SaaS",
+      "Accounting software",
+      "KSeF",
+      "JPK"
+    ]
+  },
+  "customSoftware": {
+    "metaTitle": "Custom software & bespoke web applications | Codentra",
+    "metaDescription": "Custom software for businesses: web applications, SaaS platforms and internal tools with built-in AI. Codentra — an AI software house from Poland.",
+    "keywords": "custom software development, bespoke software, custom web applications, web application development, software house, software house Poland, SaaS development, Codentra",
+    "ogTitle": "Custom software for businesses",
+    "ogDescription": "Web applications, SaaS platforms and internal tools built around your processes — with AI where it creates a real edge.",
+    "back": "Back to Codentra",
+    "badge": "Services · Software house",
+    "h1Pre": "Custom",
+    "h1Gradient": "software",
+    "h1Post": " — applications built around your business",
+    "lead": "Off-the-shelf tools rarely match how a company actually works. We build custom software: web applications, SaaS platforms and internal tools that reflect your processes, integrate with what you already use, and have artificial intelligence built in wherever it makes sense.",
+    "ctaPrimary": "Let's talk about your project",
+    "ctaSecondary": "See AI implementation",
+    "sections": [
+      {
+        "eyebrow": "What we build",
+        "title": "Types of custom software",
+        "points": [
+          {
+            "t": "Web applications",
+            "d": "Browser-based systems for your team, customers or partners. Nothing to install, available anywhere."
+          },
+          {
+            "t": "SaaS platforms",
+            "d": "Subscription products from idea to production: accounts, permissions, billing, admin panel."
+          },
+          {
+            "t": "Internal tools",
+            "d": "Dashboards, CRMs, document workflows and automations that replace spreadsheets and manual work."
+          },
+          {
+            "t": "Integrations & APIs",
+            "d": "We connect new software with accounting systems, ERP, e-commerce and third-party services."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Why custom",
+        "title": "When custom software is worth it",
+        "body": "Custom software makes sense when off-the-shelf tools force workarounds, data is scattered across many programs, or a process gives your company a competitive edge you don't want to flatten into what everyone else uses. You pay for a solution you own and that grows with your business."
+      },
+      {
+        "eyebrow": "How we work",
+        "title": "From idea to a working application",
+        "points": [
+          {
+            "t": "1 · Discovery",
+            "d": "We learn the business, users and constraints, and define a measurable goal — before any code is written."
+          },
+          {
+            "t": "2 · Prototype",
+            "d": "Within 2–3 weeks we deliver a working product core, tested with real users."
+          },
+          {
+            "t": "3 · Build",
+            "d": "We iterate towards full functionality: frequent releases, tests and transparent progress."
+          },
+          {
+            "t": "4 · Run",
+            "d": "Launch, monitoring and continued development. We stay with the product long after release."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Experience",
+        "title": "Proven on our own product",
+        "body": "We apply this approach every day to Contivo — an AI-native Polish accounting system for accounting firms that handles KSeF, JPK, ZUS, HR and payroll. It is a production system in a demanding, regulated domain, not a portfolio prototype."
+      }
+    ],
+    "faqTitle": "Questions about custom software",
+    "faq": [
+      {
+        "q": "How much does custom software cost?",
+        "a": "It depends on scope, the number of integrations and requirements. After a short call and discovery we prepare a phased estimate, so the first working version ships as early as possible."
+      },
+      {
+        "q": "Who owns the application code?",
+        "a": "Software built to order belongs to the client — the transfer of intellectual property rights is agreed in the contract before work begins."
+      },
+      {
+        "q": "Can you take over an existing application?",
+        "a": "Yes. We start with a code and architecture review, then propose a development or gradual modernisation plan."
+      },
+      {
+        "q": "Do you work remotely?",
+        "a": "Yes — most of our collaboration is remote, and we work with companies across Poland."
+      }
+    ],
+    "note": "",
+    "ctaBannerTitle": "Have an app idea?\nLet's talk.",
+    "ctaBannerBody": "Describe the problem you want to solve — we reply within one business day.",
+    "ctaBannerButton": "Get in touch"
+  },
+  "aiIntegration": {
+    "metaTitle": "AI implementation for business — practical AI | Codentra",
+    "metaDescription": "We implement artificial intelligence in companies: AI assistants, automated document processing, RAG over company knowledge and LLM integrations. Secure and GDPR-compliant.",
+    "keywords": "AI implementation, AI for business, AI integration, LLM integration, AI chatbot for business, AI assistant, AI process automation, RAG, AI software house, Codentra",
+    "ogTitle": "AI implementation for business",
+    "ogDescription": "AI assistants, document automation and LLM integrations with your systems — secure and GDPR-compliant.",
+    "back": "Back to Codentra",
+    "badge": "Services · Artificial intelligence",
+    "h1Pre": "",
+    "h1Gradient": "AI",
+    "h1Post": " implementation for business — artificial intelligence that actually works",
+    "lead": "Artificial intelligence pays off when it is wired into a specific process rather than sitting in a separate chat window. We implement AI in companies: from automated document processing, through assistants that know your company knowledge, to integrating large language models (LLMs) with the systems you already use.",
+    "ctaPrimary": "Let's talk about AI",
+    "ctaSecondary": "Custom software",
+    "sections": [
+      {
+        "eyebrow": "Use cases",
+        "title": "Where AI has the biggest impact",
+        "points": [
+          {
+            "t": "Document processing",
+            "d": "AI reads invoices, contracts and forms, extracts data and passes it on to your systems."
+          },
+          {
+            "t": "Company knowledge assistant",
+            "d": "Answers based on your procedures, documentation and knowledge base (RAG) — with sources."
+          },
+          {
+            "t": "Customer service",
+            "d": "AI chatbots and automated replies that take load off your team, around the clock."
+          },
+          {
+            "t": "Process automation",
+            "d": "AI agents handling multi-step tasks: ticket classification, data enrichment, reporting."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Process",
+        "title": "What an AI implementation looks like",
+        "points": [
+          {
+            "t": "1 · Analysis",
+            "d": "We pick processes where AI will measurably save time or money."
+          },
+          {
+            "t": "2 · Prototype",
+            "d": "We build a working version on real data and measure answer quality."
+          },
+          {
+            "t": "3 · Integration",
+            "d": "We connect the solution to your systems — ERP, CRM, email, document workflows."
+          },
+          {
+            "t": "4 · Monitoring",
+            "d": "Evaluations, model cost control and continuous improvement after launch."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Security",
+        "title": "GDPR-compliant AI",
+        "body": "We design AI implementations with control over where and how data is processed. We choose models and architecture to fit your requirements, limit access to sensitive data and make every answer verifiable. We work with Polish regulations — KSeF, JPK, ZUS — every day in our Contivo system."
+      },
+      {
+        "eyebrow": "Example",
+        "title": "Contivo — AI in accounting",
+        "body": "The best example of our approach is Contivo: an accounting system where AI reads and posts documents, an assistant answers questions about regulations and the system tracks deadlines. AI built into the core of the product, used daily by accounting firms."
+      }
+    ],
+    "faqTitle": "Questions about AI implementation",
+    "faq": [
+      {
+        "q": "Where should a company start with AI?",
+        "a": "With a single process that takes your team a lot of time and is repetitive — e.g. document handling or answering common questions. That's where results show fastest and ROI is easy to measure."
+      },
+      {
+        "q": "Is an AI implementation GDPR-compliant?",
+        "a": "Yes, when designed properly. We choose model providers and architecture so you control where data is processed and limit access to sensitive information."
+      },
+      {
+        "q": "Will AI replace employees?",
+        "a": "That's not the goal. AI takes over repetitive routine, while people approve results and focus on work that requires knowledge and judgement."
+      },
+      {
+        "q": "Can you integrate AI with our existing system?",
+        "a": "Yes. We integrate language models with existing systems via APIs — without replacing your entire software stack."
+      }
+    ],
+    "note": "",
+    "ctaBannerTitle": "Let's find where AI\ncan help your business",
+    "ctaBannerBody": "Describe the process you want to improve — we'll propose a concrete AI use case.",
+    "ctaBannerButton": "Get in touch"
   }
 }

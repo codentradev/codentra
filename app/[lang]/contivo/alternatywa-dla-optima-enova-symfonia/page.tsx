@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { OG_IMAGE } from '@/lib/seo';
 import { SeoLanding, type LandingContent } from '@/components/SeoLanding';
 import { getDictionary } from '@/lib/get-dictionary';
 import type { Locale } from '@/lib/i18n-config';
@@ -38,8 +39,9 @@ export async function generateMetadata({
       url,
       type: 'article',
       siteName: 'Codentra',
+      images: [OG_IMAGE],
     },
-    twitter: { card: 'summary_large_image', title: c.ogTitle, description: c.ogDescription },
+    twitter: { card: 'summary_large_image', images: [OG_IMAGE.url], title: c.ogTitle, description: c.ogDescription },
   };
 }
 

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { OG_IMAGE } from '@/lib/seo';
 import { Inter, Space_Grotesk, JetBrains_Mono } from 'next/font/google';
 import '../globals.css';
 import { i18n, type Locale } from '@/lib/i18n-config';
@@ -44,12 +45,17 @@ export async function generateMetadata({
       template: '%s · Codentra',
     },
     description: dict.meta.description,
+    keywords: dict.meta.keywords,
+    applicationName: 'Codentra',
+    authors: [{ name: 'Codentra Sp. z o.o.', url: 'https://codentra.pl' }],
+    creator: 'Codentra Sp. z o.o.',
+    publisher: 'Codentra Sp. z o.o.',
     alternates: {
-      canonical: `/${lang}`,
+      canonical: `https://codentra.pl/${lang}`,
       languages: {
-        pl: '/pl',
-        en: '/en',
-        'x-default': '/pl',
+        pl: 'https://codentra.pl/pl',
+        en: 'https://codentra.pl/en',
+        'x-default': 'https://codentra.pl/pl',
       },
     },
     openGraph: {
@@ -59,13 +65,19 @@ export async function generateMetadata({
       title: dict.meta.ogTitle,
       description: dict.meta.ogDescription,
       siteName: 'Codentra',
+      images: [OG_IMAGE],
     },
     twitter: {
       card: 'summary_large_image',
+      images: [OG_IMAGE.url],
       title: dict.meta.ogTitle,
       description: dict.meta.ogDescription,
     },
-    robots: { index: true, follow: true },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
+    },
   };
 }
 

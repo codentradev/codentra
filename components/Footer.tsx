@@ -1,13 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import type { Dictionary } from '@/lib/get-dictionary';
+import type { Locale } from '@/lib/i18n-config';
 
-export function Footer({ dict }: { dict: Dictionary['footer'] }) {
+export function Footer({ lang, dict }: { lang: Locale; dict: Dictionary['footer'] }) {
   return (
     <footer className="relative border-t border-white/[0.06]">
-      <div className="container-x grid gap-10 py-16 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
+      <div className="container-x grid gap-10 py-16 md:grid-cols-[1.4fr_1fr_1fr_1fr_1fr]">
         <div className="flex flex-col gap-4">
-          <Link href="/" aria-label="Codentra" className="w-fit">
+          <Link href={`/${lang}`} aria-label="Codentra" className="w-fit">
             <Image
               src="/logo.png"
               alt="Codentra"
@@ -22,25 +23,33 @@ export function Footer({ dict }: { dict: Dictionary['footer'] }) {
         <FooterCol
           title={dict.colProducts}
           links={[
-            { label: dict.links.contivo,     href: 'https://contivo.pl' },
-            { label: dict.links.nextProject, href: '#produkty' },
+            { label: dict.links.contivo,     href: `/${lang}/contivo` },
+            { label: dict.links.contivoAi,   href: `/${lang}/contivo/ksiegowosc-ai` },
+            { label: dict.links.nextProject, href: `/${lang}#produkty` },
+          ]}
+        />
+        <FooterCol
+          title={dict.colServices}
+          links={[
+            { label: dict.links.customSoftware, href: `/${lang}/oprogramowanie-dedykowane` },
+            { label: dict.links.aiIntegration,  href: `/${lang}/wdrozenia-ai` },
           ]}
         />
         <FooterCol
           title={dict.colCompany}
           links={[
-            { label: dict.links.about,   href: '#o-nas' },
-            { label: dict.links.stack,   href: '#stack' },
-            { label: dict.links.process, href: '#proces' },
-            { label: dict.links.contact, href: '#kontakt' },
+            { label: dict.links.about,   href: `/${lang}#o-nas` },
+            { label: dict.links.stack,   href: `/${lang}#stack` },
+            { label: dict.links.process, href: `/${lang}#proces` },
+            { label: dict.links.contact, href: `/${lang}#kontakt` },
           ]}
         />
         <FooterCol
           title={dict.colOperator}
           links={[
-            { label: dict.links.operatorName, href: '#kontakt' },
-            { label: dict.links.operatorTax,  href: '#kontakt' },
-            { label: dict.links.operatorCity, href: '#kontakt' },
+            { label: dict.links.operatorName, href: `/${lang}#kontakt` },
+            { label: dict.links.operatorTax,  href: `/${lang}#kontakt` },
+            { label: dict.links.operatorCity, href: `/${lang}#kontakt` },
           ]}
         />
       </div>
