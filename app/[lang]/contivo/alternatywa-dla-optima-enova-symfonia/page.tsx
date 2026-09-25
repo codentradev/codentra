@@ -31,6 +31,7 @@ export async function generateMetadata({
       languages: {
         pl: `https://codentra.pl/pl/contivo/${SLUG}`,
         en: `https://codentra.pl/en/contivo/${SLUG}`,
+      'x-default': `https://codentra.pl/contivo/${SLUG}`,
       },
     },
     openGraph: {

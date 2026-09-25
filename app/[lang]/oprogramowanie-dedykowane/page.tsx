@@ -31,7 +31,7 @@ export async function generateMetadata({
       languages: {
         pl: `https://codentra.pl/pl/${SLUG}`,
         en: `https://codentra.pl/en/${SLUG}`,
-        'x-default': `https://codentra.pl/pl/${SLUG}`,
+        'x-default': `https://codentra.pl/${SLUG}`,
       },
     },
     openGraph: {

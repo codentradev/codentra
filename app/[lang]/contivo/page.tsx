@@ -49,6 +49,7 @@ export async function generateMetadata({
       languages: {
         pl: 'https://codentra.pl/pl/contivo',
         en: 'https://codentra.pl/en/contivo',
+        'x-default': 'https://codentra.pl/contivo',
       },
     },
     openGraph: {
@@ -148,7 +149,7 @@ export default async function ContivoPage({
               <div className="flex flex-col gap-6">
                 <Image
                   src="/contivo-logo.png"
-                  alt="Contivo — system księgowy AI-Native"
+                  alt={p.logoAlt}
                   width={248}
                   height={52}
                   priority

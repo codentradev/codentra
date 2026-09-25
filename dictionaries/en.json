@@ -108,7 +108,26 @@
       "tests": "Tests",
       "deploy": "Deploy",
       "live": "Live",
-      "passed": "passed"
+      "passed": "passed",
+      "demo": {
+        "revenue": "PLN 284,120",
+        "revenueDelta": "+12.4%",
+        "rowAmounts": [
+          "12,480.00",
+          "3,090.50",
+          "8,745.20"
+        ],
+        "inboxFile": "invoice_nordkalk_07.pdf",
+        "items": "14 line items",
+        "net": "net",
+        "netAmount": "10,146.34",
+        "vatAmount": "2,333.66",
+        "accountA": "4-01 Depreciation",
+        "accountB": "4-02 Materials used",
+        "postedIn": "1.8s",
+        "uptime": "99.98%",
+        "errorRate": "0.02%"
+      }
     }
   },
   "products": {
@@ -427,7 +446,8 @@
     "relatedAiLabel": "AI accounting — how it works",
     "relatedAiDesc": "What an accounting program with artificial intelligence is and what it really changes in a firm.",
     "relatedAltLabel": "An alternative to Optima, Enova and Symfonia",
-    "relatedAltDesc": "Looking for a modern system to replace a traditional one? See what migrating to Contivo looks like."
+    "relatedAltDesc": "Looking for a modern system to replace a traditional one? See what migrating to Contivo looks like.",
+    "logoAlt": "Contivo — the AI-native accounting system"
   },
   "contivoAi": {
     "metaTitle": "AI accounting — an accounting program with artificial intelligence | Contivo",

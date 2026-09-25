@@ -55,7 +55,9 @@ export async function generateMetadata({
       languages: {
         pl: 'https://codentra.pl/pl',
         en: 'https://codentra.pl/en',
-        'x-default': 'https://codentra.pl/pl',
+        // x-default wskazuje adres bez prefiksu — ten sam, który middleware
+        // rozdziela po kraju gościa.
+        'x-default': 'https://codentra.pl/',
       },
     },
     openGraph: {
