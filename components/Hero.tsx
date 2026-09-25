@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Sparkles, Code2 } from 'lucide-react';
 import { ParticleField } from './ui/ParticleField';
 import type { Dictionary } from '@/lib/get-dictionary';
+import type { Locale } from '@/lib/i18n-config';
 
 const CODE_LINES = [
   { p: '$ ',           t: 'codentra ', c: 'text-brand-blue' },
@@ -15,7 +16,7 @@ const CODE_LINES = [
   { p: '✓ ',           t: 'ready in 4.2s', c: 'text-brand-green' },
 ];
 
-export function Hero({ dict }: { dict: Dictionary['hero'] }) {
+export function Hero({ lang, dict }: { lang: Locale; dict: Dictionary['hero'] }) {
   return (
     <section className="relative overflow-hidden pb-24 pt-44 md:pb-32 md:pt-52">
       <div className="absolute inset-0 grid-bg" aria-hidden />
@@ -60,7 +61,7 @@ export function Hero({ dict }: { dict: Dictionary['hero'] }) {
           >
             {dict.descriptionPre}
             <a
-              href="#produkty"
+              href={`/${lang}/contivo`}
               className="text-fg underline decoration-brand-teal/60 decoration-2 underline-offset-4 hover:decoration-brand-teal"
             >
               {dict.descriptionLink}

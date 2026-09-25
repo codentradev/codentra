@@ -25,6 +25,7 @@ export function Footer({ lang, dict }: { lang: Locale; dict: Dictionary['footer'
           links={[
             { label: dict.links.contivo,     href: `/${lang}/contivo` },
             { label: dict.links.contivoAi,   href: `/${lang}/contivo/ksiegowosc-ai` },
+            { label: dict.links.contivoSite, href: 'https://contivo.pl' },
             { label: dict.links.nextProject, href: `/${lang}#produkty` },
           ]}
         />

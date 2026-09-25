@@ -258,7 +258,8 @@
       "operatorCity": "Świdnica, Poland",
       "contivoAi": "AI accounting",
       "customSoftware": "Custom software",
-      "aiIntegration": "AI implementation"
+      "aiIntegration": "AI implementation",
+      "contivoSite": "contivo.pl — AI accounting software"
     },
     "copyright": "All rights reserved.",
     "tagline": "Built with care in Świdnica",
@@ -663,6 +664,10 @@
         "a": "Codentra is an AI software house based in Świdnica, Poland. We design and build custom software — web applications, SaaS platforms and internal tools — and implement AI-based solutions in businesses. We are the makers of Contivo, an AI accounting system for accounting firms."
       },
       {
+        "q": "What is Contivo?",
+        "a": "Contivo is Codentra's own product — the first AI-native Polish accounting system for accounting firms, available at contivo.pl. AI reads and posts documents, and the system handles KSeF, JPK, ZUS DRA, HR and payroll and fixed assets in one cloud platform."
+      },
+      {
         "q": "Do you only work with companies in Poland?",
         "a": "Our headquarters is in Świdnica, Poland, and we work with companies across the country. Most of our collaboration happens remotely, so location is rarely a constraint."
       },
@@ -763,7 +768,11 @@
       {
         "eyebrow": "Experience",
         "title": "Proven on our own product",
-        "body": "We apply this approach every day to Contivo — an AI-native Polish accounting system for accounting firms that handles KSeF, JPK, ZUS, HR and payroll. It is a production system in a demanding, regulated domain, not a portfolio prototype."
+        "body": "We apply this approach every day to Contivo — an AI-native Polish accounting system for accounting firms that handles KSeF, JPK, ZUS, HR and payroll. It is a production system in a demanding, regulated domain, not a portfolio prototype.",
+        "link": {
+          "label": "See Contivo — AI accounting system",
+          "href": "/contivo"
+        }
       }
     ],
     "faqTitle": "Questions about custom software",
@@ -857,7 +866,11 @@
       {
         "eyebrow": "Example",
         "title": "Contivo — AI in accounting",
-        "body": "The best example of our approach is Contivo: an accounting system where AI reads and posts documents, an assistant answers questions about regulations and the system tracks deadlines. AI built into the core of the product, used daily by accounting firms."
+        "body": "The best example of our approach is Contivo: an accounting system where AI reads and posts documents, an assistant answers questions about regulations and the system tracks deadlines. AI built into the core of the product, used daily by accounting firms.",
+        "link": {
+          "label": "How AI accounting works in Contivo",
+          "href": "/contivo/ksiegowosc-ai"
+        }
       }
     ],
     "faqTitle": "Questions about AI implementation",

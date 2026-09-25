@@ -258,7 +258,8 @@
       "operatorCity": "Świdnica, Polska",
       "contivoAi": "Księgowość AI",
       "customSoftware": "Oprogramowanie dedykowane",
-      "aiIntegration": "Wdrożenia AI"
+      "aiIntegration": "Wdrożenia AI",
+      "contivoSite": "contivo.pl — program księgowy AI"
     },
     "copyright": "Wszystkie prawa zastrzeżone.",
     "tagline": "Built with care in Świdnica",
@@ -663,6 +664,10 @@
         "a": "Codentra to software house AI ze Świdnicy. Projektujemy i tworzymy oprogramowanie dedykowane — aplikacje webowe, systemy SaaS i narzędzia wewnętrzne — oraz wdrażamy rozwiązania oparte o sztuczną inteligencję w firmach. Jesteśmy twórcami Contivo, systemu księgowego AI dla biur rachunkowych."
       },
       {
+        "q": "Czym jest Contivo?",
+        "a": "Contivo to autorski produkt Codentra — pierwszy polski system księgowy AI-Native dla biur rachunkowych, dostępny na contivo.pl. Sztuczna inteligencja odczytuje i księguje dokumenty, a system obsługuje KSeF, JPK, ZUS DRA, kadry i płace oraz środki trwałe w jednej chmurowej platformie."
+      },
+      {
         "q": "Czy pracujecie tylko z firmami ze Świdnicy i Dolnego Śląska?",
         "a": "Nie. Siedziba Codentra jest w Świdnicy, ale współpracujemy z firmami z całej Polski. Większość pracy prowadzimy zdalnie, a spotkania warsztatowe organizujemy w zależności od potrzeb projektu."
       },
@@ -763,7 +768,11 @@
       {
         "eyebrow": "Doświadczenie",
         "title": "Sprawdzone na własnym produkcie",
-        "body": "Nasze podejście stosujemy na co dzień przy Contivo — polskim systemie księgowym AI-Native dla biur rachunkowych, który obsługuje KSeF, JPK, ZUS oraz kadry i płace. To produkcyjny system z wymagającą domeną i regulacjami, a nie prototyp do portfolio."
+        "body": "Nasze podejście stosujemy na co dzień przy Contivo — polskim systemie księgowym AI-Native dla biur rachunkowych, który obsługuje KSeF, JPK, ZUS oraz kadry i płace. To produkcyjny system z wymagającą domeną i regulacjami, a nie prototyp do portfolio.",
+        "link": {
+          "label": "Zobacz Contivo — system księgowy AI",
+          "href": "/contivo"
+        }
       }
     ],
     "faqTitle": "Pytania o oprogramowanie dedykowane",
@@ -857,7 +866,11 @@
       {
         "eyebrow": "Przykład",
         "title": "Contivo — AI wdrożone w księgowości",
-        "body": "Najlepszym przykładem naszego podejścia jest Contivo: system księgowy, w którym AI odczytuje i księguje dokumenty, asystent odpowiada na pytania o przepisy, a system pilnuje terminów. To sztuczna inteligencja wbudowana w rdzeń produktu, używana codziennie przez biura rachunkowe."
+        "body": "Najlepszym przykładem naszego podejścia jest Contivo: system księgowy, w którym AI odczytuje i księguje dokumenty, asystent odpowiada na pytania o przepisy, a system pilnuje terminów. To sztuczna inteligencja wbudowana w rdzeń produktu, używana codziennie przez biura rachunkowe.",
+        "link": {
+          "label": "Jak działa księgowość AI w Contivo",
+          "href": "/contivo/ksiegowosc-ai"
+        }
       }
     ],
     "faqTitle": "Pytania o wdrożenia AI",

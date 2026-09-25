@@ -47,7 +47,7 @@ export default async function Home({
         },
         areaServed: { '@type': 'Country', name: 'Polska' },
         knowsAbout: dict.homeSeo.knowsAbout,
-        sameAs: ['https://contivo.pl'],
+        brand: { '@type': 'Brand', name: 'Contivo', url: 'https://contivo.pl' },
         makesOffer: dict.homeSeo.services.map((s) => ({
           '@type': 'Offer',
           itemOffered: {
@@ -57,6 +57,19 @@ export default async function Home({
             url: `${pageUrl}${s.href}`,
           },
         })),
+      },
+      {
+        // Contivo — produkt Codentra (osobna domena contivo.pl).
+        '@type': 'SoftwareApplication',
+        '@id': 'https://contivo.pl/#software',
+        name: 'Contivo',
+        applicationCategory: 'BusinessApplication',
+        applicationSubCategory: 'AccountingSoftware',
+        operatingSystem: 'Web',
+        url: 'https://contivo.pl',
+        description: dict.products.contivoDescription,
+        publisher: { '@id': 'https://codentra.pl/#organization' },
+        subjectOf: { '@type': 'WebPage', url: `${pageUrl}/contivo` },
       },
       {
         '@type': 'WebSite',
@@ -86,7 +99,7 @@ export default async function Home({
       />
       <Navigation lang={lang} dict={dict.nav} />
       <main className="relative">
-        <Hero dict={dict.hero} />
+        <Hero lang={lang} dict={dict.hero} />
         <About dict={dict.about} />
         <ScrollShowcase dict={dict.showcase} />
         <Products lang={lang} dict={dict.products} />

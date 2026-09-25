@@ -87,6 +87,7 @@ export default async function ContivoPage({
     '@graph': [
       {
         '@type': 'SoftwareApplication',
+        '@id': 'https://contivo.pl/#software',
         name: 'Contivo',
         applicationCategory: 'BusinessApplication',
         applicationSubCategory: 'AccountingSoftware',
@@ -98,6 +99,7 @@ export default async function ContivoPage({
         offers: { '@type': 'Offer', category: 'SaaS' },
         publisher: {
           '@type': 'Organization',
+          '@id': 'https://codentra.pl/#organization',
           name: 'Codentra Sp. z o.o.',
           url: 'https://codentra.pl',
           address: {
