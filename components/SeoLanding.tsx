@@ -6,7 +6,7 @@ import { ParticleField } from '@/components/ui/ParticleField';
 import { getDictionary } from '@/lib/get-dictionary';
 import type { Locale } from '@/lib/i18n-config';
 
-/** Wspólny kształt treści strony lądującej (contivoAi / contivoAlt). */
+/** Wspólny kształt treści strony lądującej (contivoAi / contivoAlt / usługi Codentra). */
 export interface LandingContent {
   metaTitle: string;
   metaDescription: string;
@@ -35,18 +35,56 @@ export interface LandingContent {
   ctaBannerButton: string;
 }
 
+/** Link wewnętrzny (ścieżka bez prefiksu języka) albo zewnętrzny (http…). */
+type Href = string;
+
+function Cta({
+  lang,
+  href,
+  className,
+  children,
+}: {
+  lang: Locale;
+  href: Href;
+  className: string;
+  children: React.ReactNode;
+}) {
+  if (href.startsWith('http')) {
+    return (
+      <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
+        {children}
+      </a>
+    );
+  }
+  return (
+    <Link href={`/${lang}${href}`} className={className}>
+      {children}
+    </Link>
+  );
+}
+
 export async function SeoLanding({
   lang,
   content,
   slug,
+  parent = { name: 'Contivo', path: '/contivo' },
+  primaryHref = '/contivo',
+  secondaryHref = 'https://contivo.pl',
+  bannerHref = 'https://contivo.pl',
 }: {
   lang: Locale;
   content: LandingContent;
   slug: string;
+  /** Strona nadrzędna (link „wróć" + breadcrumb). `null` = bezpośrednio pod stroną główną. */
+  parent?: { name: string; path: string } | null;
+  primaryHref?: Href;
+  secondaryHref?: Href;
+  bannerHref?: Href;
 }) {
   const dict = await getDictionary(lang);
   const c = content;
-  const pageUrl = `https://codentra.pl/${lang}/contivo/${slug}`;
+  const basePath = parent ? parent.path : '';
+  const pageUrl = `https://codentra.pl/${lang}${basePath}/${slug}`;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -62,10 +100,10 @@ export async function SeoLanding({
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Codentra', item: `https://codentra.pl/${lang}` },
-          { '@type': 'ListItem', position: 2, name: 'Contivo', item: `https://codentra.pl/${lang}/contivo` },
-          { '@type': 'ListItem', position: 3, name: c.ogTitle, item: pageUrl },
-        ],
+          { name: 'Codentra', item: `https://codentra.pl/${lang}` },
+          ...(parent ? [{ name: parent.name, item: `https://codentra.pl/${lang}${parent.path}` }] : []),
+          { name: c.ogTitle, item: pageUrl },
+        ].map((el, i) => ({ '@type': 'ListItem', position: i + 1, ...el })),
       },
       {
         '@type': 'FAQPage',
@@ -98,7 +136,7 @@ export async function SeoLanding({
 
           <div className="container-x relative max-w-4xl">
             <Link
-              href={`/${lang}/contivo`}
+              href={`/${lang}${basePath}`}
               className="mb-8 inline-flex items-center gap-2 text-sm text-fg-muted transition-colors hover:text-fg"
             >
               <ArrowLeft size={14} />
@@ -116,18 +154,13 @@ export async function SeoLanding({
             </h1>
             <p className="mt-6 max-w-2xl text-lg text-fg-muted">{c.lead}</p>
             <div className="mt-7 flex flex-wrap items-center gap-3">
-              <Link href={`/${lang}/contivo`} className="btn-primary">
+              <Cta lang={lang} href={primaryHref} className="btn-primary">
                 {c.ctaPrimary}
                 <ArrowUpRight size={16} />
-              </Link>
-              <a
-                href="https://contivo.pl"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-ghost"
-              >
+              </Cta>
+              <Cta lang={lang} href={secondaryHref} className="btn-ghost">
                 {c.ctaSecondary}
-              </a>
+              </Cta>
             </div>
           </div>
         </section>
@@ -218,22 +251,17 @@ export async function SeoLanding({
                   </h2>
                   <p className="mt-3 max-w-xl text-fg-muted">{c.ctaBannerBody}</p>
                 </div>
-                <a
-                  href="https://contivo.pl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary shrink-0"
-                >
+                <Cta lang={lang} href={bannerHref} className="btn-primary shrink-0">
                   {c.ctaBannerButton}
                   <ArrowUpRight size={16} />
-                </a>
+                </Cta>
               </div>
             </div>
           </div>
         </section>
       </main>
 
-      <Footer dict={dict.footer} />
+      <Footer lang={lang} dict={dict.footer} />
     </>
   );
 }

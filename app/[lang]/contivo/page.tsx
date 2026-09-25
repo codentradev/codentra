@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { OG_IMAGE } from '@/lib/seo';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
@@ -56,9 +57,11 @@ export async function generateMetadata({
       url,
       type: 'website',
       siteName: 'Codentra',
+      images: [OG_IMAGE],
     },
     twitter: {
       card: 'summary_large_image',
+      images: [OG_IMAGE.url],
       title: p.ogTitle,
       description: p.ogDescription,
     },
@@ -500,7 +503,7 @@ export default async function ContivoPage({
         </section>
       </main>
 
-      <Footer dict={dict.footer} />
+      <Footer lang={lang} dict={dict.footer} />
     </>
   );
 }

@@ -1,9 +1,10 @@
 {
   "meta": {
-    "title": "Codentra — Software nowej generacji napędzany AI",
-    "description": "Codentra projektuje i wdraża oprogramowanie nowej generacji oparte o AI. Twórcy systemu Contivo dla biur rachunkowych. Świdnica, Polska.",
-    "ogTitle": "Codentra — Software nowej generacji napędzany AI",
-    "ogDescription": "Projektujemy i wdrażamy oprogramowanie nowej generacji oparte o AI. Twórcy systemu Contivo."
+    "title": "Codentra — software house AI | Oprogramowanie dedykowane i wdrożenia AI",
+    "description": "Codentra to software house AI ze Świdnicy. Tworzymy oprogramowanie dedykowane, aplikacje webowe i wdrażamy sztuczną inteligencję w firmach w całej Polsce. Twórcy systemu Contivo.",
+    "ogTitle": "Codentra — software house AI: oprogramowanie dedykowane i wdrożenia AI",
+    "ogDescription": "Projektujemy i wdrażamy oprogramowanie nowej generacji oparte o AI — od aplikacji dedykowanych po wdrożenia sztucznej inteligencji w firmach. Twórcy systemu Contivo.",
+    "keywords": "software house, software house AI, software house Świdnica, oprogramowanie dedykowane, oprogramowanie na zamówienie, tworzenie aplikacji webowych, wdrożenia AI, wdrożenie sztucznej inteligencji w firmie, integracja LLM, automatyzacja procesów AI, Codentra, Contivo"
   },
   "nav": {
     "about": "O nas",
@@ -235,10 +236,14 @@
       "contact": "Kontakt",
       "operatorName": "Codentra Sp. z o.o.",
       "operatorTax": "NIP 9571129766",
-      "operatorCity": "Świdnica, Polska"
+      "operatorCity": "Świdnica, Polska",
+      "contivoAi": "Księgowość AI",
+      "customSoftware": "Oprogramowanie dedykowane",
+      "aiIntegration": "Wdrożenia AI"
     },
     "copyright": "Wszystkie prawa zastrzeżone.",
-    "tagline": "Built with care in Świdnica"
+    "tagline": "Built with care in Świdnica",
+    "colServices": "Usługi"
   },
   "contivoPage": {
     "metaTitle": "Contivo — pierwszy polski system księgowy AI-Native | Nowoczesna alternatywa dla Optima, Enova, Symfonia",
@@ -606,5 +611,257 @@
     "ctaBannerTitle": "Gotowy na zmianę\nsystemu?",
     "ctaBannerBody": "Zobacz, jak Contivo zastępuje klasyczne systemy księgowe. Pełny opis, cennik i kontakt znajdziesz na stronie produktu.",
     "ctaBannerButton": "Otwórz contivo.pl"
+  },
+  "homeSeo": {
+    "servicesEyebrow": "Usługi",
+    "servicesTitle": "Software house AI — co możemy dla Ciebie zbudować",
+    "servicesDescription": "Tworzymy oprogramowanie dedykowane i wdrażamy sztuczną inteligencję w firmach w całej Polsce. Jeden zespół — od analizy, przez projekt i kod, po utrzymanie na produkcji.",
+    "services": [
+      {
+        "title": "Oprogramowanie dedykowane",
+        "body": "Aplikacje webowe, systemy SaaS, panele i narzędzia wewnętrzne budowane pod procesy Twojej firmy — z AI tam, gdzie daje realną przewagę.",
+        "cta": "Oprogramowanie na zamówienie",
+        "href": "/oprogramowanie-dedykowane"
+      },
+      {
+        "title": "Wdrożenia AI w firmie",
+        "body": "Asystenci AI, automatyczne przetwarzanie dokumentów, RAG na firmowej wiedzy i integracje LLM z Twoimi systemami — bezpiecznie i zgodnie z RODO.",
+        "cta": "Wdrożenia sztucznej inteligencji",
+        "href": "/wdrozenia-ai"
+      },
+      {
+        "title": "Contivo — system księgowy AI",
+        "body": "Nasz własny produkt: polski system księgowy AI-Native dla biur rachunkowych. KSeF, JPK, ZUS, kadry i płace w jednej platformie.",
+        "cta": "Poznaj Contivo",
+        "href": "/contivo"
+      }
+    ],
+    "faqTitle": "Najczęstsze pytania o współpracę z Codentra",
+    "faq": [
+      {
+        "q": "Czym zajmuje się Codentra?",
+        "a": "Codentra to software house AI ze Świdnicy. Projektujemy i tworzymy oprogramowanie dedykowane — aplikacje webowe, systemy SaaS i narzędzia wewnętrzne — oraz wdrażamy rozwiązania oparte o sztuczną inteligencję w firmach. Jesteśmy twórcami Contivo, systemu księgowego AI dla biur rachunkowych."
+      },
+      {
+        "q": "Czy pracujecie tylko z firmami ze Świdnicy i Dolnego Śląska?",
+        "a": "Nie. Siedziba Codentra jest w Świdnicy, ale współpracujemy z firmami z całej Polski. Większość pracy prowadzimy zdalnie, a spotkania warsztatowe organizujemy w zależności od potrzeb projektu."
+      },
+      {
+        "q": "Ile trwa stworzenie oprogramowania na zamówienie?",
+        "a": "Zależy od zakresu. Pracujemy iteracyjnie: po etapie discovery w ciągu 2–3 tygodni dostarczamy działający prototyp rdzenia produktu, a następnie rozwijamy pełną funkcjonalność w krótkich cyklach z regularnymi wdrożeniami."
+      },
+      {
+        "q": "Jak wygląda wdrożenie AI w firmie?",
+        "a": "Zaczynamy od wskazania procesów, w których AI da mierzalny efekt — np. obsługa dokumentów, odpowiedzi na pytania klientów czy wyszukiwanie w firmowej wiedzy. Potem budujemy prototyp, mierzymy jakość odpowiedzi i integrujemy rozwiązanie z Twoimi systemami."
+      },
+      {
+        "q": "Czy dane firmy są bezpieczne przy wdrożeniu AI?",
+        "a": "Tak. Projektujemy rozwiązania zgodne z RODO, z kontrolą nad tym, gdzie przetwarzane są dane. Znamy polskie regulacje — KSeF, JPK, ZUS — bo na co dzień pracujemy z nimi w Contivo."
+      },
+      {
+        "q": "W jakich technologiach tworzycie oprogramowanie?",
+        "a": "Stosujemy nowoczesny stack webowy (m.in. TypeScript, React, Next.js), infrastrukturę chmurową z CI/CD oraz modele językowe (LLM) z technikami takimi jak RAG, function calling i agenty AI."
+      }
+    ],
+    "knowsAbout": [
+      "Oprogramowanie dedykowane",
+      "Aplikacje webowe",
+      "Sztuczna inteligencja",
+      "Wdrożenia AI",
+      "Duże modele językowe (LLM)",
+      "RAG",
+      "Systemy SaaS",
+      "Oprogramowanie księgowe",
+      "KSeF",
+      "JPK"
+    ]
+  },
+  "customSoftware": {
+    "metaTitle": "Oprogramowanie dedykowane i aplikacje na zamówienie | Codentra",
+    "metaDescription": "Oprogramowanie dedykowane dla firm: aplikacje webowe, systemy SaaS i narzędzia wewnętrzne z wbudowanym AI. Software house Codentra ze Świdnicy — działamy w całej Polsce.",
+    "keywords": "oprogramowanie dedykowane, oprogramowanie na zamówienie, aplikacje webowe na zamówienie, tworzenie aplikacji webowych, system dla firmy, software house, software house Świdnica, aplikacje SaaS, Codentra",
+    "ogTitle": "Oprogramowanie dedykowane dla firm",
+    "ogDescription": "Aplikacje webowe, systemy SaaS i narzędzia wewnętrzne budowane pod procesy Twojej firmy — z AI tam, gdzie daje realną przewagę.",
+    "back": "Wróć do Codentra",
+    "badge": "Usługi · Software house",
+    "h1Pre": "Oprogramowanie",
+    "h1Gradient": "dedykowane",
+    "h1Post": " — aplikacje zbudowane pod Twoją firmę",
+    "lead": "Gotowe programy rzadko pasują do tego, jak naprawdę działa firma. Tworzymy oprogramowanie na zamówienie: aplikacje webowe, systemy SaaS i narzędzia wewnętrzne, które odwzorowują Twoje procesy, integrują się z tym, czego już używasz, i od początku mają wbudowaną sztuczną inteligencję tam, gdzie ma to sens.",
+    "ctaPrimary": "Porozmawiajmy o projekcie",
+    "ctaSecondary": "Zobacz wdrożenia AI",
+    "sections": [
+      {
+        "eyebrow": "Co budujemy",
+        "title": "Rodzaje oprogramowania dedykowanego",
+        "points": [
+          {
+            "t": "Aplikacje webowe",
+            "d": "Systemy działające w przeglądarce — dla zespołu, klientów lub partnerów. Bez instalacji, dostępne z każdego miejsca."
+          },
+          {
+            "t": "Systemy SaaS",
+            "d": "Produkty abonamentowe od pomysłu po produkcję: konta, uprawnienia, płatności, panel administracyjny."
+          },
+          {
+            "t": "Narzędzia wewnętrzne",
+            "d": "Panele, CRM-y, obieg dokumentów i automatyzacje, które zastępują arkusze i ręczną pracę."
+          },
+          {
+            "t": "Integracje i API",
+            "d": "Łączymy nowe oprogramowanie z systemami księgowymi, ERP, e-commerce i usługami zewnętrznymi."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Dlaczego dedykowane",
+        "title": "Kiedy warto zamówić oprogramowanie dedykowane",
+        "body": "Oprogramowanie na zamówienie ma sens, gdy gotowe narzędzia wymuszają obejścia, dane są rozproszone między wieloma programami albo proces daje firmie przewagę konkurencyjną, której nie chcesz upodabniać do reszty rynku. Płacisz za rozwiązanie, które należy do Ciebie i rośnie razem z firmą."
+      },
+      {
+        "eyebrow": "Jak pracujemy",
+        "title": "Od pomysłu do działającej aplikacji",
+        "points": [
+          {
+            "t": "1 · Discovery",
+            "d": "Poznajemy biznes, użytkowników i ograniczenia. Definiujemy mierzalny cel — zanim powstanie kod."
+          },
+          {
+            "t": "2 · Prototyp",
+            "d": "W 2–3 tygodnie dostarczamy działający rdzeń produktu, testowany z prawdziwymi użytkownikami."
+          },
+          {
+            "t": "3 · Rozwój",
+            "d": "Iteracyjnie budujemy pełną funkcjonalność: częste wdrożenia, testy i przejrzysty postęp prac."
+          },
+          {
+            "t": "4 · Utrzymanie",
+            "d": "Launch, monitoring i dalszy rozwój. Zostajemy z produktem na długo po premierze."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Doświadczenie",
+        "title": "Sprawdzone na własnym produkcie",
+        "body": "Nasze podejście stosujemy na co dzień przy Contivo — polskim systemie księgowym AI-Native dla biur rachunkowych, który obsługuje KSeF, JPK, ZUS oraz kadry i płace. To produkcyjny system z wymagającą domeną i regulacjami, a nie prototyp do portfolio."
+      }
+    ],
+    "faqTitle": "Pytania o oprogramowanie dedykowane",
+    "faq": [
+      {
+        "q": "Ile kosztuje oprogramowanie dedykowane?",
+        "a": "Koszt zależy od zakresu, liczby integracji i wymagań. Po krótkiej rozmowie i etapie discovery przygotowujemy wycenę z podziałem na etapy, tak aby pierwsza działająca wersja powstała jak najszybciej."
+      },
+      {
+        "q": "Do kogo należy kod aplikacji?",
+        "a": "Oprogramowanie tworzone na zamówienie należy do klienta — zasady przeniesienia praw autorskich ustalamy w umowie przed rozpoczęciem prac."
+      },
+      {
+        "q": "Czy możecie rozwijać istniejącą aplikację?",
+        "a": "Tak. Zaczynamy od przeglądu kodu i architektury, a następnie proponujemy plan rozwoju lub stopniowej modernizacji."
+      },
+      {
+        "q": "Czy współpracujecie z firmami spoza Świdnicy?",
+        "a": "Tak, pracujemy z firmami z całej Polski — większość współpracy prowadzimy zdalnie."
+      }
+    ],
+    "note": "",
+    "ctaBannerTitle": "Masz pomysł na aplikację?\nPorozmawiajmy.",
+    "ctaBannerBody": "Opisz problem, który chcesz rozwiązać — odpowiadamy w ciągu jednego dnia roboczego.",
+    "ctaBannerButton": "Napisz do nas"
+  },
+  "aiIntegration": {
+    "metaTitle": "Wdrożenia AI w firmie — sztuczna inteligencja w praktyce | Codentra",
+    "metaDescription": "Wdrażamy sztuczną inteligencję w firmach: asystenci AI, automatyczne przetwarzanie dokumentów, RAG na firmowej wiedzy i integracje LLM. Bezpiecznie i zgodnie z RODO.",
+    "keywords": "wdrożenia AI, wdrożenie AI w firmie, sztuczna inteligencja w firmie, wdrożenie sztucznej inteligencji, integracja LLM, chatbot AI dla firmy, asystent AI, automatyzacja procesów AI, RAG, software house AI, Codentra",
+    "ogTitle": "Wdrożenia AI w firmie",
+    "ogDescription": "Asystenci AI, automatyzacja dokumentów i integracje LLM z Twoimi systemami — bezpiecznie i zgodnie z RODO.",
+    "back": "Wróć do Codentra",
+    "badge": "Usługi · Sztuczna inteligencja",
+    "h1Pre": "Wdrożenia",
+    "h1Gradient": "AI",
+    "h1Post": " w firmie — sztuczna inteligencja, która realnie pracuje",
+    "lead": "Sztuczna inteligencja przynosi efekt wtedy, gdy jest wpięta w konkretny proces, a nie działa obok w osobnym oknie czatu. Wdrażamy AI w firmach: od automatycznego przetwarzania dokumentów, przez asystentów znających firmową wiedzę, po integracje modeli językowych (LLM) z systemami, których już używasz.",
+    "ctaPrimary": "Porozmawiajmy o wdrożeniu",
+    "ctaSecondary": "Oprogramowanie dedykowane",
+    "sections": [
+      {
+        "eyebrow": "Zastosowania",
+        "title": "Gdzie AI daje firmie największy efekt",
+        "points": [
+          {
+            "t": "Przetwarzanie dokumentów",
+            "d": "AI odczytuje faktury, umowy i formularze, wyciąga dane i przekazuje je dalej do systemów."
+          },
+          {
+            "t": "Asystent na firmowej wiedzy",
+            "d": "Odpowiedzi na podstawie Twoich procedur, dokumentacji i bazy wiedzy (RAG) — z podaniem źródła."
+          },
+          {
+            "t": "Obsługa klienta",
+            "d": "Chatbot AI i automatyczne odpowiedzi, które odciążają zespół i działają całą dobę."
+          },
+          {
+            "t": "Automatyzacja procesów",
+            "d": "Agenty AI wykonujące wieloetapowe zadania: klasyfikacja zgłoszeń, uzupełnianie danych, raporty."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Proces",
+        "title": "Jak wygląda wdrożenie sztucznej inteligencji",
+        "points": [
+          {
+            "t": "1 · Analiza",
+            "d": "Wybieramy procesy, w których AI przyniesie mierzalną oszczędność czasu lub kosztów."
+          },
+          {
+            "t": "2 · Prototyp",
+            "d": "Budujemy działającą wersję na prawdziwych danych i mierzymy jakość odpowiedzi."
+          },
+          {
+            "t": "3 · Integracja",
+            "d": "Łączymy rozwiązanie z Twoimi systemami — ERP, CRM, pocztą, obiegiem dokumentów."
+          },
+          {
+            "t": "4 · Monitoring",
+            "d": "Ewaluacje, kontrola kosztów modeli i ciągłe usprawnianie po uruchomieniu."
+          }
+        ]
+      },
+      {
+        "eyebrow": "Bezpieczeństwo",
+        "title": "AI zgodne z RODO i polskimi przepisami",
+        "body": "Projektujemy wdrożenia AI z kontrolą nad tym, gdzie i jak przetwarzane są dane. Dobieramy modele i architekturę do wymagań firmy, ograniczamy dostęp do danych wrażliwych i zapewniamy możliwość weryfikacji każdej odpowiedzi. Na co dzień pracujemy z polskimi regulacjami — KSeF, JPK, ZUS — w naszym systemie Contivo."
+      },
+      {
+        "eyebrow": "Przykład",
+        "title": "Contivo — AI wdrożone w księgowości",
+        "body": "Najlepszym przykładem naszego podejścia jest Contivo: system księgowy, w którym AI odczytuje i księguje dokumenty, asystent odpowiada na pytania o przepisy, a system pilnuje terminów. To sztuczna inteligencja wbudowana w rdzeń produktu, używana codziennie przez biura rachunkowe."
+      }
+    ],
+    "faqTitle": "Pytania o wdrożenia AI",
+    "faq": [
+      {
+        "q": "Od czego zacząć wdrożenie AI w firmie?",
+        "a": "Od wskazania jednego procesu, który zajmuje zespołowi dużo czasu i jest powtarzalny — np. obsługa dokumentów lub odpowiedzi na typowe pytania. Na nim najszybciej widać efekt i łatwo zmierzyć zwrot z inwestycji."
+      },
+      {
+        "q": "Czy wdrożenie AI jest zgodne z RODO?",
+        "a": "Tak, pod warunkiem właściwego zaprojektowania. Dobieramy dostawców modeli i architekturę tak, aby kontrolować miejsce przetwarzania danych i ograniczać dostęp do informacji wrażliwych."
+      },
+      {
+        "q": "Czy AI zastąpi pracowników?",
+        "a": "Nie o to chodzi. AI przejmuje powtarzalną rutynę, a ludzie zatwierdzają wyniki i zajmują się pracą wymagającą wiedzy i decyzji."
+      },
+      {
+        "q": "Czy możecie zintegrować AI z naszym obecnym systemem?",
+        "a": "Tak. Integrujemy modele językowe z istniejącymi systemami przez API — bez konieczności wymiany całego oprogramowania."
+      }
+    ],
+    "note": "",
+    "ctaBannerTitle": "Sprawdźmy, gdzie AI\npomoże Twojej firmie",
+    "ctaBannerBody": "Opisz proces, który chcesz usprawnić — zaproponujemy konkretne zastosowanie AI.",
+    "ctaBannerButton": "Napisz do nas"
   }
 }

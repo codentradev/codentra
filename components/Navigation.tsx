@@ -22,11 +22,11 @@ export function Navigation({
   const [open, setOpen] = useState(false);
 
   const links = [
-    { href: '#o-nas',    label: dict.about },
-    { href: '#produkty', label: dict.products },
-    { href: '#stack',    label: dict.stack },
-    { href: '#proces',   label: dict.process },
-    { href: '#kontakt',  label: dict.contact },
+    { href: `/${lang}#o-nas`, label: dict.about },
+    { href: `/${lang}#produkty`, label: dict.products },
+    { href: `/${lang}#stack`, label: dict.stack },
+    { href: `/${lang}#proces`, label: dict.process },
+    { href: `/${lang}#kontakt`, label: dict.contact },
   ];
 
   useEffect(() => {
@@ -100,7 +100,7 @@ export function Navigation({
 
         <div className="hidden items-center gap-3 md:flex">
           <LanguageSwitcher lang={lang} />
-          <a href="#kontakt" className="btn-primary !py-2 !px-5 text-sm">
+          <a href={`/${lang}#kontakt`} className="btn-primary !py-2 !px-5 text-sm">
             {dict.cta}
           </a>
         </div>
@@ -132,7 +132,7 @@ export function Navigation({
               </li>
             ))}
             <li className="pt-2">
-              <a onClick={() => setOpen(false)} href="#kontakt" className="btn-primary w-full !py-2">
+              <a onClick={() => setOpen(false)} href={`/${lang}#kontakt`} className="btn-primary w-full !py-2">
                 {dict.cta}
               </a>
             </li>

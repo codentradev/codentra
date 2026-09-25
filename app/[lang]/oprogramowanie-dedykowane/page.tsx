@@ -4,7 +4,7 @@ import { SeoLanding, type LandingContent } from '@/components/SeoLanding';
 import { getDictionary } from '@/lib/get-dictionary';
 import type { Locale } from '@/lib/i18n-config';
 
-const SLUG = 'ksiegowosc-ai';
+const SLUG = 'oprogramowanie-dedykowane';
 
 async function resolveLang(rawLang: string): Promise<Locale> {
   const { i18n } = await import('@/lib/i18n-config');
@@ -20,17 +20,18 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang: rawLang } = await params;
   const lang = await resolveLang(rawLang);
-  const c = (await getDictionary(lang)).contivoAi;
-  const url = `https://codentra.pl/${lang}/contivo/${SLUG}`;
+  const c = (await getDictionary(lang)).customSoftware;
+  const url = `https://codentra.pl/${lang}/${SLUG}`;
   return {
-    title: c.metaTitle,
+    title: { absolute: c.metaTitle },
     description: c.metaDescription,
     keywords: c.keywords,
     alternates: {
       canonical: url,
       languages: {
-        pl: `https://codentra.pl/pl/contivo/${SLUG}`,
-        en: `https://codentra.pl/en/contivo/${SLUG}`,
+        pl: `https://codentra.pl/pl/${SLUG}`,
+        en: `https://codentra.pl/en/${SLUG}`,
+        'x-default': `https://codentra.pl/pl/${SLUG}`,
       },
     },
     openGraph: {
@@ -52,6 +53,16 @@ export default async function Page({
 }) {
   const { lang: rawLang } = await params;
   const lang = await resolveLang(rawLang);
-  const content = (await getDictionary(lang)).contivoAi as LandingContent;
-  return <SeoLanding lang={lang} content={content} slug={SLUG} />;
+  const content = (await getDictionary(lang)).customSoftware as LandingContent;
+  return (
+    <SeoLanding
+      lang={lang}
+      content={content}
+      slug={SLUG}
+      parent={null}
+      primaryHref="#kontakt"
+      secondaryHref="/wdrozenia-ai"
+      bannerHref="#kontakt"
+    />
+  );
 }
