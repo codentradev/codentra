@@ -26,6 +26,8 @@ export interface LandingContent {
     title: string;
     body?: string;
     points?: Array<{ t: string; d: string }>;
+    /** Link pod treścią sekcji (ścieżka bez prefiksu języka albo adres http…). */
+    link?: { label: string; href: string };
   }>;
   faqTitle: string;
   faq: Array<{ q: string; a: string }>;
@@ -179,6 +181,16 @@ export async function SeoLanding({
                 <p className="mt-4 max-w-3xl text-pretty leading-relaxed text-fg-muted">
                   {s.body}
                 </p>
+              )}
+              {s.link && (
+                <Cta
+                  lang={lang}
+                  href={s.link.href}
+                  className="mt-5 inline-flex items-center gap-1.5 text-sm text-fg underline decoration-brand-teal/60 decoration-2 underline-offset-4 hover:decoration-brand-teal"
+                >
+                  {s.link.label}
+                  <ArrowUpRight size={14} />
+                </Cta>
               )}
               {s.points && (
                 <div className="mt-8 grid gap-4 sm:grid-cols-2">
