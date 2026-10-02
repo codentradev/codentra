@@ -11,6 +11,10 @@ const PATHS: Array<{ path: string; priority: number; changeFrequency: MetadataRo
   { path: '/contivo', priority: 0.9, changeFrequency: 'weekly' },
   { path: '/contivo/ksiegowosc-ai', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/contivo/alternatywa-dla-optima-enova-symfonia', priority: 0.8, changeFrequency: 'monthly' },
+  { path: '/mimi', priority: 0.9, changeFrequency: 'weekly' },
+  { path: '/mimi/prywatnosc', priority: 0.4, changeFrequency: 'yearly' },
+  { path: '/mimi/warunki', priority: 0.4, changeFrequency: 'yearly' },
+  { path: '/mimi/pomoc', priority: 0.6, changeFrequency: 'monthly' },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

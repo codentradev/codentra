@@ -11,3 +11,6 @@ next-env.d.ts
 
 # build artefakty
 tsconfig.tsbuildinfo
+
+# lokalna konfiguracja Claude Code
+.claude

@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowUpRight, Sparkles, Lock } from 'lucide-react';
+import { ArrowUpRight, Sparkles } from 'lucide-react';
 import { AnimatedHeading } from './ui/AnimatedHeading';
 import { GlowCard } from './ui/GlowCard';
 import type { Dictionary } from '@/lib/get-dictionary';
@@ -84,26 +84,50 @@ export function Products({
 
           <GlowCard>
             <div className="flex h-full flex-col gap-4 p-8">
-              <div className="flex items-center justify-between">
-                <span className="badge">
-                  <Sparkles size={12} className="text-brand-yellow" />
-                  {dict.comingSoonBadge}
+              <div className="flex items-center gap-3">
+                <Image
+                  src="/mimi-icon.png"
+                  alt="Mimi"
+                  width={44}
+                  height={44}
+                  className="h-10 w-10 rounded-xl ring-1 ring-white/10"
+                />
+                <span className="badge !text-brand-teal">
+                  <Sparkles size={12} />
+                  {dict.mimiStatus}
                 </span>
-                <Lock size={14} className="text-fg-subtle" />
               </div>
+
               <h3 className="font-display text-xl font-semibold leading-tight">
-                {dict.comingSoonTitle}
+                {dict.mimiTitlePre}{' '}
+                <span className="text-gradient">{dict.mimiTitleGradient}</span>
               </h3>
-              <p className="text-sm text-fg-muted">{dict.comingSoonBody}</p>
+              <p className="text-sm text-fg-muted">{dict.mimiDescription}</p>
+
+              <ul className="flex flex-col gap-2">
+                {dict.mimiFeatures.map((f, i) => (
+                  <motion.li
+                    key={f}
+                    initial={{ opacity: 0, x: -8 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.3, delay: i * 0.05 }}
+                    className="flex items-center gap-2.5 font-mono text-xs text-fg-muted"
+                  >
+                    <span className="text-brand-teal">▸</span>
+                    {f}
+                  </motion.li>
+                ))}
+              </ul>
+
               <div className="mt-auto pt-4">
-                <div className="rounded-xl border border-dashed border-white/10 bg-white/[0.02] p-4 text-center">
-                  <div className="font-mono text-xs text-fg-subtle">
-                    {dict.classifiedLabel}
-                  </div>
-                  <div className="mt-1 text-xs text-fg-muted">
-                    {dict.classifiedNote}
-                  </div>
-                </div>
+                <Link
+                  href={`/${lang}/mimi`}
+                  className="btn-ghost !py-2 !px-5 text-sm"
+                >
+                  {dict.mimiLearnMore}
+                  <ArrowUpRight size={14} />
+                </Link>
               </div>
             </div>
           </GlowCard>

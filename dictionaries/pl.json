@@ -150,11 +150,17 @@
     ],
     "openContivo": "Otwórz contivo.pl",
     "learnMore": "Dowiedz się więcej",
-    "comingSoonBadge": "w produkcji",
-    "comingSoonTitle": "Kolejny rozdział",
-    "comingSoonBody": "Pracujemy nad nowym produktem, który ponownie zmieni reguły gry — tym razem w innej branży. Premiera wkrótce.",
-    "classifiedLabel": "[ classified ]",
-    "classifiedNote": "Stay tuned · Q3 2026"
+    "mimiStatus": "iOS · wkrótce",
+    "mimiTitlePre": "Asystent głosowy",
+    "mimiTitleGradient": "po polsku",
+    "mimiDescription": "Mimi rozumie zwykłe zdania i wykonuje polecenia w iPhonie — zapisuje spotkania, dzwoni, prowadzi trasę i czyta notatki. Także w samochodzie, bez dotykania telefonu.",
+    "mimiFeatures": [
+      "Kalendarz, przypomnienia, kontakty",
+      "Nawigacja i miejsca w pobliżu",
+      "Notatki, zdjęcia, dokumenty",
+      "CarPlay bez dotykania telefonu"
+    ],
+    "mimiLearnMore": "Poznaj Mimi"
   },
   "tech": {
     "eyebrow": "Stack i kompetencje",
@@ -248,7 +254,6 @@
     "colOperator": "Operator",
     "links": {
       "contivo": "Contivo",
-      "nextProject": "Kolejny projekt",
       "about": "O nas",
       "stack": "Stack",
       "process": "Proces",
@@ -259,7 +264,10 @@
       "contivoAi": "Księgowość AI",
       "customSoftware": "Oprogramowanie dedykowane",
       "aiIntegration": "Wdrożenia AI",
-      "contivoSite": "contivo.pl — program księgowy AI"
+      "contivoSite": "contivo.pl — program księgowy AI",
+      "mimi": "Mimi — asystent głosowy",
+      "mimiPrivacy": "Mimi — prywatność",
+      "mimiSupport": "Mimi — pomoc"
     },
     "copyright": "Wszystkie prawa zastrzeżone.",
     "tagline": "Built with care in Świdnica",
@@ -632,6 +640,473 @@
     "ctaBannerTitle": "Gotowy na zmianę\nsystemu?",
     "ctaBannerBody": "Zobacz, jak Contivo zastępuje klasyczne systemy księgowe. Pełny opis, cennik i kontakt znajdziesz na stronie produktu.",
     "ctaBannerButton": "Otwórz contivo.pl"
+  },
+  "mimiPage": {
+    "metaTitle": "Mimi — asystent głosowy po polsku na iPhone'a i CarPlay",
+    "metaDescription": "Mimi to asystent głosowy mówiący po polsku. Zapisuje spotkania i przypomnienia, dzwoni, prowadzi nawigację, czyta notatki i działa w CarPlay bez dotykania telefonu. Aplikacja na iPhone'a od Codentra.",
+    "keywords": "asystent głosowy po polsku, polski asystent głosowy iPhone, aplikacja głosowa iOS, CarPlay asystent głosowy, sterowanie głosem iPhone po polsku, Mimi, Codentra",
+    "ogTitle": "Mimi — asystent głosowy, który mówi po polsku",
+    "ogDescription": "Powiedz, co ma się stać. Mimi zapisze spotkanie, ustawi przypomnienie, zadzwoni i poprowadzi trasę — także w samochodzie, bez dotykania telefonu.",
+    "back": "Wróć na stronę główną",
+    "logoAlt": "Mimi — asystent głosowy",
+    "badge": "iPhone · CarPlay",
+    "titlePre": "Asystent głosowy,",
+    "titleGradient": "który mówi po polsku",
+    "titlePost": " — i rozumie.",
+    "lead": "Mówisz zwykłym zdaniem, Mimi wykonuje polecenie w Twoim telefonie. Bez sztywnych komend, bez uczenia się formułek. Po polsku, z polską odmianą i polskimi datami.",
+    "appStoreTitle": "Wkrótce w App Store",
+    "appStoreNote": "Aplikacja czeka na publikację. Gdy tylko pojawi się w App Store, przycisk zacznie działać.",
+    "appStoreButton": "Pobierz w App Store",
+    "ctaDocs": "Dokumenty i pomoc",
+    "highlightsTitle": "W skrócie",
+    "highlights": [
+      "Ponad trzydzieści rodzajów poleceń — kalendarz, kontakty, nawigacja, notatki, muzyka, zdrowie",
+      "Działa w CarPlay: powiedz „hey Mimi” i mów, nie odrywając rąk od kierownicy",
+      "Dane zdrowotne nigdy nie opuszczają urządzenia",
+      "Bez konta, bez rejestracji, bez naszego serwera",
+      "Jednorazowy zakup, bez abonamentu za podstawowe funkcje"
+    ],
+    "featuresEyebrow": "Co potrafi",
+    "featuresTitlePre": "Powiedz, co ma się stać.",
+    "featuresTitleGradient": "Resztą zajmie się Mimi",
+    "featuresIntro": "Mimi nie szuka w internecie zamiast Ciebie — ona działa w Twoim telefonie. Poniżej to, co robi najczęściej.",
+    "features": [
+      {
+        "t": "Kalendarz i przypomnienia",
+        "d": "Zapisuje spotkania, przesuwa je, odwołuje i czyta plan dnia. Rozumie „w przyszły wtorek”, „za dwie godziny” i „jutro rano”.",
+        "ex": "„Zapisz spotkanie z Anną na wtorek o 10”"
+      },
+      {
+        "t": "Telefon i wiadomości",
+        "d": "Dzwoni do osoby z kontaktów, pisze SMS-a, iMessage, WhatsAppa albo Telegrama. Numer znajduje sama.",
+        "ex": "„Napisz do taty, że będę pół godziny później”"
+      },
+      {
+        "t": "Nawigacja i miejsca",
+        "d": "Wyznacza trasę w Mapach, szuka apteki albo stacji w pobliżu i mówi, gdzie właśnie jesteś.",
+        "ex": "„Prowadź do Krakowa” · „Gdzie tu jest apteka?”"
+      },
+      {
+        "t": "Notatki",
+        "d": "Zapisuje, czyta, dopisuje i wyszukuje notatki we własnej bazie Mimi — bez wychodzenia z rozmowy.",
+        "ex": "„Zapisz notatkę: pomysły na urodziny”"
+      },
+      {
+        "t": "Timery i budziki",
+        "d": "Minutnik na jajka, budzik na rano, przypomnienie o lekach. Z własnym dźwiękiem alarmu.",
+        "ex": "„Ustaw minutnik na osiem minut”"
+      },
+      {
+        "t": "Kontakty",
+        "d": "Znajduje numer albo adres, dodaje nową osobę i poprawia dane istniejącej.",
+        "ex": "„Jaki numer ma pani Krysia?”"
+      },
+      {
+        "t": "Muzyka",
+        "d": "Steruje odtwarzaniem w Apple Music i Spotify — włącz, pauza, następny utwór, wyszukaj wykonawcę.",
+        "ex": "„Włącz coś spokojnego na Spotify”"
+      },
+      {
+        "t": "Zdrowie i aktywność",
+        "d": "Odczytuje kroki, puls i spalone kalorie z aplikacji Zdrowie, rozpoczyna i kończy trening.",
+        "ex": "„Ile zrobiłem dziś kroków?”"
+      },
+      {
+        "t": "Zdjęcia i dokumenty",
+        "d": "Robi zdjęcie, wyszukuje w galerii, tworzy pliki tekstowe i PDF-y w folderze dokumentów Mimi.",
+        "ex": "„Zrób zdjęcie” · „Zrób PDF z listą zakupów”"
+      },
+      {
+        "t": "Aplikacje i skróty",
+        "d": "Otwiera aplikacje na telefonie i uruchamia Twoje własne skróty z aplikacji Skróty — także te, które same zmieniają ustawienia.",
+        "ex": "„Otwórz YouTube” · „Uruchom skrót Dom”"
+      }
+    ],
+    "startEyebrow": "Pierwsze kroki",
+    "startTitlePre": "Jak",
+    "startTitleGradient": "zacząć",
+    "startIntro": "Cała konfiguracja to jeden klucz do wklejenia. Zajmuje kilka minut i robi się ją raz.",
+    "startSteps": [
+      {
+        "t": "Przejdź ekran powitalny",
+        "d": "Po pierwszym uruchomieniu Mimi tłumaczy, co robi z danymi, i prosi o zgodę na przetwarzanie poleceń. Bez tej zgody nie wyśle nigdzie niczego."
+      },
+      {
+        "t": "Wklej klucz API Anthropic",
+        "d": "Załóż konto na console.anthropic.com, wejdź w API Keys, utwórz klucz i wklej go do Mimi. Przycisk „Sprawdź klucz” od razu powie, czy działa."
+      },
+      {
+        "t": "Naciśnij mikrofon i mów",
+        "d": "Zwykłym zdaniem, bez formułek. Mimi odpowie głosem i wykona polecenie. Uprawnienia — kalendarz, kontakty, lokalizację — poprosi dopiero wtedy, gdy pierwsze polecenie ich potrzebuje."
+      },
+      {
+        "t": "Dostrój pod siebie",
+        "d": "W Ustawieniach włączysz nasłuch hasła „Mimi”, wybierzesz model Claude, przełączysz rozpoznawanie mowy w tryb offline i podłączysz Telegrama."
+      }
+    ],
+    "startNote": "Nie musisz niczego konfigurować od razu. Mimi powie, czego jej brakuje, gdy spróbujesz użyć funkcji, która tego wymaga.",
+    "carEyebrow": "W samochodzie",
+    "carTitlePre": "CarPlay —",
+    "carTitleGradient": "bez dotykania telefonu",
+    "carBody": "Po podłączeniu samochodu Mimi sama zaczyna nasłuchiwać. Mówisz „hey Mimi”, wydajesz polecenie, a odpowiedź słyszysz przez głośniki auta. Na ekranie nie pojawia się tekst do czytania — tam ma być droga, nie zdania.",
+    "carPoints": [
+      "Nasłuch hasła działa w całości na urządzeniu, bez wysyłania dźwięku",
+      "Odpowiedzi są czytane na głos, a nie wyświetlane",
+      "Nawigację, połączenia i aplikacje Mimi otwiera na ekranie auta",
+      "Nasłuch w aucie można wyłączyć jednym przełącznikiem"
+    ],
+    "keyEyebrow": "Klucz API",
+    "keyTitlePre": "Dlaczego potrzebujesz",
+    "keyTitleGradient": "własnego klucza",
+    "keyBody": "Mimi rozumie polecenia dzięki modelowi Claude firmy Anthropic. Zamiast doliczać marżę do abonamentu, pozwalamy Ci płacić Anthropic bezpośrednio — za tyle, ile faktycznie zużyjesz.",
+    "keyPoints": [
+      {
+        "t": "Płacisz tylko za swoje użycie",
+        "d": "Typowe polecenie kosztuje ułamek grosza. Przy normalnym korzystaniu to kwota rzędu kilku złotych miesięcznie — i widzisz ją w swojej konsoli Anthropic."
+      },
+      {
+        "t": "Nie pośredniczymy w rozliczeniu",
+        "d": "Klucz jest Twój, konto jest Twoje, faktura idzie od Anthropic do Ciebie. My nie widzimy ani Twoich zapytań, ani Twoich rachunków."
+      },
+      {
+        "t": "Wybierasz model",
+        "d": "Szybszy i tańszy do codziennych poleceń albo mocniejszy do złożonych. Przełączasz go w Ustawieniach, kiedy chcesz."
+      }
+    ],
+    "privacyEyebrow": "Prywatność",
+    "privacyTitlePre": "Twoje dane",
+    "privacyTitleGradient": "zostają u Ciebie",
+    "privacyBody": "Mimi nie ma konta, serwera ani bazy danych po naszej stronie. Nie zbieramy o Tobie niczego — nie dlatego, że obiecujemy, tylko dlatego, że nie ma gdzie.",
+    "privacyPoints": [
+      "Do modelu Claude trafia treść Twojego polecenia — na Twoim własnym kluczu API",
+      "Odczyty z aplikacji Zdrowie nie opuszczają urządzenia w ogóle",
+      "Klucz API i tokeny leżą w Keychain telefonu, nie w zwykłym pliku ustawień",
+      "Nasłuch hasła „Mimi” działa wyłącznie offline",
+      "Brak reklam, brak analityki, brak śledzenia między aplikacjami",
+      "Jeden przycisk w Ustawieniach kasuje wszystkie dane Mimi z urządzenia"
+    ],
+    "docsEyebrow": "Dokumenty",
+    "docsTitle": "Dokumenty i pomoc",
+    "docsIntro": "Pełne wersje dokumentów dotyczących aplikacji Mimi.",
+    "docPrivacy": "Polityka prywatności",
+    "docPrivacyDesc": "Co trafia poza urządzenie, co zostaje, jak usunąć swoje dane.",
+    "docTerms": "Warunki korzystania",
+    "docTermsDesc": "Licencja, zakres odpowiedzialności, usługi zewnętrzne.",
+    "docSupport": "Pomoc i kontakt",
+    "docSupportDesc": "Rozwiązania typowych problemów i adres, pod który można napisać.",
+    "faqEyebrow": "Pytania",
+    "faqTitle": "Często zadawane pytania",
+    "faq": [
+      {
+        "q": "Czym Mimi różni się od Siri?",
+        "a": "Mimi jest pomyślana pod polski: rozumie odmianę, polskie daty i naturalne zdania, a nie listę komend. Nie zastępuje Siri — działa obok niej, jako osobna aplikacja, którą otwierasz albo uruchamiasz głosem w samochodzie."
+      },
+      {
+        "q": "Czy muszę mieć konto Anthropic?",
+        "a": "Tak. Mimi korzysta z modelu Claude na Twoim własnym kluczu API, dzięki czemu płacisz za rzeczywiste użycie zamiast abonamentu z marżą. Założenie konta i wygenerowanie klucza zajmuje kilka minut, a aplikacja prowadzi przez to krok po kroku."
+      },
+      {
+        "q": "Ile kosztuje korzystanie?",
+        "a": "Aplikację kupujesz raz w App Store. Za zrozumienie poleceń płacisz bezpośrednio Anthropic — przy codziennym korzystaniu to zwykle kilka złotych miesięcznie. Nie pobieramy od tego prowizji i nie widzimy Twoich rachunków."
+      },
+      {
+        "q": "Czy Mimi działa bez internetu?",
+        "a": "Nasłuch hasła i rozpoznawanie mowy mogą działać offline, ale zrozumienie polecenia wymaga połączenia z modelem Claude. Bez internetu Mimi powie wprost, że nie może teraz odpowiedzieć."
+      },
+      {
+        "q": "Co dokładnie wysyłacie do Anthropic?",
+        "a": "Treść polecenia i kontekst kilku ostatnich wypowiedzi. Jeśli prosisz o kontakt, trasę albo e-mail, w zapytaniu mogą znaleźć się dane potrzebne do jego wykonania. Odczyty z aplikacji Zdrowie są z tego wyłączone i nie opuszczają urządzenia."
+      },
+      {
+        "q": "Czy Mimi czyta moje wiadomości i e-maile?",
+        "a": "Nie. Mimi pomaga je napisać i wysłać, ale nie przegląda Twojej skrzynki ani historii rozmów. Wyjątkiem jest Telegram: jeśli wykupisz tę integrację i podłączysz własnego bota, Mimi na polecenie odczyta wiadomości wysłane do tego bota."
+      },
+      {
+        "q": "Czym jest integracja z Telegramem?",
+        "a": "To dodatek w subskrypcji miesięcznej. Pozwala wysyłać i odbierać wiadomości przez Twojego własnego bota Telegram, bez otwierania aplikacji — przydaje się głównie w samochodzie. Otwieranie czatów i połączenia Telegram działają bez subskrypcji."
+      },
+      {
+        "q": "Jak usunąć swoje dane?",
+        "a": "W Ustawieniach Mimi, w sekcji „Twoje dane”, jedno polecenie kasuje historię rozmowy, notatki, ustawienia oraz klucz API i tokeny. Robimy to osobnym przyciskiem, bo same wpisy w Keychain przeżywają odinstalowanie aplikacji."
+      }
+    ],
+    "ctaBannerTitle": "Masz pytanie o Mimi?",
+    "ctaBannerBody": "Napisz — odpowiadamy w ciągu jednego dnia roboczego.",
+    "ctaBannerButton": "Napisz do nas"
+  },
+  "mimiPrivacy": {
+    "metaTitle": "Mimi — polityka prywatności",
+    "metaDescription": "Polityka prywatności aplikacji Mimi: co opuszcza urządzenie, co na nim zostaje i jak usunąć swoje dane.",
+    "back": "Wróć do Mimi",
+    "eyebrow": "Dokument",
+    "title": "Polityka prywatności aplikacji Mimi",
+    "updated": "Ostatnia aktualizacja: 2 października 2026",
+    "lead": "Mimi nie ma kont użytkowników, serwerów ani bazy danych po stronie Codentra. Nie zbieramy, nie przechowujemy i nie analizujemy Twoich danych. Wszystko, co Mimi wie, znajduje się na Twoim telefonie. Jedyne dane, które opuszczają urządzenie, to treść polecenia wysyłana do dostawcy modelu językowego — na Twoim własnym kluczu API i na Twój rachunek.",
+    "permissionsTitle": "Uprawnienia systemowe",
+    "permissionsIntro": "Mimi prosi o uprawnienie dopiero wtedy, gdy pierwsze polecenie go wymaga. Każdego możesz odmówić — przestanie wtedy działać tylko ta jedna grupa poleceń.",
+    "permissionsColName": "Uprawnienie",
+    "permissionsColUse": "Do czego służy",
+    "permissions": [
+      {
+        "name": "Mikrofon",
+        "use": "nagranie polecenia głosowego"
+      },
+      {
+        "name": "Rozpoznawanie mowy",
+        "use": "zamiana polecenia na tekst"
+      },
+      {
+        "name": "Kontakty",
+        "use": "znalezienie numeru lub adresu wskazanej osoby"
+      },
+      {
+        "name": "Kalendarz (pełny dostęp)",
+        "use": "odczyt, tworzenie i zmiana wydarzeń"
+      },
+      {
+        "name": "Przypomnienia (pełny dostęp)",
+        "use": "odczyt i tworzenie przypomnień"
+      },
+      {
+        "name": "Lokalizacja (w trakcie używania)",
+        "use": "odpowiedź „gdzie jestem”, trasy, miejsca w pobliżu"
+      },
+      {
+        "name": "Aparat i galeria",
+        "use": "zrobienie zdjęcia, wyszukanie zdjęć"
+      },
+      {
+        "name": "Zdrowie",
+        "use": "odczyt kroków, pulsu i kalorii; zapis treningu"
+      },
+      {
+        "name": "Powiadomienia",
+        "use": "timery, budziki i przypomnienia"
+      },
+      {
+        "name": "Multimedia (Apple Music)",
+        "use": "sterowanie odtwarzaniem i wyszukiwanie utworów"
+      }
+    ],
+    "sections": [
+      {
+        "h": "1. Kto jest administratorem danych",
+        "body": [
+          "Administratorem danych osobowych przetwarzanych w związku z aplikacją Mimi jest Codentra Sp. z o.o. z siedzibą w Świdnicy, NIP 9571129766.",
+          "Kontakt w sprawach prywatności: hello@codentra.pl."
+        ],
+        "list": []
+      },
+      {
+        "h": "2. Dane wysyłane do Anthropic (model Claude)",
+        "body": [
+          "Aby zrozumieć polecenie, Mimi wysyła do interfejsu API firmy Anthropic (api.anthropic.com) treść Twojego polecenia — wpisanego lub zamienionego na tekst z mowy, kontekst kilku ostatnich wypowiedzi w rozmowie oraz bieżącą datę i godzinę, aby poprawnie rozumieć „jutro” czy „za dwie godziny”.",
+          "Jeśli polecenie dotyczy konkretnej osoby lub miejsca, w tym kontekście mogą znaleźć się dane niezbędne do jego wykonania: imię i numer telefonu znalezionego kontaktu, adres e-mail odbiorcy, nazwa miejsca docelowego albo Twoje przybliżone położenie. Zakres jest ograniczony do tego, co potrzebne do realizacji polecenia.",
+          "Zapytania wysyłane są na Twoim własnym kluczu API Anthropic, który sam tworzysz i wprowadzasz w aplikacji. Z Anthropic rozliczasz się bezpośrednio, a Twoje dane podlegają polityce prywatności i warunkom Anthropic. Codentra nie ma dostępu do treści Twoich zapytań ani do Twojego konta Anthropic."
+        ],
+        "list": []
+      },
+      {
+        "h": "3. Rozpoznawanie mowy",
+        "body": [
+          "Zamianę mowy na tekst wykonuje mechanizm rozpoznawania mowy wbudowany w system iOS. Zależnie od ustawień i możliwości urządzenia odbywa się ona na urządzeniu albo na serwerach Apple. Mimi nie przechowuje nagrań dźwiękowych.",
+          "W Ustawieniach Mimi możesz włączyć opcję „Rozpoznawanie mowy tylko na urządzeniu” — wtedy nagranie nie opuszcza telefonu. Nasłuch hasła aktywującego („Mimi”, „hey Mimi”) działa wyłącznie na urządzeniu, zawsze."
+        ],
+        "list": []
+      },
+      {
+        "h": "4. Dane, które nie opuszczają urządzenia",
+        "body": [
+          "Następujące dane są przetwarzane wyłącznie lokalnie i nie są nigdzie wysyłane:"
+        ],
+        "list": [
+          "Dane zdrowotne i aktywności z aplikacji Zdrowie (kroki, puls, spalone kalorie, treningi). Odczyty są prezentowane i czytane na głos tylko na urządzeniu; nie trafiają do modelu językowego ani nigdzie indziej.",
+          "Notatki zapisywane w Mimi — przechowywane w lokalnej bazie aplikacji.",
+          "Zdjęcia — Mimi otwiera aparat lub galerię systemową; obrazy nie są nikomu przesyłane.",
+          "Pliki i dokumenty PDF tworzone przez Mimi — pozostają w katalogu aplikacji na urządzeniu.",
+          "Klucz API, token bota Telegram i dane dostępowe Twilio — przechowywane w Keychain urządzenia, zabezpieczone przez system iOS, bez kopiowania na inne urządzenia."
+        ]
+      },
+      {
+        "h": "5. Dane przekazywane innym usługom na Twoje polecenie",
+        "body": [
+          "Jeśli korzystasz z tych funkcji, Mimi przekazuje dane bezpośrednio do usług, które sam wskazujesz:"
+        ],
+        "list": [
+          "Telegram (funkcja subskrypcyjna) — treść wiadomości i identyfikator czatu trafiają do interfejsu Telegram Bot API, na Twoim własnym tokenie bota.",
+          "Połączenia i SMS-y przez Twilio (funkcja opcjonalna, dla zaawansowanych) — numer docelowy i treść wiadomości trafiają do Twilio, na konto należące do Ciebie. Codentra nie pośredniczy ani w połączeniu, ani w jego rozliczeniu.",
+          "Wiadomości SMS, iMessage i e-maile wysyłane bez tych funkcji przechodzą przez standardowe okna systemowe iOS — Mimi jedynie je wypełnia, a wysyłkę potwierdzasz Ty."
+        ]
+      },
+      {
+        "h": "6. Czego Mimi nie robi",
+        "body": [],
+        "list": [
+          "nie zbiera danych analitycznych i nie zawiera bibliotek firm trzecich służących do analityki lub reklamy",
+          "nie śledzi Cię między aplikacjami ani stronami",
+          "nie wyświetla reklam",
+          "nie sprzedaje i nie udostępnia danych w celach marketingowych",
+          "nie tworzy profilu użytkownika i nie podejmuje zautomatyzowanych decyzji wywołujących skutki prawne"
+        ]
+      },
+      {
+        "h": "7. Podstawa prawna i Twoje prawa (RODO)",
+        "body": [
+          "Przetwarzanie odbywa się w celu wykonania funkcji, o którą prosisz — podstawą jest wykonanie umowy (art. 6 ust. 1 lit. b RODO), a w zakresie przekazania treści polecenia do Anthropic Twoja zgoda (art. 6 ust. 1 lit. a RODO), udzielana przy pierwszym uruchomieniu aplikacji. Zgodę możesz wycofać w każdej chwili, usuwając klucz API w Ustawieniach lub odinstalowując Mimi.",
+          "Przysługuje Ci prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia oraz wniesienia sprzeciwu. Ponieważ Codentra nie przechowuje Twoich danych, realizujesz te prawa samodzielnie na urządzeniu. Służy do tego Ustawienia Mimi → Twoje dane → „Usuń wszystkie dane Mimi”: jedno polecenie kasuje historię rozmowy, wszystkie notatki, ustawienia oraz klucz API i tokeny z Keychain. Samo odinstalowanie aplikacji nie usuwa wpisów z Keychain, dlatego ta opcja istnieje osobno.",
+          "W sprawach dotyczących danych po stronie Anthropic, Telegrama lub Twilio zwróć się odpowiednio do tych podmiotów. Masz też prawo wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych (ul. Stawki 2, 00-193 Warszawa)."
+        ],
+        "list": []
+      },
+      {
+        "h": "8. Przekazywanie danych poza EOG",
+        "body": [
+          "Anthropic, Telegram i Twilio przetwarzają dane na serwerach poza Europejskim Obszarem Gospodarczym, w tym w Stanach Zjednoczonych. Przekazanie następuje na podstawie mechanizmów przewidzianych przez te podmioty w ich własnych warunkach. Jeśli nie chcesz, aby treść Twoich poleceń opuszczała EOG, nie używaj Mimi — bez dostępu do modelu językowego aplikacja nie zrozumie poleceń."
+        ],
+        "list": []
+      },
+      {
+        "h": "9. Okres przechowywania",
+        "body": [
+          "Codentra nie przechowuje danych, więc nie określa dla nich okresu retencji. Dane na urządzeniu pozostają tam do momentu, w którym je usuniesz. Historia rozmowy żyje tylko do zamknięcia aplikacji i możesz ją wyczyścić ikoną kosza. Notatki, ustawienia i klucze kasuje opcja „Usuń wszystkie dane Mimi” w Ustawieniach. Okresy retencji po stronie Anthropic, Telegrama i Twilio określają ich własne polityki."
+        ],
+        "list": []
+      },
+      {
+        "h": "10. Dzieci",
+        "body": [
+          "Mimi nie jest skierowana do dzieci poniżej 13 lat i nie zbiera świadomie ich danych."
+        ],
+        "list": []
+      },
+      {
+        "h": "11. Zmiany polityki",
+        "body": [
+          "O istotnych zmianach poinformujemy w opisie aktualizacji w App Store oraz przez datę aktualizacji na początku tego dokumentu."
+        ],
+        "list": []
+      }
+    ]
+  },
+  "mimiTerms": {
+    "metaTitle": "Mimi — warunki korzystania",
+    "metaDescription": "Warunki korzystania z aplikacji Mimi: licencja, usługi zewnętrzne, zakupy w aplikacji i zakres odpowiedzialności.",
+    "back": "Wróć do Mimi",
+    "eyebrow": "Dokument",
+    "title": "Warunki korzystania z aplikacji Mimi",
+    "updated": "Ostatnia aktualizacja: 2 października 2026",
+    "lead": "Mimi jest udostępniana na warunkach standardowej licencji użytkownika końcowego Apple (Apple Standard EULA). Poniżej opisujemy to, co jest specyficzne dla tej aplikacji i czego standardowa licencja nie reguluje.",
+    "sections": [
+      {
+        "h": "1. Licencja",
+        "body": [
+          "Aplikacja Mimi jest licencjonowana, a nie sprzedawana. Zastosowanie ma standardowa licencja użytkownika końcowego Apple, dostępna pod adresem apple.com/legal/internet-services/itunes/dev/stdeula.",
+          "Wydawcą aplikacji jest Codentra Sp. z o.o. z siedzibą w Świdnicy, NIP 9571129766."
+        ],
+        "list": []
+      },
+      {
+        "h": "2. Do czego potrzebne są usługi zewnętrzne",
+        "body": [
+          "Mimi nie zawiera własnego modelu językowego. Rozumienie poleceń wymaga konta w Anthropic i wygenerowanego przez Ciebie klucza API. Opłaty za korzystanie z modelu rozliczasz bezpośrednio z Anthropic — Codentra nie pośredniczy w tej płatności, nie pobiera od niej prowizji i nie ma wglądu w Twoje rozliczenia.",
+          "Dwie funkcje opcjonalne wymagają kolejnych kont zewnętrznych: integracja z Telegramem potrzebuje Twojego własnego bota, a połączenia przez Twilio Twojego własnego konta Twilio. Obie są wyłączone, dopóki sam ich nie skonfigurujesz.",
+          "Korzystając z tych usług akceptujesz jednocześnie ich własne regulaminy. Codentra nie odpowiada za ich dostępność, zmiany cen ani zmiany warunków."
+        ],
+        "list": []
+      },
+      {
+        "h": "3. Zakupy w aplikacji",
+        "body": [
+          "Aplikację kupujesz jednorazowo w App Store. Integracja z Telegramem jest dodatkiem w subskrypcji odnawialnej automatycznie.",
+          "Subskrypcja odnawia się co okres rozliczeniowy, dopóki jej nie wyłączysz. Opłatę pobiera Apple z Twojego Apple ID. Rezygnacja odbywa się w Ustawieniach iOS → Twoje imię → Subskrypcje, najpóźniej 24 godziny przed końcem bieżącego okresu. Zwroty i reklamacje zakupów obsługuje Apple, zgodnie z zasadami App Store.",
+          "Subskrypcja odblokowuje wyłącznie funkcje aplikacji. Konto bota Telegram zakładasz samodzielnie i jest ono bezpłatne."
+        ],
+        "list": []
+      },
+      {
+        "h": "4. Jak należy korzystać z aplikacji",
+        "body": [
+          "Mimi wykonuje polecenia w Twoim telefonie i w Twoim imieniu. Odpowiadasz za to, do czego jej używasz — w szczególności za treść wysyłanych wiadomości, wykonywane połączenia i zgodność tych działań z prawem."
+        ],
+        "list": [
+          "Nie używaj Mimi do wysyłania wiadomości niezamówionych ani do nękania.",
+          "Nie używaj funkcji połączeń przez Twilio do numerów alarmowych. Numer 112 wybieraj zawsze zwykłym telefonem — tamto połączenie idzie siecią komórkową i nie zależy od internetu, Twilio ani Mimi.",
+          "Nie używaj Mimi do obsługi telefonu w sposób niezgodny z przepisami ruchu drogowego. Funkcje CarPlay mają ograniczać rozpraszanie, a nie je usprawiedliwiać."
+        ]
+      },
+      {
+        "h": "5. Czego aplikacja nie gwarantuje",
+        "body": [
+          "Mimi opiera się na modelu językowym, który bywa omylny — może źle zrozumieć polecenie albo zinterpretować datę inaczej, niż masz na myśli. Aplikacja pokazuje i czyta na głos to, co zamierza zrobić; weryfikacja wyniku należy do Ciebie.",
+          "Nie polegaj na Mimi w sprawach, w których pomyłka jest kosztowna lub nieodwracalna — w szczególności w sprawach medycznych, prawnych i finansowych. Odczyty z aplikacji Zdrowie służą informacji, a nie diagnostyce.",
+          "Aplikacja dostarczana jest w stanie, w jakim jest. W zakresie dopuszczalnym przez prawo Codentra nie odpowiada za szkody wynikłe z korzystania z niej. Nie wyłącza to uprawnień, które przysługują konsumentom z mocy bezwzględnie obowiązujących przepisów."
+        ],
+        "list": []
+      },
+      {
+        "h": "6. Zmiany warunków i prawo właściwe",
+        "body": [
+          "O istotnych zmianach poinformujemy w opisie aktualizacji w App Store oraz przez datę aktualizacji na początku tego dokumentu.",
+          "W sprawach nieuregulowanych zastosowanie ma prawo polskie. Konsumenci zachowują uprawnienia wynikające z przepisów kraju swojego zwykłego pobytu."
+        ],
+        "list": []
+      }
+    ]
+  },
+  "mimiSupport": {
+    "metaTitle": "Mimi — pomoc i kontakt",
+    "metaDescription": "Pomoc do aplikacji Mimi: rozwiązania typowych problemów, konfiguracja klucza API, CarPlay, Telegram i kontakt do wsparcia.",
+    "back": "Wróć do Mimi",
+    "eyebrow": "Wsparcie",
+    "title": "Pomoc i kontakt",
+    "lead": "Najpierw sprawdź rozwiązania poniżej — pokrywają większość zgłoszeń. Jeśli nie pomogą, napisz na hello@codentra.pl. Odpowiadamy w ciągu jednego dnia roboczego.",
+    "contactTitle": "Napisz do nas",
+    "contactBody": "Opisz, co się dzieje, i podaj model telefonu oraz wersję iOS. Jeśli pojawił się komunikat błędu, przepisz go w całości — to zwykle wystarcza, żeby od razu wskazać przyczynę.",
+    "contactEmail": "hello@codentra.pl",
+    "contactOperator": "Codentra Sp. z o.o. · Świdnica, Polska · NIP 9571129766",
+    "topicsTitle": "Typowe problemy",
+    "topics": [
+      {
+        "q": "Mimi nie odpowiada na polecenia",
+        "a": "Najczęściej brakuje klucza API albo klucz przestał działać. Wejdź w Ustawienia Mimi, naciśnij „Sprawdź klucz” — komunikat powie, co jest nie tak. Jeśli klucz został odrzucony, wygeneruj nowy na console.anthropic.com. Sprawdź też, czy na koncie Anthropic są środki."
+      },
+      {
+        "q": "Gdzie wziąć klucz API Anthropic",
+        "a": "Załóż konto na console.anthropic.com, wejdź w API Keys i utwórz nowy klucz. Skopiuj go od razu — pokazywany jest tylko raz. Potem wklej go w Ustawieniach Mimi i naciśnij „Sprawdź klucz”."
+      },
+      {
+        "q": "Mikrofon nie działa albo Mimi nie słyszy",
+        "a": "Sprawdź w Ustawieniach iOS → Mimi, czy przyznano dostęp do mikrofonu i rozpoznawania mowy. Jeśli tak, a problem zostaje, zamknij aplikację i otwórz ją ponownie — zwalnia to sesję dźwiękową zajętą przez inną aplikację."
+      },
+      {
+        "q": "Nasłuch hasła „Mimi” nie włącza się",
+        "a": "Nasłuch hasła działa wyłącznie offline i wymaga pobranego modelu dyktowania dla polskiego. Pobierzesz go w Ustawieniach iOS → Ogólne → Klawiatura → Dyktowanie. Nasłuch działa przy otwartej aplikacji, a w samochodzie także przy zablokowanym telefonie."
+      },
+      {
+        "q": "Mimi źle rozumie daty i godziny",
+        "a": "Mów pełnymi zdaniami i podawaj punkt odniesienia: „w przyszły wtorek o dziesiątej” działa lepiej niż samo „wtorek”. Jeśli polecenie jest złożone, przełącz w Ustawieniach mocniejszy model Claude — radzi sobie wyraźnie lepiej z zawiłymi terminami."
+      },
+      {
+        "q": "Nie działa kalendarz, kontakty albo przypomnienia",
+        "a": "To kwestia uprawnień systemowych. Ustawienia iOS → Mimi pokazują listę przyznanych dostępów. Kalendarz i Przypomnienia wymagają pełnego dostępu, nie tylko zapisu — inaczej Mimi nie odczyta istniejących wpisów."
+      },
+      {
+        "q": "CarPlay nie pokazuje Mimi",
+        "a": "Sprawdź w Ustawieniach iOS → Ogólne → CarPlay, czy Mimi jest na liście aplikacji widocznych na ekranie auta. Po podłączeniu samochodu Mimi sama zaczyna nasłuchiwać hasła — można to wyłączyć w Ustawieniach Mimi, w sekcji Mowa."
+      },
+      {
+        "q": "Jak działa integracja z Telegramem",
+        "a": "Potrzebujesz własnego bota: napisz do @BotFather na Telegramie, utwórz bota i skopiuj token do Ustawień Mimi. Następnie dodaj kontakty jako pary imię → chat_id; swój chat_id poznasz, pisząc do @userinfobot. Odbiorca musi wcześniej napisać /start do Twojego bota. Automatyczna wysyłka i odczyt wymagają aktywnej subskrypcji."
+      },
+      {
+        "q": "Jak przywrócić zakup subskrypcji",
+        "a": "W Ustawieniach Mimi, w sekcji Telegram, naciśnij „Przywróć zakupy”. Zakup jest przypisany do Twojego Apple ID, więc wróci też po zmianie telefonu — pod warunkiem logowania na to samo konto."
+      },
+      {
+        "q": "Jak usunąć wszystkie swoje dane",
+        "a": "Ustawienia Mimi → Twoje dane → „Usuń wszystkie dane Mimi”. Kasuje to historię rozmowy, notatki, ustawienia oraz klucz API i tokeny z Keychain. Robimy to osobnym przyciskiem, bo wpisy w Keychain przeżywają odinstalowanie aplikacji."
+      }
+    ]
   },
   "homeSeo": {
     "servicesEyebrow": "Usługi",

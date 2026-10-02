@@ -26,7 +26,9 @@ export function Footer({ lang, dict }: { lang: Locale; dict: Dictionary['footer'
             { label: dict.links.contivo,     href: `/${lang}/contivo` },
             { label: dict.links.contivoAi,   href: `/${lang}/contivo/ksiegowosc-ai` },
             { label: dict.links.contivoSite, href: 'https://contivo.pl' },
-            { label: dict.links.nextProject, href: `/${lang}#produkty` },
+            { label: dict.links.mimi,         href: `/${lang}/mimi` },
+            { label: dict.links.mimiPrivacy,  href: `/${lang}/mimi/prywatnosc` },
+            { label: dict.links.mimiSupport,  href: `/${lang}/mimi/pomoc` },
           ]}
         />
         <FooterCol
