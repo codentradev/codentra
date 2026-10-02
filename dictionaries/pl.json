@@ -664,7 +664,7 @@
       "Działa w CarPlay: powiedz „hey Mimi” i mów, nie odrywając rąk od kierownicy",
       "Dane zdrowotne nigdy nie opuszczają urządzenia",
       "Bez konta, bez rejestracji, bez naszego serwera",
-      "Jednorazowy zakup, bez abonamentu za podstawowe funkcje"
+      "3 dni za darmo, potem subskrypcja miesięczna — anulujesz, kiedy chcesz"
     ],
     "featuresEyebrow": "Co potrafi",
     "featuresTitlePre": "Powiedz, co ma się stać.",
@@ -729,7 +729,7 @@
     "startSteps": [
       {
         "t": "Przejdź ekran powitalny",
-        "d": "Po pierwszym uruchomieniu Mimi tłumaczy, co robi z danymi, i prosi o zgodę na przetwarzanie poleceń. Bez tej zgody nie wyśle nigdzie niczego."
+        "d": "Po pierwszym uruchomieniu Mimi tłumaczy, co robi z danymi, i prosi o zgodę na przetwarzanie poleceń. Potem rozpoczynasz darmowy, 3-dniowy okres próbny subskrypcji."
       },
       {
         "t": "Wklej klucz API Anthropic",
@@ -758,7 +758,7 @@
     "keyEyebrow": "Klucz API",
     "keyTitlePre": "Dlaczego potrzebujesz",
     "keyTitleGradient": "własnego klucza",
-    "keyBody": "Mimi rozumie polecenia dzięki modelowi Claude firmy Anthropic. Zamiast doliczać marżę do abonamentu, pozwalamy Ci płacić Anthropic bezpośrednio — za tyle, ile faktycznie zużyjesz.",
+    "keyBody": "Mimi rozumie polecenia dzięki modelowi Claude firmy Anthropic. Koszt samego modelu nie jest wliczony w subskrypcję Mimi i nie doliczamy do niego marży — płacisz Anthropic bezpośrednio, za tyle, ile faktycznie zużyjesz.",
     "keyPoints": [
       {
         "t": "Płacisz tylko za swoje użycie",
@@ -803,11 +803,11 @@
       },
       {
         "q": "Czy muszę mieć konto Anthropic?",
-        "a": "Tak. Mimi korzysta z modelu Claude na Twoim własnym kluczu API, dzięki czemu płacisz za rzeczywiste użycie zamiast abonamentu z marżą. Założenie konta i wygenerowanie klucza zajmuje kilka minut, a aplikacja prowadzi przez to krok po kroku."
+        "a": "Tak. Mimi korzysta z modelu Claude na Twoim własnym kluczu API, dzięki czemu za model płacisz według rzeczywistego użycia, bez naszej marży. Założenie konta i wygenerowanie klucza zajmuje kilka minut, a aplikacja prowadzi przez to krok po kroku."
       },
       {
         "q": "Ile kosztuje korzystanie?",
-        "a": "Aplikację kupujesz raz w App Store. Za zrozumienie poleceń płacisz bezpośrednio Anthropic — przy codziennym korzystaniu to zwykle kilka złotych miesięcznie. Nie pobieramy od tego prowizji i nie widzimy Twoich rachunków."
+        "a": "Mimi pobierasz za darmo. Korzystanie wymaga subskrypcji — 49,99 zł miesięcznie, z 3 dniami za darmo na start. Jeśli anulujesz w okresie próbnym, najpóźniej 24 godziny przed jego końcem, nic nie zapłacisz. Subskrypcję anulujesz w każdej chwili w Ustawieniach iOS. Za zrozumienie poleceń płacisz osobno, bezpośrednio Anthropic — przy codziennym korzystaniu zwykle kilka złotych miesięcznie. Nie pobieramy od tego prowizji i nie widzimy Twoich rachunków."
       },
       {
         "q": "Czy Mimi działa bez internetu?",
@@ -823,7 +823,7 @@
       },
       {
         "q": "Czym jest integracja z Telegramem?",
-        "a": "To dodatek w subskrypcji miesięcznej. Pozwala wysyłać i odbierać wiadomości przez Twojego własnego bota Telegram, bez otwierania aplikacji — przydaje się głównie w samochodzie. Otwieranie czatów i połączenia Telegram działają bez subskrypcji."
+        "a": "To osobna subskrypcja-dodatek, dostępna przy płatnej subskrypcji Mimi — w okresie próbnym nie działa. Pozwala wysyłać i odbierać wiadomości przez Twojego własnego bota Telegram, bez otwierania aplikacji — przydaje się głównie w samochodzie. Otwieranie czatów i połączenia Telegram działają bez dodatku."
       },
       {
         "q": "Jak usunąć swoje dane?",
@@ -1015,11 +1015,13 @@
         "list": []
       },
       {
-        "h": "3. Zakupy w aplikacji",
+        "h": "3. Subskrypcja i zakupy w aplikacji",
         "body": [
-          "Aplikację kupujesz jednorazowo w App Store. Integracja z Telegramem jest dodatkiem w subskrypcji odnawialnej automatycznie.",
-          "Subskrypcja odnawia się co okres rozliczeniowy, dopóki jej nie wyłączysz. Opłatę pobiera Apple z Twojego Apple ID. Rezygnacja odbywa się w Ustawieniach iOS → Twoje imię → Subskrypcje, najpóźniej 24 godziny przed końcem bieżącego okresu. Zwroty i reklamacje zakupów obsługuje Apple, zgodnie z zasadami App Store.",
-          "Subskrypcja odblokowuje wyłącznie funkcje aplikacji. Konto bota Telegram zakładasz samodzielnie i jest ono bezpłatne."
+          "Aplikację pobierasz za darmo. Korzystanie z niej wymaga subskrypcji Mimi, odnawianej automatycznie co miesiąc, w cenie podanej w App Store. Nowi użytkownicy zaczynają od darmowego okresu próbnego o długości podanej przed zakupem (obecnie 3 dni). Okres próbny przysługuje raz na Apple ID.",
+          "Po zakończeniu okresu próbnego subskrypcja przechodzi automatycznie w płatną, chyba że anulujesz ją najpóźniej 24 godziny przed jego końcem. Później odnawia się co okres rozliczeniowy, dopóki jej nie wyłączysz. Opłatę pobiera Apple z Twojego Apple ID. Rezygnacja: Ustawienia iOS → Twoje imię → Subskrypcje, najpóźniej 24 godziny przed końcem bieżącego okresu.",
+          "Bez aktywnej subskrypcji — po anulowaniu, wygaśnięciu albo zwrocie — aplikacja przestaje wykonywać polecenia, także przy podanym własnym kluczu API Anthropic. Notatki, ustawienia i klucz API pozostają na urządzeniu.",
+          "Integracja z Telegramem to osobna subskrypcja-dodatek, odnawiana na tych samych zasadach. Można ją kupić i z niej korzystać wyłącznie przy płatnej subskrypcji Mimi — w okresie próbnym jest niedostępna. Konto bota Telegram zakładasz samodzielnie i jest ono bezpłatne.",
+          "Zwroty i reklamacje obsługuje Apple, zgodnie z zasadami App Store."
         ],
         "list": []
       },
@@ -1068,7 +1070,7 @@
     "topics": [
       {
         "q": "Mimi nie odpowiada na polecenia",
-        "a": "Najczęściej brakuje klucza API albo klucz przestał działać. Wejdź w Ustawienia Mimi, naciśnij „Sprawdź klucz” — komunikat powie, co jest nie tak. Jeśli klucz został odrzucony, wygeneruj nowy na console.anthropic.com. Sprawdź też, czy na koncie Anthropic są środki."
+        "a": "Najpierw sprawdź status w Ustawieniach Mimi, w sekcji „Subskrypcja Mimi”: bez aktywnej subskrypcji albo okresu próbnego aplikacja odmawia wykonywania poleceń. Jeśli status jest w porządku, najczęściej brakuje klucza API albo klucz przestał działać — naciśnij „Sprawdź klucz”, komunikat powie, co jest nie tak. Jeśli klucz został odrzucony, wygeneruj nowy na console.anthropic.com i sprawdź, czy na koncie Anthropic są środki."
       },
       {
         "q": "Gdzie wziąć klucz API Anthropic",
@@ -1099,12 +1101,16 @@
         "a": "Potrzebujesz własnego bota: napisz do @BotFather na Telegramie, utwórz bota i skopiuj token do Ustawień Mimi. Następnie dodaj kontakty jako pary imię → chat_id; swój chat_id poznasz, pisząc do @userinfobot. Odbiorca musi wcześniej napisać /start do Twojego bota. Automatyczna wysyłka i odczyt wymagają aktywnej subskrypcji."
       },
       {
-        "q": "Jak przywrócić zakup subskrypcji",
-        "a": "W Ustawieniach Mimi, w sekcji Telegram, naciśnij „Przywróć zakupy”. Zakup jest przypisany do Twojego Apple ID, więc wróci też po zmianie telefonu — pod warunkiem logowania na to samo konto."
+        "q": "Jak przywrócić subskrypcję",
+        "a": "W Ustawieniach Mimi, w sekcji „Subskrypcja Mimi”, naciśnij „Przywróć zakupy”. Subskrypcje są przypisane do Twojego Apple ID, więc wracają także po zmianie telefonu — pod warunkiem logowania na to samo konto."
       },
       {
         "q": "Jak usunąć wszystkie swoje dane",
         "a": "Ustawienia Mimi → Twoje dane → „Usuń wszystkie dane Mimi”. Kasuje to historię rozmowy, notatki, ustawienia oraz klucz API i tokeny z Keychain. Robimy to osobnym przyciskiem, bo wpisy w Keychain przeżywają odinstalowanie aplikacji."
+      },
+      {
+        "q": "Jak anulować subskrypcję",
+        "a": "Ustawienia iOS → Twoje imię → Subskrypcje → Mimi → Anuluj subskrypcję. To samo otworzysz z aplikacji: Ustawienia Mimi → „Zarządzaj subskrypcją”. Anuluj najpóźniej 24 godziny przed końcem bieżącego okresu — także okresu próbnego, jeśli nie chcesz, by przeszedł w płatny. Mimi działa do końca opłaconego okresu, potem przestaje wykonywać polecenia; notatki i ustawienia zostają."
       }
     ]
   },

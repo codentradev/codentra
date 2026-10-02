@@ -664,7 +664,7 @@
       "Works in CarPlay: say “hey Mimi” and speak without taking your hands off the wheel",
       "Health data never leaves the device",
       "No account, no sign-up, no server of ours",
-      "A one-time purchase, no subscription for the core features"
+      "3 days free, then a monthly subscription — cancel any time"
     ],
     "featuresEyebrow": "What it does",
     "featuresTitlePre": "Say what you need.",
@@ -729,7 +729,7 @@
     "startSteps": [
       {
         "t": "Go through the welcome screen",
-        "d": "On first launch Mimi explains what it does with your data and asks for consent to process your commands. Without that consent it sends nothing anywhere."
+        "d": "On first launch Mimi explains what it does with your data and asks for consent to process your commands. Then you start the free 3-day trial of the subscription."
       },
       {
         "t": "Paste your Anthropic API key",
@@ -758,7 +758,7 @@
     "keyEyebrow": "API key",
     "keyTitlePre": "Why you need",
     "keyTitleGradient": "your own key",
-    "keyBody": "Mimi understands commands thanks to Anthropic's Claude model. Instead of adding a margin on top of a subscription, we let you pay Anthropic directly — for exactly as much as you actually use.",
+    "keyBody": "Mimi understands your commands thanks to Anthropic's Claude model. The cost of the model itself is not part of the Mimi subscription and we add no margin to it — you pay Anthropic directly, for exactly what you use.",
     "keyPoints": [
       {
         "t": "You pay only for your own usage",
@@ -803,11 +803,11 @@
       },
       {
         "q": "Do I need an Anthropic account?",
-        "a": "Yes. Mimi uses the Claude model on your own API key, so you pay for actual usage instead of a subscription with a margin on top. Creating an account and generating a key takes a few minutes, and the app walks you through it step by step."
+        "a": "Yes. Mimi uses the Claude model on your own API key, so you pay for the model by actual usage, with no margin from us. Creating an account and a key takes a few minutes, and the app walks you through it step by step."
       },
       {
         "q": "How much does it cost to use?",
-        "a": "You buy the app once in the App Store. For understanding your commands you pay Anthropic directly — with daily use that is usually a few zlotys a month. We take no commission on that and we do not see your bills."
+        "a": "Mimi is free to download. Using it requires a subscription — 49.99 zł a month, with the first 3 days free. If you cancel during the trial, at least 24 hours before it ends, you pay nothing. You can cancel any time in iOS Settings. Understanding your commands is paid for separately, directly to Anthropic — with daily use usually a few zlotys a month. We take no cut of that and never see your bills."
       },
       {
         "q": "Does Mimi work without the internet?",
@@ -823,7 +823,7 @@
       },
       {
         "q": "What is the Telegram integration?",
-        "a": "It is an add-on on a monthly subscription. It lets you send and receive messages through your own Telegram bot without opening the app — mainly useful in the car. Opening chats and Telegram calls work without a subscription."
+        "a": "It is a separate add-on subscription, available with a paid Mimi subscription — it does not work during the trial. It lets you send and receive messages through your own Telegram bot without opening the app, which is mostly useful in the car. Opening chats and Telegram calls work without the add-on."
       },
       {
         "q": "How do I delete my data?",
@@ -1015,11 +1015,13 @@
         "list": []
       },
       {
-        "h": "3. In-app purchases",
+        "h": "3. Subscription and in-app purchases",
         "body": [
-          "You buy the app once in the App Store. The Telegram integration is an add-on on an automatically renewing subscription.",
-          "The subscription renews each billing period until you switch it off. The charge is taken by Apple from your Apple ID. You cancel in iOS Settings → your name → Subscriptions, at the latest 24 hours before the end of the current period. Refunds and purchase complaints are handled by Apple, in line with App Store rules.",
-          "The subscription unlocks app features only. You create the Telegram bot account yourself and it is free."
+          "The app is free to download. Using it requires a Mimi subscription that renews automatically every month, at the price shown in the App Store. New users start with a free trial whose length is shown before purchase (currently 3 days). The trial is available once per Apple ID.",
+          "When the trial ends, the subscription automatically becomes paid unless you cancel it at least 24 hours before the trial ends. After that it renews every billing period until you turn it off. Apple charges it to your Apple ID. To cancel: iOS Settings → your name → Subscriptions, at least 24 hours before the current period ends.",
+          "Without an active subscription — after cancelling, expiry or a refund — the app stops carrying out commands, even with your own Anthropic API key entered. Your notes, settings and API key stay on the device.",
+          "The Telegram integration is a separate add-on subscription that renews on the same terms. It can only be bought and used with a paid Mimi subscription — it is unavailable during the trial. You create the Telegram bot account yourself and it is free.",
+          "Refunds and complaints are handled by Apple under App Store rules."
         ],
         "list": []
       },
@@ -1068,7 +1070,7 @@
     "topics": [
       {
         "q": "Mimi does not respond to commands",
-        "a": "Most often the API key is missing or has stopped working. Open Mimi Settings and tap “Check key” — the message tells you what is wrong. If the key was rejected, generate a new one at console.anthropic.com. Check too whether your Anthropic account has funds."
+        "a": "First check the status in Mimi's Settings, in the “Mimi subscription” section: without an active subscription or trial the app refuses to carry out commands. If the status is fine, the usual cause is a missing or invalid API key — tap “Check key” and the message will tell you what is wrong. If the key was rejected, generate a new one at console.anthropic.com and make sure your Anthropic account has credit."
       },
       {
         "q": "Where to get an Anthropic API key",
@@ -1099,12 +1101,16 @@
         "a": "You need your own bot: message @BotFather on Telegram, create a bot and copy the token into Mimi Settings. Then add contacts as name → chat_id pairs; you find your own chat_id by messaging @userinfobot. The recipient must send /start to your bot first. Automatic sending and reading require an active subscription."
       },
       {
-        "q": "How to restore a subscription purchase",
-        "a": "In Mimi Settings, under Telegram, tap “Restore purchases”. The purchase is tied to your Apple ID, so it comes back after changing phones too — provided you sign in to the same account."
+        "q": "How to restore your subscription",
+        "a": "In Mimi's Settings, in the “Mimi subscription” section, tap “Restore purchases”. Subscriptions belong to your Apple ID, so they come back on a new phone too, as long as you sign in with the same account."
       },
       {
         "q": "How to delete all your data",
         "a": "Mimi Settings → Your data → “Delete all Mimi data”. This erases the conversation history, notes, settings and the API key and tokens from the Keychain. We make it a separate button because Keychain entries survive uninstalling the app."
+      },
+      {
+        "q": "How to cancel your subscription",
+        "a": "iOS Settings → your name → Subscriptions → Mimi → Cancel Subscription. You can open the same screen from the app: Mimi Settings → “Manage subscription”. Cancel at least 24 hours before the current period ends — including the trial, if you don't want it to become paid. Mimi keeps working until the end of the paid period, then stops carrying out commands; your notes and settings stay."
       }
     ]
   },
