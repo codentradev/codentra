@@ -8,11 +8,15 @@
 //
 // Po incydencie z 25.09.2026, gdy Google przez kilka dni dostawał
 // `Disallow: /`, choć kod strony nigdy go nie zawierał.
+//   - odpowiadają szybko (wolna pierwsza odpowiedź = uśpiony serwis).
 // Każdy błąd jest ponawiany, żeby pojedyncza czkawka sieci nie robiła alarmu.
 
 const UA = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)';
 const RETRIES = 3;
 const RETRY_DELAY_MS = 20_000;
+// Uśpiony serwis (np. darmowy plan Render) budzi się 30–60 s — Googlebot dostaje
+// wtedy zastępczy robots.txt z blokadą albo 5xx. Wolna pierwsza odpowiedź = alarm.
+const SLOW_FIRST_RESPONSE_MS = 15_000;
 
 const SITES = [
   {
@@ -107,8 +111,23 @@ async function checkSite({ origin, pages }) {
   return problems;
 }
 
+/** Pierwsze, „zimne" zapytanie — mierzone przed ponowieniami, które budzą serwis. */
+async function slowFirstResponse(origin) {
+  const started = Date.now();
+  try {
+    await get(`${origin}/robots.txt`);
+  } catch {
+    // Błąd połączenia wychwyci właściwy test niżej.
+  }
+  const elapsed = Date.now() - started;
+  return elapsed > SLOW_FIRST_RESPONSE_MS
+    ? `pierwsza odpowiedź trwała ${Math.round(elapsed / 1000)} s — serwis prawdopodobnie był uśpiony`
+    : null;
+}
+
 let failed = false;
 for (const site of SITES) {
+  const slow = await slowFirstResponse(site.origin);
   let problems = [];
   for (let attempt = 1; attempt <= RETRIES; attempt++) {
     try {
@@ -122,6 +141,7 @@ for (const site of SITES) {
       await sleep(RETRY_DELAY_MS);
     }
   }
+  if (slow) problems.unshift(slow);
 
   if (problems.length) {
     failed = true;
