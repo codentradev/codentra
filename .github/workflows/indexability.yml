@@ -1,0 +1,20 @@
+name: Dostępność dla Google
+
+# Codziennie sprawdza, czy codentra.pl i contivo.pl są dostępne dla Googlebota
+# (robots.txt, kody odpowiedzi, noindex, sitemapa). Nieudany przebieg = e-mail
+# z GitHuba. Szczegóły w scripts/check-indexability.mjs.
+on:
+  schedule:
+    - cron: '17 5 * * *' # codziennie 05:17 UTC (07:17 czasu polskiego latem)
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/check-indexability.mjs
